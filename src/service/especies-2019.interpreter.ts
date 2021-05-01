@@ -1,3 +1,4 @@
+import * as log4js from 'log4js';
 import { RegiaoVegetal } from "../domain/regiao-vegetal.enum";
 import { IterableString } from "../util/iterable-string";
 import { EspecieMeta } from "./especies-2019-metadata/especie.meta";
@@ -7,6 +8,7 @@ import { VegetacaoTipoMeta } from "./especies-2019-metadata/vegetacao-tipo.meta"
 
 export class Rad2019Interpreter {
 
+  private logger = log4js.getLogger();
   private readonly ALL_UNTIL_NEW_LINE = /^[^\n]+/;
 
   regiaoMap: {
@@ -27,6 +29,60 @@ export class Rad2019Interpreter {
   }
 
   private interpret(listaEspecies2019File: string): void {
+    const listaEspeciesDoc = new IterableString(listaEspecies2019File);
+
+    const identificaRegiao = /^(\s)*REGIÃO(\s)*\n[^\n]*\n/;
+    const identificaVegetacaoTipo = /^\s*#/;
+    const identificaFamilia = /^\s*[A-Z]+\s*\n/;
+
+    let regiao: RegiaoMeta | null = null;
+    let vegetacaoTipo: VegetacaoTipoMeta | null = null;
+    let familia: FamiliaMeta | null = null;
+    const especies: EspecieMeta[] = [];
+
+    while (!listaEspeciesDoc.end()) {
+      let result = '';
+      if (result = listaEspeciesDoc.addCursor(identificaRegiao)) {
+        regiao = this.castTextToRegiao(result);
+      } else if (result = listaEspeciesDoc.addCursor(identificaVegetacaoTipo)) {
+        vegetacaoTipo = this.castTextToVegetacaoTipo(result);
+        if (!regiao) {
+          this.logger.fatal('objeto região não foi encontrado para o tipo de vegetação. Vegetação tipo: ', vegetacaoTipo);
+        } else {
+          regiao.tipos.push(vegetacaoTipo);
+        }
+      } else if (result = listaEspeciesDoc.addCursor(identificaFamilia)) {
+        familia = this.castTextToFamilia(result);
+        if (!vegetacaoTipo) {
+          this.logger.fatal('objeto de tipo de vegetação não foi encontrado para a família. Família: ', familia);
+        } else {
+          vegetacaoTipo.familias.push(familia);
+        }
+      } else {
+        const especie = this.castIterableToEspecie(listaEspeciesDoc);
+      }
+    }
+
+  }
+
+  private castTextToRegiao(result: string): RegiaoMeta {
+
+  }
+
+  private castTextToVegetacaoTipo(result: string): VegetacaoTipoMeta {
+
+  }
+
+  private castTextToFamilia(result: string): FamiliaMeta {
+
+  }
+
+  private castIterableToEspecie(listaEspeciesDoc: IterableString): EspecieMeta {
+
+  }
+
+
+  private esboco(listaEspecies2019File: string): void {
     const listaEspeciesDoc = new IterableString(listaEspecies2019File);
     const identificaRegiao = /^(\s)*REGIÃO(\s)*\n[^\n]*\n/;
     const regiaoString = listaEspeciesDoc.addCursor(identificaRegiao).replace(/REGIÃO/, '').trim();
