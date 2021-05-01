@@ -1,10 +1,10 @@
 import { getLogger } from 'log4js';
-import { RegiaoVegetal } from "../domain/regiao-vegetal.enum";
-import { IterableString } from "../util/iterable-string";
-import { EspecieMeta } from "./especies-2019-metadata/especie.meta";
-import { FamiliaMeta } from "./especies-2019-metadata/familia.meta";
-import { RegiaoMeta } from "./especies-2019-metadata/regiao.meta";
-import { VegetacaoTipoMeta } from "./especies-2019-metadata/vegetacao-tipo.meta";
+import { RegiaoVegetal } from '../domain/regiao-vegetal.enum';
+import { IterableString } from '../util/iterable-string';
+import { EspecieMeta } from './especies-2019-metadata/especie.meta';
+import { FamiliaMeta } from './especies-2019-metadata/familia.meta';
+import { RegiaoMeta } from './especies-2019-metadata/regiao.meta';
+import { VegetacaoTipoMeta } from './especies-2019-metadata/vegetacao-tipo.meta';
 
 export class Rad2019Interpreter {
 
@@ -25,7 +25,6 @@ export class Rad2019Interpreter {
   constructor(
     content: string
   ) {
-    console.info('ativou');
     this.interpret(content);
   }
 
