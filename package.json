@@ -1,0 +1,35 @@
+{
+  "name": "vegetacao-nativa-sp-boot",
+  "version": "1.0.0",
+  "description": "Robô para leitura do documento de vegetação nativa do Estado de São Paulo",
+  "scripts": {
+    "build": "tsc --project .",
+    "start": "tsc --project . && node dist/index.js --inspect"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lordazzi/vegetacao-nativa-sp-boot.git"
+  },
+  "keywords": [
+    "vegetacao",
+    "silvestre",
+    "nativa",
+    "typescript",
+    "strict",
+    "robo",
+    "boot",
+    "regex"
+  ],
+  "author": "Ricardo Azzi Silva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lordazzi/vegetacao-nativa-sp-boot/issues"
+  },
+  "homepage": "https://github.com/lordazzi/vegetacao-nativa-sp-boot#readme",
+  "devDependencies": {
+    "@types/node": "14.14.41"
+  },
+  "dependencies": {
+    "@taipescripeto/enum-type-guard": "1.0.0"
+  }
+}

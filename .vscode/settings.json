@@ -1,0 +1,49 @@
+{
+  "git.ignoreLimitWarning": true,
+  "editor.formatOnSave": true,
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "editor.autoIndent": "full",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "editor.detectIndentation": false,
+  "editor.renderIndentGuides": true,
+  "editor.renderWhitespace": "all",
+  "editor.tabSize": 2,
+  "files.trimTrailingWhitespace": true,
+  "html.autoClosingTags": false,
+  "html.format.endWithNewline": true,
+  "html.format.wrapLineLength": 120,
+  "html.format.wrapAttributes": "force-expand-multiline",
+  "[typescript]": {
+    "editor.tabSize": 2
+  },
+  "[javascript]": {
+    "editor.tabSize": 2
+  },
+  "[json]": {
+    "editor.tabSize": 2
+  },
+  "[html]": {
+    "editor.tabSize": 2
+  },
+  "[css]": {
+    "editor.tabSize": 2
+  },
+  "[scss]": {
+    "editor.tabSize": 2
+  },
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  },
+  "sonarlint.connectedMode.project": {
+    "serverId": "sonarVV",
+    "projectKey": "vendedor-online"
+  },
+  "scssFormatter.singleQuote": true
+}
