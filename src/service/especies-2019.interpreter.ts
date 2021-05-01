@@ -42,7 +42,7 @@ export class Rad2019Interpreter {
 
     while (!listaEspeciesDoc.end()) {
       let result = '';
-      debugger;
+
       if (result = listaEspeciesDoc.addCursor(identificaRegiao)) {
         regiao = this.castTextToRegiao(result);
         this.logger.info('região: ', regiao);
