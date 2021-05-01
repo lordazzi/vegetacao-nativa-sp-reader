@@ -9,7 +9,9 @@ import { VegetacaoTipoMeta } from './especies-2019-metadata/vegetacao-tipo.meta'
 export class Rad2019Interpreter {
 
   private logger = console || getLogger();
+
   private readonly ALL_UNTIL_NEW_LINE = /^[^\n]+/;
+  private readonly READ_ALL_UNTIL_TWO_SPACES = /^\s*([^ ]+[ ])+[ ]/i;
 
   regiaoMap: {
     [prop: string]: RegiaoVegetal;
@@ -77,9 +79,9 @@ export class Rad2019Interpreter {
 
   }
 
-  private castTextToRegiao(result: string): RegiaoMeta {
-    result = result.replace(/REGIÃO/, '').trim();
-    const regiaoTipo: RegiaoVegetal | undefined = this.regiaoMap[result];
+  private castTextToRegiao(regiao: string): RegiaoMeta {
+    regiao = regiao.replace(/REGIÃO/, '');
+    const regiaoTipo: RegiaoVegetal | undefined = this.regiaoMap[regiao];
 
     return {
       regiao: regiaoTipo,
@@ -89,7 +91,7 @@ export class Rad2019Interpreter {
 
   private castTextToVegetacaoTipo(listaEspeciesDoc: IterableString): VegetacaoTipoMeta {
     let vegetacaoTipoNome = listaEspeciesDoc.addCursor(this.ALL_UNTIL_NEW_LINE);
-    vegetacaoTipoNome = vegetacaoTipoNome.replace(/•/g, '').trim();
+    vegetacaoTipoNome = vegetacaoTipoNome.replace(/•/g, '');
 
     return {
       nome: vegetacaoTipoNome,
@@ -97,27 +99,49 @@ export class Rad2019Interpreter {
     };
   }
 
-  private castTextToFamilia(result: string): FamiliaMeta {
-    return { nome: result.trim(), especies: [] };
+  private castTextToFamilia(nome: string): FamiliaMeta {
+    return { nome, especies: [] };
   }
 
   private castIterableToEspecie(listaEspeciesDoc: IterableString): EspecieMeta {
     const especie: EspecieMeta = {};
 
-    const readNomeEspecie = /^([^ ]+[ ])+[ ]/i;
-    especie.nome = listaEspeciesDoc.addCursor(readNomeEspecie).trim();
+    especie.nome = listaEspeciesDoc.addCursor(this.READ_ALL_UNTIL_TWO_SPACES);
 
     const readVegetacaoTamanho = /^[ ]+(\d|\(-)[\(\),\-\d]*[ ][ ]/;
-    const vegetacaoTamanho = listaEspeciesDoc.addCursor(readVegetacaoTamanho).trim();
+    const vegetacaoTamanho = listaEspeciesDoc.addCursor(readVegetacaoTamanho);
 
     if (vegetacaoTamanho) {
       especie.tamanho = vegetacaoTamanho;
     } else {
-      especie.nomePopular = vegetacaoTamanho;
-      especie.tamanho = listaEspeciesDoc.addCursor(readVegetacaoTamanho).trim();
+      especie.nomePopular = listaEspeciesDoc.addCursor(this.READ_ALL_UNTIL_TWO_SPACES);
+      especie.tamanho = listaEspeciesDoc.addCursor(readVegetacaoTamanho);
     }
 
+    especie.classeSucessional = this.readClasseSucessional(listaEspeciesDoc);
+    especie.grupoFuncional = this.readGrupoFuncional(listaEspeciesDoc);
+    especie.sindromeDispersao = this.readSindromeDispersao(listaEspeciesDoc);
+
+    const readBioma = /^[^\n]*\n/;
+    especie.bioma = listaEspeciesDoc.addCursor(readBioma);
+
     return especie;
+  }
+
+  private readClasseSucessional(listaEspeciesDoc: IterableString): string {
+    const readClasseSucessional = /^\s*(P|NP|(P\/NP))/;
+    return listaEspeciesDoc.addCursor(readClasseSucessional);
+  }
+
+  private readGrupoFuncional(listaEspeciesDoc: IterableString): string {
+    const readGrupoFuncional = /^\s*(D|P)/;
+    return listaEspeciesDoc.addCursor(readGrupoFuncional);
+  }
+
+  private readSindromeDispersao(listaEspeciesDoc: IterableString): string {
+    const readSindromeDispersao = /^\s*(ANE|AUT|HIDR|ZOO)/;
+
+    return listaEspeciesDoc.addCursor(readSindromeDispersao);
   }
 
 }

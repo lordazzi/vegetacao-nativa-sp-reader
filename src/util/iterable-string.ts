@@ -30,30 +30,44 @@ export class IterableString {
   /**
    * Move the cursor and return the result
    */
-  addCursor(param?: number | string | RegExp): string {
+  addCursor(param?: number | string | RegExp, autoTrimResult = true): string {
+    let result = '';
     if (typeof param === 'number') {
-      return this.addCursorNumeric(param);
+      result = this.addCursorNumeric(param);
     } else if (typeof param === 'string') {
-      return this.addCursorRegExp(new RegExp(param));
+      result = this.addCursorRegExp(new RegExp(param));
     } else if (param instanceof RegExp) {
-      return this.addCursorRegExp(param);
+      result = this.addCursorRegExp(param);
     } else {
-      return this.addCursorNumeric();
+      result = this.addCursorNumeric();
+    }
+
+    if (autoTrimResult) {
+      return result.trim();
+    } else {
+      return result;
     }
   }
 
   /**
    * Return result without move cursor
    */
-  spy(param?: number | string | RegExp): string {
+  spy(param?: number | string | RegExp, autoTrimResult = true): string {
+    let result = '';
     if (typeof param === 'number') {
-      return this.spyNumeric(param);
+      result = this.spyNumeric(param);
     } else if (typeof param === 'string') {
-      return this.spyRegExp(new RegExp(param));
+      result = this.spyRegExp(new RegExp(param));
     } else if (param instanceof RegExp) {
-      return this.spyRegExp(param);
+      result = this.spyRegExp(param);
     } else {
-      return this.spyNumeric();
+      result = this.spyNumeric();
+    }
+
+    if (autoTrimResult) {
+      return result.trim();
+    } else {
+      return result;
     }
   }
 
