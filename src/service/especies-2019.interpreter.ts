@@ -1,14 +1,14 @@
 import { getLogger } from 'log4js';
 import { RegiaoVegetal } from '../domain/regiao-vegetal.enum';
 import { IterableString } from '../util/iterable-string';
-import { EspecieMeta } from './especies-2019-metadata/especie.meta';
-import { FamiliaMeta } from './especies-2019-metadata/familia.meta';
-import { RegiaoMeta } from './especies-2019-metadata/regiao.meta';
-import { VegetacaoTipoMeta } from './especies-2019-metadata/vegetacao-tipo.meta';
+import { EspecieMetaData } from './especies-2019-metadata/especie.meta-data';
+import { FamiliaMetaData } from './especies-2019-metadata/familia.meta-data';
+import { RegiaoMetaData } from './especies-2019-metadata/regiao.meta-data';
+import { VegetacaoTipoMetaData } from './especies-2019-metadata/vegetacao-tipo.meta-data';
 
-export class Rad2019Interpreter {
+export class Especies2019Interpreter {
 
-  private logger = console || getLogger();
+  private logger = getLogger();
   private readonly ALL_UNTIL_NEW_LINE = /^[^\n]+/;
 
   regiaoMap: {
@@ -28,16 +28,17 @@ export class Rad2019Interpreter {
     this.interpret(content);
   }
 
+  // tslint:disable-next-line:cyclomatic-complexity
   private interpret(listaEspecies2019File: string): void {
     const listaEspeciesDoc = new IterableString(listaEspecies2019File);
 
-    const identificaRegiao = /^(\s)*REGIÃO(\s)*\n[^\n]*\n/;
+    const identificaRegiao = /^\s*REGIÃO\s*\n[^\n]*\n/;
     const identificaVegetacaoTipo = /^\s*#/;
     const identificaFamilia = /^\s*[A-Z]+\s*\n/;
 
-    let regiao: RegiaoMeta | null = null;
-    let vegetacaoTipo: VegetacaoTipoMeta | null = null;
-    let familia: FamiliaMeta | null = null;
+    let regiao: RegiaoMetaData | null = null;
+    let vegetacaoTipo: VegetacaoTipoMetaData | null = null;
+    let familia: FamiliaMetaData | null = null;
 
     while (!listaEspeciesDoc.end()) {
       let result = '';
@@ -50,7 +51,7 @@ export class Rad2019Interpreter {
         this.logger.info('vegetação tipo: ', vegetacaoTipo);
 
         if (!regiao) {
-          this.logger.error('objeto região não foi encontrado para o tipo de vegetação. Vegetação tipo: ', vegetacaoTipo);
+          this.logger.fatal('objeto região não foi encontrado para o tipo de vegetação. Vegetação tipo: ', vegetacaoTipo);
         } else {
           regiao.tipos.push(vegetacaoTipo);
         }
@@ -59,7 +60,7 @@ export class Rad2019Interpreter {
         this.logger.info('família: ', familia);
 
         if (!vegetacaoTipo) {
-          this.logger.error('objeto de tipo de vegetação não foi encontrado para a família. Família: ', familia);
+          this.logger.fatal('objeto de tipo de vegetação não foi encontrado para a família. Família: ', familia);
         } else {
           vegetacaoTipo.familias.push(familia);
         }
@@ -68,7 +69,7 @@ export class Rad2019Interpreter {
         this.logger.info('espécie: ', especie);
 
         if (!familia) {
-          this.logger.error('objeto de família não foi encontrado para a espécie. Espécie: ', especie);
+          this.logger.fatal('objeto de família não foi encontrado para a espécie. Espécie: ', especie);
         } else {
           familia.especies.push(especie);
         }
@@ -77,7 +78,7 @@ export class Rad2019Interpreter {
 
   }
 
-  private castTextToRegiao(result: string): RegiaoMeta {
+  private castTextToRegiao(result: string): RegiaoMetaData {
     result = result.replace(/REGIÃO/, '').trim();
     const regiaoTipo: RegiaoVegetal | undefined = this.regiaoMap[result];
 
@@ -87,7 +88,7 @@ export class Rad2019Interpreter {
     };
   }
 
-  private castTextToVegetacaoTipo(listaEspeciesDoc: IterableString): VegetacaoTipoMeta {
+  private castTextToVegetacaoTipo(listaEspeciesDoc: IterableString): VegetacaoTipoMetaData {
     let vegetacaoTipoNome = listaEspeciesDoc.addCursor(this.ALL_UNTIL_NEW_LINE);
     vegetacaoTipoNome = vegetacaoTipoNome.replace(/•/g, '').trim();
 
@@ -97,12 +98,12 @@ export class Rad2019Interpreter {
     };
   }
 
-  private castTextToFamilia(result: string): FamiliaMeta {
+  private castTextToFamilia(result: string): FamiliaMetaData {
     return { nome: result.trim(), especies: [] };
   }
 
-  private castIterableToEspecie(listaEspeciesDoc: IterableString): EspecieMeta {
-    const especie: EspecieMeta = {};
+  private castIterableToEspecie(listaEspeciesDoc: IterableString): EspecieMetaData {
+    const especie: EspecieMetaData = {};
 
     const readNomeEspecie = /^([^ ]+[ ])+[ ]/i;
     especie.nome = listaEspeciesDoc.addCursor(readNomeEspecie).trim();
