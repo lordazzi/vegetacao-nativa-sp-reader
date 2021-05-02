@@ -1,12 +1,12 @@
 import { getLogger } from 'log4js';
 import { RegiaoVegetal } from '../domain/regiao-vegetal.enum';
 import { IterableString } from '../util/iterable-string';
-import { EspecieMeta } from './especies-2019-metadata/especie.meta';
-import { FamiliaMeta } from './especies-2019-metadata/familia.meta';
-import { RegiaoMeta } from './especies-2019-metadata/regiao.meta';
-import { VegetacaoTipoMeta } from './especies-2019-metadata/vegetacao-tipo.meta';
+import { EspecieMetaData } from './especies-2019-metadata/especie.meta-data';
+import { FamiliaMetaData } from './especies-2019-metadata/familia.meta-data';
+import { RegiaoMetaData } from './especies-2019-metadata/regiao.meta-data';
+import { VegetacaoTipoMetaData } from './especies-2019-metadata/vegetacao-tipo.meta-data';
 
-export class Rad2019Interpreter {
+export class Especies2019Interpreter {
 
   private logger = getLogger();
 
@@ -24,16 +24,16 @@ export class Rad2019Interpreter {
       'NOROESTE': RegiaoVegetal.SAO_PAULO_REGIAO_NOROESTE
     };
 
-  interpret(listaEspecies2019File: string): RegiaoMeta | null {
+  interpret(listaEspecies2019File: string): RegiaoMetaData | null {
     const listaEspeciesDoc = new IterableString(listaEspecies2019File);
 
-    const identificaRegiao = /^(\s)*REGIÃO(\s)*\n[^\n]*\n/;
+    const identificaRegiao = /^\s*REGIÃO\s*\n[^\n]*\n/;
     const identificaVegetacaoTipo = /^\s*#/;
     const identificaFamilia = /^\s*[A-Z]+\s*\n/;
 
-    let regiao: RegiaoMeta | null = null;
-    let vegetacaoTipo: VegetacaoTipoMeta | null = null;
-    let familia: FamiliaMeta | null = null;
+    let regiao: RegiaoMetaData | null = null;
+    let vegetacaoTipo: VegetacaoTipoMetaData | null = null;
+    let familia: FamiliaMetaData | null = null;
 
     while (!listaEspeciesDoc.end()) {
       let result = '';
@@ -46,7 +46,7 @@ export class Rad2019Interpreter {
         this.logger.info('vegetação tipo: ', vegetacaoTipo);
 
         if (!regiao) {
-          this.logger.error('objeto região não foi encontrado para o tipo de vegetação. Vegetação tipo: ', vegetacaoTipo);
+          this.logger.fatal('objeto região não foi encontrado para o tipo de vegetação. Vegetação tipo: ', vegetacaoTipo);
         } else {
           regiao.tipos.push(vegetacaoTipo);
         }
@@ -55,7 +55,7 @@ export class Rad2019Interpreter {
         this.logger.info('família: ', familia);
 
         if (!vegetacaoTipo) {
-          this.logger.error('objeto de tipo de vegetação não foi encontrado para a família. Família: ', familia);
+          this.logger.fatal('objeto de tipo de vegetação não foi encontrado para a família. Família: ', familia);
         } else {
           vegetacaoTipo.familias.push(familia);
         }
@@ -64,7 +64,7 @@ export class Rad2019Interpreter {
         this.logger.info('espécie: ', especie);
 
         if (!familia) {
-          this.logger.error('objeto de família não foi encontrado para a espécie. Espécie: ', especie);
+          this.logger.fatal('objeto de família não foi encontrado para a espécie. Espécie: ', especie);
         } else {
           familia.especies.push(especie);
         }
@@ -74,9 +74,9 @@ export class Rad2019Interpreter {
     return regiao;
   }
 
-  private castTextToRegiao(regiao: string): RegiaoMeta {
-    regiao = regiao.replace(/REGIÃO/, '');
-    const regiaoTipo: RegiaoVegetal | undefined = this.regiaoMap[regiao];
+  private castTextToRegiao(result: string): RegiaoMetaData {
+    result = result.replace(/REGIÃO/, '').trim();
+    const regiaoTipo: RegiaoVegetal | undefined = this.regiaoMap[result];
 
     return {
       regiao: regiaoTipo,
@@ -84,7 +84,7 @@ export class Rad2019Interpreter {
     };
   }
 
-  private castTextToVegetacaoTipo(listaEspeciesDoc: IterableString): VegetacaoTipoMeta {
+  private castTextToVegetacaoTipo(listaEspeciesDoc: IterableString): VegetacaoTipoMetaData {
     let vegetacaoTipoNome = listaEspeciesDoc.addCursor(this.ALL_UNTIL_NEW_LINE);
     vegetacaoTipoNome = vegetacaoTipoNome.replace(/•/g, '');
 
@@ -94,12 +94,12 @@ export class Rad2019Interpreter {
     };
   }
 
-  private castTextToFamilia(nome: string): FamiliaMeta {
+  private castTextToFamilia(nome: string): FamiliaMetaData {
     return { nome, especies: [] };
   }
 
-  private castIterableToEspecie(listaEspeciesDoc: IterableString): EspecieMeta {
-    const especie: EspecieMeta = {};
+  private castIterableToEspecie(listaEspeciesDoc: IterableString): EspecieMetaData {
+    const especie: EspecieMetaData = {};
 
     especie.nome = listaEspeciesDoc.addCursor(this.READ_ALL_UNTIL_TWO_SPACES);
 
@@ -144,10 +144,16 @@ export class Rad2019Interpreter {
 
 // REGRAS DE COMO SEPARAR O NOME DA ESPÉCIE DO NOME POPULAR
 //  1. no caso mais fácil haverá pelo menos dois espaços separando os nomes
-//  2. se após coletar o texto, verificar que logo após se apresenta as medições da planta, regitrar um log identificando o procedimento
+//  2. se após coletar o texto, verificar que logo após se apresenta as medições da planta, regitrar um log
+//     identificando o procedimento
 //  3. se o próximo item for o nome popular, então ele é coletado; se forem as medições, então seguir:
+<<<<<<< HEAD
 //  4. nomes populares são conjuntos de caracteres sem espaços, separados por vírgulas, verificar
 //     se este padrão ocorre na sentença anterior, se sim, extrair e coletar
+=======
+//  4. nomes populares são conjuntos de caracteres sem espaços, separados por vírgulas, verificar se este padrão
+//     ocorre na sentença anterior, se sim, extrair e coletar
+>>>>>>> f62b6a3664995e2605c449af0088d5c4a8924804
 //  5. verificar se a próxima linha é um registro incompleto, se sim, absorver estes registros, registrar um warning
 //  6. se não houver nome popular identificado, registrar um warning
 

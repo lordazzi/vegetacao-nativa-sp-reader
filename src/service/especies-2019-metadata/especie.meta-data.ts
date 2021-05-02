@@ -1,4 +1,4 @@
-export interface EspecieMeta {
+export interface EspecieMetaData {
   nome?: string;
 
   /**
