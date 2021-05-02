@@ -3722,9 +3722,7 @@ Typha domingensis Pers.                 taboa                                   
 XYRIDACEAE
 Xyris jupicai Rich.                                                            0,3-0,9          P             P   AUT Restinga
 Xyris macrocephala Vahl                                                        0,5-1,2          P             P   AUT Restinga/ Área Antropica
-#      Lista de espécies indicadas para
-restauração Ecológica para diversas
-     regiões do Estado de São Paulo
+
 
 
 

@@ -8,7 +8,7 @@ import { VegetacaoTipoMeta } from './especies-2019-metadata/vegetacao-tipo.meta'
 
 export class Rad2019Interpreter {
 
-  private logger = console || getLogger();
+  private logger = getLogger();
 
   private readonly ALL_UNTIL_NEW_LINE = /^[^\n]+/;
   private readonly READ_ALL_UNTIL_TWO_SPACES = /^\s*([^ ]+[ ])+[ ]/i;
@@ -24,13 +24,7 @@ export class Rad2019Interpreter {
       'NOROESTE': RegiaoVegetal.SAO_PAULO_REGIAO_NOROESTE
     };
 
-  constructor(
-    content: string
-  ) {
-    this.interpret(content);
-  }
-
-  private interpret(listaEspecies2019File: string): void {
+  interpret(listaEspecies2019File: string): RegiaoMeta | null {
     const listaEspeciesDoc = new IterableString(listaEspecies2019File);
 
     const identificaRegiao = /^(\s)*REGIÃO(\s)*\n[^\n]*\n/;
@@ -77,6 +71,7 @@ export class Rad2019Interpreter {
       }
     }
 
+    return regiao;
   }
 
   private castTextToRegiao(regiao: string): RegiaoMeta {
@@ -151,7 +146,8 @@ export class Rad2019Interpreter {
 //  1. no caso mais fácil haverá pelo menos dois espaços separando os nomes
 //  2. se após coletar o texto, verificar que logo após se apresenta as medições da planta, regitrar um log identificando o procedimento
 //  3. se o próximo item for o nome popular, então ele é coletado; se forem as medições, então seguir:
-//  4. nomes populares são conjuntos de caracteres sem espaços, separados por vírgulas, verificar se este padrão ocorre na sentença anterior, se sim, extrair e coletar
+//  4. nomes populares são conjuntos de caracteres sem espaços, separados por vírgulas, verificar
+//     se este padrão ocorre na sentença anterior, se sim, extrair e coletar
 //  5. verificar se a próxima linha é um registro incompleto, se sim, absorver estes registros, registrar um warning
 //  6. se não houver nome popular identificado, registrar um warning
 
