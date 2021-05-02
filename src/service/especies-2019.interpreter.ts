@@ -24,6 +24,7 @@ export class Especies2019Interpreter {
       'NOROESTE': RegiaoVegetal.SAO_PAULO_REGIAO_NOROESTE
     };
 
+  // tslint:disable-next-line:cyclomatic-complexity
   interpret(listaEspecies2019File: string): RegiaoMetaData | null {
     const listaEspeciesDoc = new IterableString(listaEspecies2019File);
 
@@ -147,13 +148,8 @@ export class Especies2019Interpreter {
 //  2. se após coletar o texto, verificar que logo após se apresenta as medições da planta, regitrar um log
 //     identificando o procedimento
 //  3. se o próximo item for o nome popular, então ele é coletado; se forem as medições, então seguir:
-<<<<<<< HEAD
-//  4. nomes populares são conjuntos de caracteres sem espaços, separados por vírgulas, verificar
-//     se este padrão ocorre na sentença anterior, se sim, extrair e coletar
-=======
 //  4. nomes populares são conjuntos de caracteres sem espaços, separados por vírgulas, verificar se este padrão
 //     ocorre na sentença anterior, se sim, extrair e coletar
->>>>>>> f62b6a3664995e2605c449af0088d5c4a8924804
 //  5. verificar se a próxima linha é um registro incompleto, se sim, absorver estes registros, registrar um warning
 //  6. se não houver nome popular identificado, registrar um warning
 
