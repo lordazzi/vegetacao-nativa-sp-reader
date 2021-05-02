@@ -9,7 +9,9 @@ import { VegetacaoTipoMetaData } from './especies-2019-metadata/vegetacao-tipo.m
 export class Especies2019Interpreter {
 
   private logger = getLogger();
+
   private readonly ALL_UNTIL_NEW_LINE = /^[^\n]+/;
+  private readonly READ_ALL_UNTIL_TWO_SPACES = /^\s*([^ ]+[ ])+[ ]/i;
 
   regiaoMap: {
     [prop: string]: RegiaoVegetal;
@@ -90,7 +92,7 @@ export class Especies2019Interpreter {
 
   private castTextToVegetacaoTipo(listaEspeciesDoc: IterableString): VegetacaoTipoMetaData {
     let vegetacaoTipoNome = listaEspeciesDoc.addCursor(this.ALL_UNTIL_NEW_LINE);
-    vegetacaoTipoNome = vegetacaoTipoNome.replace(/•/g, '').trim();
+    vegetacaoTipoNome = vegetacaoTipoNome.replace(/•/g, '');
 
     return {
       nome: vegetacaoTipoNome,
@@ -98,27 +100,49 @@ export class Especies2019Interpreter {
     };
   }
 
-  private castTextToFamilia(result: string): FamiliaMetaData {
-    return { nome: result.trim(), especies: [] };
+  private castTextToFamilia(nome: string): FamiliaMetaData {
+    return { nome, especies: [] };
   }
 
   private castIterableToEspecie(listaEspeciesDoc: IterableString): EspecieMetaData {
     const especie: EspecieMetaData = {};
 
-    const readNomeEspecie = /^([^ ]+[ ])+[ ]/i;
-    especie.nome = listaEspeciesDoc.addCursor(readNomeEspecie).trim();
+    especie.nome = listaEspeciesDoc.addCursor(this.READ_ALL_UNTIL_TWO_SPACES);
 
     const readVegetacaoTamanho = /^[ ]+(\d|\(-)[\(\),\-\d]*[ ][ ]/;
-    const vegetacaoTamanho = listaEspeciesDoc.addCursor(readVegetacaoTamanho).trim();
+    const vegetacaoTamanho = listaEspeciesDoc.addCursor(readVegetacaoTamanho);
 
     if (vegetacaoTamanho) {
       especie.tamanho = vegetacaoTamanho;
     } else {
-      especie.nomePopular = vegetacaoTamanho;
-      especie.tamanho = listaEspeciesDoc.addCursor(readVegetacaoTamanho).trim();
+      especie.nomePopular = listaEspeciesDoc.addCursor(this.READ_ALL_UNTIL_TWO_SPACES);
+      especie.tamanho = listaEspeciesDoc.addCursor(readVegetacaoTamanho);
     }
 
+    especie.classeSucessional = this.readClasseSucessional(listaEspeciesDoc);
+    especie.grupoFuncional = this.readGrupoFuncional(listaEspeciesDoc);
+    especie.sindromeDispersao = this.readSindromeDispersao(listaEspeciesDoc);
+
+    const readBioma = /^[^\n]*\n/;
+    especie.bioma = listaEspeciesDoc.addCursor(readBioma);
+
     return especie;
+  }
+
+  private readClasseSucessional(listaEspeciesDoc: IterableString): string {
+    const readClasseSucessional = /^\s*(P|NP|(P\/NP))/;
+    return listaEspeciesDoc.addCursor(readClasseSucessional);
+  }
+
+  private readGrupoFuncional(listaEspeciesDoc: IterableString): string {
+    const readGrupoFuncional = /^\s*(D|P)/;
+    return listaEspeciesDoc.addCursor(readGrupoFuncional);
+  }
+
+  private readSindromeDispersao(listaEspeciesDoc: IterableString): string {
+    const readSindromeDispersao = /^\s*(ANE|AUT|HIDR|ZOO)/;
+
+    return listaEspeciesDoc.addCursor(readSindromeDispersao);
   }
 
 }
@@ -126,9 +150,11 @@ export class Especies2019Interpreter {
 
 // REGRAS DE COMO SEPARAR O NOME DA ESPÉCIE DO NOME POPULAR
 //  1. no caso mais fácil haverá pelo menos dois espaços separando os nomes
-//  2. se após coletar o texto, verificar que logo após se apresenta as medições da planta, regitrar um log identificando o procedimento
+//  2. se após coletar o texto, verificar que logo após se apresenta as medições da planta, regitrar um log
+//     identificando o procedimento
 //  3. se o próximo item for o nome popular, então ele é coletado; se forem as medições, então seguir:
-//  4. nomes populares são conjuntos de caracteres sem espaços, separados por vírgulas, verificar se este padrão ocorre na sentença anterior, se sim, extrair e coletar
+//  4. nomes populares são conjuntos de caracteres sem espaços, separados por vírgulas, verificar se este padrão
+//     ocorre na sentença anterior, se sim, extrair e coletar
 //  5. verificar se a próxima linha é um registro incompleto, se sim, absorver estes registros, registrar um warning
 //  6. se não houver nome popular identificado, registrar um warning
 
