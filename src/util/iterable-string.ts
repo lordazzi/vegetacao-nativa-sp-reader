@@ -20,6 +20,10 @@ export class IterableString {
     return this.str.substr(this.cursor);
   }
 
+  getValue(): string {
+    return this.str.substr(this.cursor);
+  }
+
   /**
    * Return the original string
    */

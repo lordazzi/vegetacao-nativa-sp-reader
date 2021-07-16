@@ -2,7 +2,7 @@ export interface EspecieMetaData {
   nome?: string;
 
   /**
-   * nomes populares separados por vírgula
+   * Os nomes populares podem ser separados por vírgula (,), barra (/) e/ou espaço
    */
   nomePopular?: string;
   tamanho?: string;

@@ -9138,10 +9138,6 @@ Xyris tortula Mart.                                     0,3-0,5        P        
 *   Xyris trachyphylla Mart.                            0,3            P                  P    AUT   Cerrado
 *   Xyris vacillans Malme                               0,3            P                  P    AUT   Cerrado
 *   Xyris wawrae Heimerl                                0,5            P                  P    AUT   Cerrado
-##      Lista de espécies indicadas para
-restauração Ecológica para diversas
-     regiões do Estado de São Paulo
-
 
 
 
@@ -10861,8 +10857,6 @@ Miconia discolor DC.                                                            
 
                                                                                                                                                                 REGIÃO CENTRO
 
-                                                                                                                                                    REGIÃO
-
 
 
 Miconia elegans Cogn.                      pixirica, cabuçu-tinteiro                  4          NP              D   ZOO Estacional Semidecidua/ Mata Ciliar/
@@ -12373,10 +12367,6 @@ Xyris macrocephala Vahl                                                         
 *    Xyris metallica Klotzch ex Seub.                                              0,4            P                  P   AUT Campo Alagado/ Cerrado
 Xyris regnellii L.A.Nilsson                                                        0,5-1          P                  P   AUT Floresta Altomontana / Cerrado /
                                                                                                                              Brejo
-##      Lista de espécies indicadas para
-restauração Ecológica para diversas
-     regiões do Estado de São Paulo
-
 
 
 

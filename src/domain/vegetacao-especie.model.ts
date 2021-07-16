@@ -10,6 +10,8 @@ export interface VegetacaoEspecie {
   idPlanta?: number;
 
   nome: string;
+
+  //  FIXME: transformar isso num array, as plantas tem mais de um nome popular.
   nomePopular: string | null;
 
   tipo: VegetacaoTipo;
@@ -21,6 +23,8 @@ export interface VegetacaoEspecie {
   sindromeDispersao: SindromeDispersao;
   classeSucessional: ClasseSucessional[];
   familia: VegetacaoFamilia;
+
+  //  Separado por barra e/ou espaço
   bioma: Bioma[];
 
   /**
