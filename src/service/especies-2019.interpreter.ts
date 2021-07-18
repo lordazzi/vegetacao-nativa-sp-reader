@@ -11,7 +11,6 @@ export class Especies2019Interpreter {
   private logger = getLogger();
   // private logger = console;
 
-  private readonly ALL_UNTIL_NEW_LINE = /^[^\n]+/;
   private readonly READ_ALL_UNTIL_TWO_SPACES = /^\s*([^ ]+[ ])+[ ]/i;
 
   regiaoMap: {
@@ -30,7 +29,7 @@ export class Especies2019Interpreter {
     const listaEspeciesDoc = new IterableString(listaEspecies2019File);
 
     const identificaRegiao = /^\s*#?\s*(REGIÃO(\n?)|LITORAL)[^\n]+\n/;
-    const identificaVegetacaoTipo = /^\s*#?\s*([^ ][ ])•/;
+    const identificaVegetacaoTipo = /^\s*#?([^\n]+)\s*•/;
     const identificaFamilia = /^\s*[A-Z]+\s*\n/;
 
     const regioes: RegiaoMetaData[] = [];
@@ -42,43 +41,70 @@ export class Especies2019Interpreter {
       let result = '';
 
       if (result = listaEspeciesDoc.addCursor(identificaRegiao)) {
-        const newRegiao = this.castTextToRegiao(result, regiao);
-        if (newRegiao) {
-          regioes.push(newRegiao);
-          regiao = newRegiao;
-          this.logger.info('região: ', regiao);
-        }
+        regiao = this.registerRegiao(result, regioes, regiao);
       } else if (result = listaEspeciesDoc.addCursor(identificaVegetacaoTipo)) {
-        vegetacaoTipo = this.castTextToVegetacaoTipo(listaEspeciesDoc);
-        this.logger.info('vegetação tipo: ', vegetacaoTipo);
-
-        if (!regiao) {
-          this.logger.error('objeto região não foi encontrado para o tipo de vegetação. Vegetação tipo: ', vegetacaoTipo);
-        } else {
-          regiao.tipos.push(vegetacaoTipo);
-        }
+        vegetacaoTipo = this.registerVegetacaoTipo(result, regiao, vegetacaoTipo);
       } else if (result = listaEspeciesDoc.addCursor(identificaFamilia)) {
-        familia = this.castTextToFamilia(result);
-        this.logger.info('família: ', familia);
-
-        if (!vegetacaoTipo) {
-          this.logger.error('objeto de tipo de vegetação não foi encontrado para a família. Família: ', familia);
-        } else {
-          vegetacaoTipo.familias.push(familia);
-        }
+        familia = this.registerFamilia(result, vegetacaoTipo, familia);
       } else {
-        const especie = this.castIterableToEspecie(listaEspeciesDoc);
-        this.logger.info('espécie: ', especie);
-
-        if (!familia) {
-          this.logger.error('objeto de família não foi encontrado para a espécie. Espécie: ', especie);
-        } else {
-          familia.especies.push(especie);
-        }
+        this.registerEspecie(familia, listaEspeciesDoc);
       }
     }
 
     return regioes;
+  }
+
+  private registerRegiao(result: string, regioes: RegiaoMetaData[], regiao: RegiaoMetaData | null): RegiaoMetaData | null {
+    const newRegiao = this.castTextToRegiao(result, regiao);
+    if (newRegiao) {
+      regioes.push(newRegiao);
+      this.logger.info('região: ', regiao);
+      return newRegiao;
+    }
+
+    return regiao;
+  }
+
+  private registerVegetacaoTipo(
+    result: string, regiao: RegiaoMetaData | null, vegetacaoTipo: VegetacaoTipoMetaData | null
+  ): VegetacaoTipoMetaData | null {
+    const newVegetacaoTipo = this.castTextToVegetacaoTipo(result, vegetacaoTipo);
+
+    if (!regiao) {
+      this.logger.error('objeto região não foi encontrado para o tipo de vegetação. Vegetação tipo: ', vegetacaoTipo);
+      return vegetacaoTipo;
+    } else if (newVegetacaoTipo) {
+      regiao.tipos.push(newVegetacaoTipo);
+      this.logger.info('vegetação tipo: ', newVegetacaoTipo);
+      return newVegetacaoTipo;
+    }
+
+    return vegetacaoTipo;
+  }
+  private registerFamilia(
+    result: string, vegetacaoTipo: VegetacaoTipoMetaData | null, familia: FamiliaMetaData | null
+  ): FamiliaMetaData | null {
+    familia = this.castTextToFamilia(result);
+    this.logger.info('família: ', familia);
+
+    if (!vegetacaoTipo) {
+      this.logger.error('objeto de tipo de vegetação não foi encontrado para a família. Família: ', familia);
+    } else {
+      vegetacaoTipo.familias.push(familia);
+    }
+
+    return familia;
+  }
+
+  private registerEspecie(familia: FamiliaMetaData | null, listaEspeciesDoc: IterableString): void {
+    const especie = this.castIterableToEspecie(listaEspeciesDoc);
+    this.logger.info('espécie: ', especie);
+
+    if (!familia) {
+      this.logger.error('objeto de família não foi encontrado para a espécie. Espécie: ', especie);
+    } else {
+      familia.especies.push(especie);
+    }
   }
 
   private castTextToRegiao(result: string, regiao: RegiaoMetaData | null): RegiaoMetaData | null {
@@ -100,9 +126,17 @@ export class Especies2019Interpreter {
     };
   }
 
-  private castTextToVegetacaoTipo(listaEspeciesDoc: IterableString): VegetacaoTipoMetaData {
-    let vegetacaoTipoNome = listaEspeciesDoc.addCursor(this.ALL_UNTIL_NEW_LINE);
-    vegetacaoTipoNome = vegetacaoTipoNome.replace(/•/g, '');
+  private castTextToVegetacaoTipo(result: string, vegetacaoTipo: VegetacaoTipoMetaData | null): VegetacaoTipoMetaData | null {
+    let vegetacaoTipoNome = result.replace(/(#|•)/g, '').trim();
+    const letrasSeparadasPorEspaco = /^([^ ]{1,2}[ ])+[^ ]$/;
+
+    if (letrasSeparadasPorEspaco.test(vegetacaoTipoNome)) {
+      vegetacaoTipoNome = vegetacaoTipoNome.replace(/ /g, '');
+    }
+
+    if (vegetacaoTipo?.nome === vegetacaoTipoNome) {
+      return null;
+    }
 
     return {
       nome: vegetacaoTipoNome,

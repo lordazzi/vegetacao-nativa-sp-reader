@@ -20,4 +20,6 @@ export interface EspecieMetaData {
    * Lista de biomas separados por virgula
    */
   bioma?: string;
+
+  isPartial?: true;
 }
