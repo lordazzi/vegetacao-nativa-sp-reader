@@ -109,6 +109,10 @@ export class IterableString {
     return piece;
   }
 
+  endContent(): boolean {
+    return this.end() || !!this.spy(/^\s*$/, false);
+  }
+
   end(): boolean {
     return this.str.length <= this.cursor;
   }

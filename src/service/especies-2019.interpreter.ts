@@ -11,8 +11,6 @@ export class Especies2019Interpreter {
   private logger = getLogger();
   // private logger = console;
 
-  private readonly READ_ALL_UNTIL_TWO_SPACES = /^\s*([^ ]+[ ])+[ ]/i;
-
   regiaoMap: {
     [prop: string]: RegiaoVegetal;
   } = {
@@ -37,7 +35,7 @@ export class Especies2019Interpreter {
     let vegetacaoTipo: VegetacaoTipoMetaData | null = null;
     let familia: FamiliaMetaData | null = null;
 
-    while (!listaEspeciesDoc.end()) {
+    while (!listaEspeciesDoc.endContent()) {
       let result = '';
 
       if (result = listaEspeciesDoc.addCursor(identificaRegiao)) {
@@ -151,7 +149,22 @@ export class Especies2019Interpreter {
   private castIterableToEspecie(listaEspeciesDoc: IterableString): EspecieMetaData {
     const especie: EspecieMetaData = {};
 
-    especie.nome = listaEspeciesDoc.addCursor(this.READ_ALL_UNTIL_TWO_SPACES);
+    const checkIfHasEspecieName = /^[ ]/;
+    const readAllUltilTwoSpaces = /^\s*([^\n ]+[ ])+[ ]/i;
+    const readAllUntilBreakLine = /^\n*[^\n]+\n/;
+
+    if (!listaEspeciesDoc.spy(checkIfHasEspecieName)) {
+      especie.nome = listaEspeciesDoc.addCursor(readAllUltilTwoSpaces);
+
+      if (!especie.nome) {
+        especie.nome = listaEspeciesDoc.addCursor(readAllUntilBreakLine);
+        especie.isPartial = true;
+
+        return especie;
+      }
+    } else {
+      especie.isPartial = true;
+    }
 
     const readVegetacaoTamanho = /^[ ]+(\d|\(-)[\(\),\-\d]*[ ][ ]/;
     const vegetacaoTamanho = listaEspeciesDoc.addCursor(readVegetacaoTamanho);
@@ -159,7 +172,7 @@ export class Especies2019Interpreter {
     if (vegetacaoTamanho) {
       especie.tamanho = vegetacaoTamanho;
     } else {
-      especie.nomePopular = listaEspeciesDoc.addCursor(this.READ_ALL_UNTIL_TWO_SPACES);
+      especie.nomePopular = listaEspeciesDoc.addCursor(readAllUltilTwoSpaces);
       especie.tamanho = listaEspeciesDoc.addCursor(readVegetacaoTamanho);
     }
 
@@ -208,6 +221,9 @@ export class Especies2019Interpreter {
 //  Estou presumindo que o nome das familias não tem espaço no meio.
 //  Considerando isso, se não houver quebra de linha logo após o conjunto de maiusculas, não é o nome de uma familia
 //  Não é garantido, toda situação de maiusculas com espaço no meio deve ter um log de warning informando.
+
+//  As espécies parciais não necessariamente fazem parte de uma não-parcial precedente. Existem situações onde
+//  três linhas de espécie escrita com informações parciais se complementam
 
 //  WARNINGS
 //  Se a espécie só tiver caracteres maiusculos, gerar um warn
