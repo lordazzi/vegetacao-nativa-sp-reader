@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+  <meta charset="UTF-8">
+
+  <title>Document</title>
+  <script>
+    onload = function () {
+      var xhr = new XMLHttpRequest;
+      xhr.open('GET', 'lista-especies-rad-2019-versao-limpa.json?_=' = (new Date).getTime(), false);
+      xhr.send();
+      window.dados = JSON.parse(xhr.responseText);
+    }
+  </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

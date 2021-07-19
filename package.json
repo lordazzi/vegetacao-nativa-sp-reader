@@ -5,7 +5,8 @@
   "scripts": {
     "build": "tsc --project .",
     "lint": "tslint --project tsconfig.json",
-    "start": "tsc --project . && node dist/index.js --inspect"
+    "start": "tsc --project . && node dist/index.js --inspect",
+    "serve": "http-server"
   },
   "repository": {
     "type": "git",

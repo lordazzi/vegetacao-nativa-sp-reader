@@ -151,9 +151,11 @@ export class Especies2019Interpreter {
 
     const checkIfHasEspecieName = /^[ ]/;
     const readAllUltilTwoSpaces = /^\s*([^\n ]+[ ])+[ ]/i;
+    //  read all until two spaces or breakline
+    const readAllUntilTwoSpacesOrBreakLine = /^\s*(([^\n ]+[ ])+[ ]|([^\n ]+[ ]?)[\n])/i;
     const readAllUntilBreakLine = /^\n*[^\n]+\n/;
 
-    if (!listaEspeciesDoc.spy(checkIfHasEspecieName)) {
+    if (!checkIfHasEspecieName.test(listaEspeciesDoc.toString())) {
       especie.nome = listaEspeciesDoc.addCursor(readAllUltilTwoSpaces);
 
       if (!especie.nome) {
@@ -172,7 +174,7 @@ export class Especies2019Interpreter {
     if (vegetacaoTamanho) {
       especie.tamanho = vegetacaoTamanho;
     } else {
-      especie.nomePopular = listaEspeciesDoc.addCursor(readAllUltilTwoSpaces);
+      especie.nomePopular = listaEspeciesDoc.addCursor(readAllUntilTwoSpacesOrBreakLine);
       especie.tamanho = listaEspeciesDoc.addCursor(readVegetacaoTamanho);
     }
 
