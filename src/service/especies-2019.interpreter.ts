@@ -160,12 +160,12 @@ export class Especies2019Interpreter {
 
       if (!especie.nome) {
         especie.nome = listaEspeciesDoc.addCursor(readAllUntilBreakLine);
-        especie.isPartial = true;
+        especie.type = 'tail';
 
         return especie;
       }
     } else {
-      especie.isPartial = true;
+      especie.type = 'tail';
     }
 
     const readVegetacaoTamanho = /^[ ]+(\d|\(-)[\(\),\-\d]*[ ][ ]/;

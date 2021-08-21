@@ -1,4 +1,10 @@
 {
+  "extends": "tslint:recommended",
+  "linterOptions": {
+    "exclude": [
+      "tests/**/*.test.ts"
+    ]
+  },
   "rules": {
     "cyclomatic-complexity": [
       true,
@@ -9,6 +15,7 @@
       0,
       1
     ],
+    "no-conditional-assignment": false,
     "arrow-return-shorthand": true,
     "callable-types": true,
     "class-name": true,

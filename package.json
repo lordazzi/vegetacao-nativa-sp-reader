@@ -6,7 +6,9 @@
     "build": "tsc --project .",
     "lint": "tslint --project tsconfig.json",
     "start": "tsc --project . && node dist/index.js --inspect",
-    "serve": "http-server"
+    "serve": "http-server",
+    "test": "mocha -r ts-node/register tests/**/*.test.ts",
+    "coverage": "nyc -r lcov -e .ts -x \"*.test.ts\" npm run test"
   },
   "repository": {
     "type": "git",
@@ -34,10 +36,16 @@
   },
   "homepage": "https://github.com/lordazzi/vegetacao-nativa-sp-boot#readme",
   "devDependencies": {
+    "@types/chai": "^4.2.21",
+    "@types/mocha": "^9.0.0",
     "@types/node": "14.14.41",
+    "chai": "^4.3.4",
     "husky": "^1.0.0-rc.13",
+    "mocha": "^9.1.0",
+    "nyc": "^15.1.0",
+    "ts-node": "^10.2.1",
     "tslint": "6.1.3",
-    "typescript": "^4.2.4"
+    "typescript": "4.2.4"
   },
   "dependencies": {
     "log4js": "6.3.0"

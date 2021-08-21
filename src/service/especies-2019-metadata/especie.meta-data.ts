@@ -5,6 +5,9 @@ export interface EspecieMetaData {
    * Os nomes populares podem ser separados por vírgula (,), barra (/) e/ou espaço
    */
   nomePopular?: string;
+
+  type?: 'tail' | 'head' | 'full';
+
   tamanho?: string;
   riscoExtincao?: boolean;
   rapidoRecobrimento?: boolean;
@@ -20,6 +23,4 @@ export interface EspecieMetaData {
    * Lista de biomas separados por virgula
    */
   bioma?: string;
-
-  isPartial?: true;
 }
