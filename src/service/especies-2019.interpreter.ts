@@ -95,14 +95,15 @@ export class Especies2019Interpreter {
   }
 
   private registerEspecie(familia: FamiliaMetaData | null, listaEspeciesDoc: IterableString): void {
-    const especie = this.castIterableToEspecie(listaEspeciesDoc);
-    this.logger.info('espécie: ', especie);
-
     if (!familia) {
-      this.logger.error('objeto de família não foi encontrado para a espécie. Espécie: ', especie);
-    } else {
-      familia.especies.push(especie);
+      this.logger.error('objeto de família não foi encontrado para a espécie.');
+      return;
     }
+
+    const ultimoEspecieInserido = familia.especies[familia.especies.length - 1];
+    const especie = this.castIterableToEspecie(listaEspeciesDoc, ultimoEspecieInserido || null);
+    this.logger.info('espécie: ', especie);
+    familia.especies.push(especie);
   }
 
   private castTextToRegiao(result: string, regiao: RegiaoMetaData | null): RegiaoMetaData | null {
@@ -146,26 +147,32 @@ export class Especies2019Interpreter {
     return { nome, especies: [] };
   }
 
-  private castIterableToEspecie(listaEspeciesDoc: IterableString): EspecieMetaData {
+  private castIterableToEspecie(
+    listaEspeciesDoc: IterableString,
+    linhaEspecieUltimaInserida: EspecieMetaData | null
+  ): EspecieMetaData {
     const especie: EspecieMetaData = {};
 
-    const checkIfHasEspecieName = /^[ ]/;
+    const checkIfHasNoEspecieName = /^[ ]/;
+    const ignoreAutoTrim = false;
+    const hasEspecieName = !listaEspeciesDoc.spy(checkIfHasNoEspecieName, ignoreAutoTrim);
     const readAllUltilTwoSpaces = /^\s*([^\n ]+[ ])+[ ]/i;
     //  read all until two spaces or breakline
-    const readAllUntilTwoSpacesOrBreakLine = /^\s*(([^\n ]+[ ])+[ ]|([^\n ]+[ ]?)[\n])/i;
+    const readAllUntilTwoSpacesOrBreakLine = /^\s*(([^\n ]+[ ])+[ ]|[^\n]+[ ]?\n)/i;
     const readAllUntilBreakLine = /^\n*[^\n]+\n/;
 
-    if (!checkIfHasEspecieName.test(listaEspeciesDoc.toString())) {
+    if (hasEspecieName) {
       especie.nome = listaEspeciesDoc.addCursor(readAllUltilTwoSpaces);
+      especie.type = 'full';
 
       if (!especie.nome) {
         especie.nome = listaEspeciesDoc.addCursor(readAllUntilBreakLine);
-        especie.type = 'tail';
+        this.setAsHeadAndTail(especie, linhaEspecieUltimaInserida);
 
         return especie;
       }
     } else {
-      especie.type = 'tail';
+      this.setAsHeadAndTail(especie, linhaEspecieUltimaInserida);
     }
 
     const readVegetacaoTamanho = /^[ ]+(\d|\(-)[\(\),\-\d]*[ ][ ]/;
@@ -174,7 +181,14 @@ export class Especies2019Interpreter {
     if (vegetacaoTamanho) {
       especie.tamanho = vegetacaoTamanho;
     } else {
-      especie.nomePopular = listaEspeciesDoc.addCursor(readAllUntilTwoSpacesOrBreakLine);
+
+      //  se o nome popular termina com quebra de linha,
+      //  então nada mais deve ser acrescentado nesta espécia
+      const nomePopular = listaEspeciesDoc.addCursor(readAllUntilTwoSpacesOrBreakLine, ignoreAutoTrim);
+      especie.nomePopular = nomePopular.trim();
+      if (nomePopular.match(/\n$/)) {
+        return especie;
+      }
       especie.tamanho = listaEspeciesDoc.addCursor(readVegetacaoTamanho);
     }
 
@@ -186,6 +200,15 @@ export class Especies2019Interpreter {
     especie.bioma = listaEspeciesDoc.addCursor(readBioma);
 
     return especie;
+  }
+
+  private setAsHeadAndTail(
+    linhaEspecieTail: EspecieMetaData, linhaEspecieHead: EspecieMetaData | null
+  ): void {
+    if (linhaEspecieHead) {
+      linhaEspecieHead.type = 'head';
+    }
+    linhaEspecieTail.type = 'tail';
   }
 
   private readClasseSucessional(listaEspeciesDoc: IterableString): string {
