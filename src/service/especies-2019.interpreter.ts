@@ -147,6 +147,9 @@ export class Especies2019Interpreter {
     return { nome, especies: [] };
   }
 
+  //  FIXME: este método ficou muito gigante, ver a possibilidade de transforma-lo
+  //  em um serviço independente com métodos menores
+  // tslint:disable-next-line:cyclomatic-complexity
   private castIterableToEspecie(
     listaEspeciesDoc: IterableString,
     linhaEspecieUltimaInserida: EspecieMetaData | null
@@ -189,7 +192,24 @@ export class Especies2019Interpreter {
       if (nomePopular.match(/\n$/)) {
         return especie;
       }
+
       especie.tamanho = listaEspeciesDoc.addCursor(readVegetacaoTamanho);
+
+      //  existem condições onde o tamanho está muito grudado ao nome popular
+      //  o código abaixo irá verificar se está é uma situação deste tipo
+      if (!especie.tamanho && especie.nomePopular) {
+        //  FIXME: preciso reaproveitar a lógica de identificação de
+        //  informações de tamanho por regex para manter uma manutenção centralizada
+        const checkIfHasTamanhoInTheEnd = /(\d|\(-)[\(\),\-\d]$/;
+        const hasTamanhoInTheEnd = especie.nomePopular.match(checkIfHasTamanhoInTheEnd);
+        if (hasTamanhoInTheEnd) {
+          const especieNomePopular = /.*[ ]/;
+          const especieTamanho = /[ ][^ ]*$/;
+          const tamanho = especie.nomePopular.replace(especieNomePopular, '');
+          especie.nomePopular = especie.nomePopular.replace(especieTamanho, '');
+          especie.tamanho = tamanho;
+        }
+      }
     }
 
     especie.classeSucessional = this.readClasseSucessional(listaEspeciesDoc);
