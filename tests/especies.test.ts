@@ -10,32 +10,6 @@ if (!metaDocumento) {
   throw new Error('impossible run tests, system generated a null resultset');
 }
 
-describe('regiao', () => {
-  it('check regiao litoral sul', () => {
-    expect(metaDocumento[0]?.regiao).equal('SAO_PAULO_LITORAL_SUL');
-  });
-
-  it('check regiao sudeste', () => {
-    expect(metaDocumento[1]?.regiao).equal('SAO_PAULO_LITORAL_NORTE');
-  });
-
-  it('check regiao centro', () => {
-    expect(metaDocumento[2]?.regiao).equal('SAO_PAULO_REGIAO_SUDESTE');
-  });
-
-  it('check regiao noroeste', () => {
-    expect(metaDocumento[3]?.regiao).equal('SAO_PAULO_REGIAO_CENTRO');
-  });
-
-  it('check regiao sudoeste', () => {
-    expect(metaDocumento[4]?.regiao).equal('SAO_PAULO_REGIAO_NOROESTE');
-  });
-
-  it('check regiao sudoeste', () => {
-    expect(metaDocumento[5]?.regiao).equal('SAO_PAULO_REGIAO_SUDOESTE');
-  });
-});
-
 describe('espécies', () => {
   it('[espécie]', () => {
     expect(metaDocumento[0]?.tipos[0].familias[0].especies[0]).to.eql({

@@ -1,17 +1,18 @@
 import { getLogger } from 'log4js';
 import { RegiaoVegetal } from '../domain/regiao-vegetal.enum';
 import { IterableString } from '../util/iterable-string';
-import { EspecieMetaData } from './especies-2019-metadata/especie.meta-data';
+import { Especies2019EspeciesInterpreter } from './especies-2019-especies.interpreter';
 import { FamiliaMetaData } from './especies-2019-metadata/familia.meta-data';
 import { RegiaoMetaData } from './especies-2019-metadata/regiao.meta-data';
 import { VegetacaoTipoMetaData } from './especies-2019-metadata/vegetacao-tipo.meta-data';
 
 export class Especies2019Interpreter {
 
-  private logger = getLogger();
+  private readonly logger = getLogger();
+  private readonly especiesInterpreter = new Especies2019EspeciesInterpreter();
   // private logger = console;
 
-  regiaoMap: {
+  private readonly regiaoMap: {
     [prop: string]: RegiaoVegetal;
   } = {
       'LITORAL SUL': RegiaoVegetal.SAO_PAULO_LITORAL_SUL,
@@ -101,7 +102,7 @@ export class Especies2019Interpreter {
     }
 
     const ultimoEspecieInserido = familia.especies[familia.especies.length - 1];
-    const especie = this.castIterableToEspecie(listaEspeciesDoc, ultimoEspecieInserido || null);
+    const especie = this.especiesInterpreter.castIterableToEspecie(listaEspeciesDoc, ultimoEspecieInserido || null);
     this.logger.info('espécie: ', especie);
     familia.especies.push(especie);
   }
@@ -146,107 +147,6 @@ export class Especies2019Interpreter {
   private castTextToFamilia(nome: string): FamiliaMetaData {
     return { nome, especies: [] };
   }
-
-  //  FIXME: este método ficou muito gigante, ver a possibilidade de transforma-lo
-  //  em um serviço independente com métodos menores
-  // tslint:disable-next-line:cyclomatic-complexity
-  private castIterableToEspecie(
-    listaEspeciesDoc: IterableString,
-    linhaEspecieUltimaInserida: EspecieMetaData | null
-  ): EspecieMetaData {
-    const especie: EspecieMetaData = {};
-
-    const checkIfHasNoEspecieName = /^[ ]/;
-    const ignoreAutoTrim = false;
-    const hasEspecieName = !listaEspeciesDoc.spy(checkIfHasNoEspecieName, ignoreAutoTrim);
-    const readAllUltilTwoSpaces = /^\s*([^\n ]+[ ])+[ ]/i;
-    //  read all until two spaces or breakline
-    const readAllUntilTwoSpacesOrBreakLine = /^\s*(([^\n ]+[ ])+[ ]|[^\n]+[ ]?\n)/i;
-    const readAllUntilBreakLine = /^\n*[^\n]+\n/;
-
-    if (hasEspecieName) {
-      especie.nome = listaEspeciesDoc.addCursor(readAllUltilTwoSpaces);
-      especie.type = 'full';
-
-      if (!especie.nome) {
-        especie.nome = listaEspeciesDoc.addCursor(readAllUntilBreakLine);
-        this.setAsHeadAndTail(especie, linhaEspecieUltimaInserida);
-
-        return especie;
-      }
-    } else {
-      this.setAsHeadAndTail(especie, linhaEspecieUltimaInserida);
-    }
-
-    const readVegetacaoTamanho = /^[ ]+(\d|\(-)[\(\),\-\d]*[ ][ ]/;
-    const vegetacaoTamanho = listaEspeciesDoc.addCursor(readVegetacaoTamanho);
-
-    if (vegetacaoTamanho) {
-      especie.tamanho = vegetacaoTamanho;
-    } else {
-
-      //  se o nome popular termina com quebra de linha,
-      //  então nada mais deve ser acrescentado nesta espécia
-      const nomePopular = listaEspeciesDoc.addCursor(readAllUntilTwoSpacesOrBreakLine, ignoreAutoTrim);
-      especie.nomePopular = nomePopular.trim();
-      if (nomePopular.match(/\n$/)) {
-        return especie;
-      }
-
-      especie.tamanho = listaEspeciesDoc.addCursor(readVegetacaoTamanho);
-
-      //  existem condições onde o tamanho está muito grudado ao nome popular
-      //  o código abaixo irá verificar se está é uma situação deste tipo
-      if (!especie.tamanho && especie.nomePopular) {
-        //  FIXME: preciso reaproveitar a lógica de identificação de
-        //  informações de tamanho por regex para manter uma manutenção centralizada
-        const checkIfHasTamanhoInTheEnd = /(\d|\(-)[\(\),\-\d]$/;
-        const hasTamanhoInTheEnd = especie.nomePopular.match(checkIfHasTamanhoInTheEnd);
-        if (hasTamanhoInTheEnd) {
-          const especieNomePopular = /.*[ ]/;
-          const especieTamanho = /[ ][^ ]*$/;
-          const tamanho = especie.nomePopular.replace(especieNomePopular, '');
-          especie.nomePopular = especie.nomePopular.replace(especieTamanho, '');
-          especie.tamanho = tamanho;
-        }
-      }
-    }
-
-    especie.classeSucessional = this.readClasseSucessional(listaEspeciesDoc);
-    especie.grupoFuncional = this.readGrupoFuncional(listaEspeciesDoc);
-    especie.sindromeDispersao = this.readSindromeDispersao(listaEspeciesDoc);
-
-    const readBioma = /^[^\n]*\n/;
-    especie.bioma = listaEspeciesDoc.addCursor(readBioma);
-
-    return especie;
-  }
-
-  private setAsHeadAndTail(
-    linhaEspecieTail: EspecieMetaData, linhaEspecieHead: EspecieMetaData | null
-  ): void {
-    if (linhaEspecieHead) {
-      linhaEspecieHead.type = 'head';
-    }
-    linhaEspecieTail.type = 'tail';
-  }
-
-  private readClasseSucessional(listaEspeciesDoc: IterableString): string {
-    const readClasseSucessional = /^\s*(P|NP|(P\/NP))/;
-    return listaEspeciesDoc.addCursor(readClasseSucessional);
-  }
-
-  private readGrupoFuncional(listaEspeciesDoc: IterableString): string {
-    const readGrupoFuncional = /^\s*(D|P)/;
-    return listaEspeciesDoc.addCursor(readGrupoFuncional);
-  }
-
-  private readSindromeDispersao(listaEspeciesDoc: IterableString): string {
-    const readSindromeDispersao = /^\s*(ANE|AUT|HIDR|ZOO)/;
-
-    return listaEspeciesDoc.addCursor(readSindromeDispersao);
-  }
-
 }
 
 
