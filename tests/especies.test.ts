@@ -102,5 +102,49 @@ describe('espécies', () => {
       "type": "full"
     });
   });
+
+  it('[espécie parcial, sem atributos faltando]', () => {
+    expect(metaDocumento[0]?.tipos[0].familias[20].especies[1]).to.eql({
+      bioma: "Restinga/ Floresta Ombrófila Densa",
+      classeSucessional: "NP",
+      grupoFuncional: "D",
+      nome: "Garcinia gardneriana (Planch. & Triana)",
+      nomePopular: "bacupari, mangostão, vacupari,",
+      sindromeDispersao: "ZOO",
+      tamanho: "10",
+      type: "head"
+    });
+  });
+
+  it('[espécie parcial]', () => {
+    expect(metaDocumento[0]?.tipos[0].familias[20].especies[1]).to.eql({
+      nome: "Zappi",
+      nomePopular: "limãozinho",
+      type: "tail"
+    });
+  });
+
+  it('[espécie parcial]', () => {
+    expect(metaDocumento[0]?.tipos[0].familias[27].especies[2]).to.eql({
+      "nome": "Abarema langsdorffii (Benth.) Barneby & J.",
+      "type": "head",
+      "nomePopular": "raposeira-branca, timbuva, olho-de-",
+      "tamanho": "3-10",
+      "classeSucessional": "NP",
+      "grupoFuncional": "D",
+      "sindromeDispersao": "AUT /",
+      "bioma": "Restinga/ Floresta Ombrófila Densa"
+    });
+  });
+
+  it('[espécie parcial]', () => {
+    expect(metaDocumento[0]?.tipos[0].familias[27].especies[3]).to.eql({
+      "nome": "W. Grimes",
+      "type": "tail",
+      "nomePopular": "pomba",
+      "sindromeDispersao": "ZOO"
+    });
+  });
+
 });
 
