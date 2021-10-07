@@ -117,7 +117,7 @@ describe('espécies', () => {
   });
 
   it('[espécie parcial]', () => {
-    expect(metaDocumento[0]?.tipos[0].familias[20].especies[1]).to.eql({
+    expect(metaDocumento[0]?.tipos[0].familias[20].especies[2]).to.eql({
       nome: "Zappi",
       nomePopular: "limãozinho",
       type: "tail"

@@ -949,8 +949,8 @@ const conteudoConfirmadoNoPDF = [
   }
 ];
 
-describe('espécies', () => {
-  it('[espécie]', () => {
+describe('validação de amostragem', () => {
+  it('[primeiras 18 espécies]', () => {
 
     expect(metaDocumento[0]?.tipos[0].familias[0].nome).to.eql('ACANTHACEAE');
     expect(metaDocumento[0]?.tipos[0].familias[0].especies[0]).to.eql(conteudoConfirmadoNoPDF[0].tipos[0].familias[0].especies[0]);
