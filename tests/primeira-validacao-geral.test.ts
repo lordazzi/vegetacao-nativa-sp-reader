@@ -659,10 +659,10 @@ const conteudoConfirmadoNoPDF = [
                 "type": "full",
                 "nomePopular": "louro-tabaco",
                 "tamanho": "8-15",
-                "classeSucessional": "P",
-                "grupoFuncional": "",
-                "sindromeDispersao": "",
-                "bioma": "/NP            D    ZOO   Floresta Ombrófila Densa"
+                "classeSucessional": "P/NP",
+                "grupoFuncional": "D",
+                "sindromeDispersao": "ZOO",
+                "bioma": "Floresta Ombrófila Densa"
               },
               {
                 "nome": "Cordia trichotoma (Vell.) Arráb. ex Steud. louro-pardo, freijó",
@@ -916,30 +916,6 @@ const conteudoConfirmadoNoPDF = [
               {
                 "nome": "Schult.) Kuntze",
                 "type": "tail"
-              },
-              {
-                "nome": "* Parinari brasiliensis (Schott) Hook.f.",
-                "type": "full",
-                "tamanho": "18",
-                "classeSucessional": "P",
-                "grupoFuncional": "",
-                "sindromeDispersao": "",
-                "bioma": "/NP            D   ZOO Floresta Ombrófila Densa"
-              }
-            ]
-          },
-          {
-            "nome": "CLETHRACEAE",
-            "especies": [
-              {
-                "nome": "Clethra scabra Pers.",
-                "type": "full",
-                "nomePopular": "guaperô, vassourão",
-                "tamanho": "10-30",
-                "classeSucessional": "P",
-                "grupoFuncional": "D",
-                "sindromeDispersao": "ANE",
-                "bioma": "Restinga/ Floresta Ombrófila Densa"
               }
             ]
           }
@@ -1051,14 +1027,11 @@ describe('validação de amostragem', () => {
     expect(metaDocumento[0]?.tipos[0].familias[11].nome).to.eql('CACTACEAE');
     expect(metaDocumento[0]?.tipos[0].familias[11].especies[0]).to.eql(conteudoConfirmadoNoPDF[0].tipos[0].familias[10].especies[0]);
 
-
     expect(metaDocumento[0]?.tipos[0].familias[12].nome).to.eql('CALOPHYLLACEAE');
     expect(metaDocumento[0]?.tipos[0].familias[12].especies[0]).to.eql(conteudoConfirmadoNoPDF[0].tipos[0].familias[10].especies[0]);
 
-
     expect(metaDocumento[0]?.tipos[0].familias[13].nome).to.eql('CANELLACEAE');
     expect(metaDocumento[0]?.tipos[0].familias[13].especies[0]).to.eql(conteudoConfirmadoNoPDF[0].tipos[0].familias[10].especies[0]);
-
 
     expect(metaDocumento[0]?.tipos[0].familias[14].nome).to.eql('CANNABACEAE');
     expect(metaDocumento[0]?.tipos[0].familias[14].especies[0]).to.eql(conteudoConfirmadoNoPDF[0].tipos[0].familias[14].especies[0]);
@@ -1068,17 +1041,14 @@ describe('validação de amostragem', () => {
     expect(metaDocumento[0]?.tipos[0].familias[15].nome).to.eql('CARDIOPTERIDACEAE');
     expect(metaDocumento[0]?.tipos[0].familias[15].especies[0]).to.eql(conteudoConfirmadoNoPDF[0].tipos[0].familias[15].especies[0]);
 
-
     expect(metaDocumento[0]?.tipos[0].familias[16].nome).to.eql('CELASTRACEAE');
     expect(metaDocumento[0]?.tipos[0].familias[16].especies[0]).to.eql(conteudoConfirmadoNoPDF[0].tipos[0].familias[16].especies[0]);
     expect(metaDocumento[0]?.tipos[0].familias[16].especies[1]).to.eql(conteudoConfirmadoNoPDF[0].tipos[0].familias[16].especies[1]);
     expect(metaDocumento[0]?.tipos[0].familias[16].especies[2]).to.eql(conteudoConfirmadoNoPDF[0].tipos[0].familias[16].especies[2]);
     expect(metaDocumento[0]?.tipos[0].familias[16].especies[3]).to.eql(conteudoConfirmadoNoPDF[0].tipos[0].familias[16].especies[3]);
 
-
     expect(metaDocumento[0]?.tipos[0].familias[17].nome).to.eql('CHLORANTHACEAE');
     expect(metaDocumento[0]?.tipos[0].familias[17].especies[0]).to.eql(conteudoConfirmadoNoPDF[0].tipos[0].familias[17].especies[0]);
-
 
     expect(metaDocumento[0]?.tipos[0].familias[18].nome).to.eql('CHRYSOBALANACEAE');
     expect(metaDocumento[0]?.tipos[0].familias[18].especies[0]).to.eql(conteudoConfirmadoNoPDF[0].tipos[0].familias[18].especies[0]);
@@ -1087,7 +1057,6 @@ describe('validação de amostragem', () => {
     expect(metaDocumento[0]?.tipos[0].familias[18].especies[3]).to.eql(conteudoConfirmadoNoPDF[0].tipos[0].familias[18].especies[3]);
     expect(metaDocumento[0]?.tipos[0].familias[18].especies[4]).to.eql(conteudoConfirmadoNoPDF[0].tipos[0].familias[18].especies[4]);
     expect(metaDocumento[0]?.tipos[0].familias[18].especies[5]).to.eql(conteudoConfirmadoNoPDF[0].tipos[0].familias[18].especies[5]);
-    expect(metaDocumento[0]?.tipos[0].familias[18].especies[6]).to.eql(conteudoConfirmadoNoPDF[0].tipos[0].familias[18].especies[6]);
 
     expect(metaDocumento[0]?.tipos[0].familias[28].nome).to.eql("LACISTEMATACEAE");
   });

@@ -103,7 +103,7 @@ describe('espécies', () => {
     });
   });
 
-  it('[espécie parcial, sem atributos faltando]', () => {
+  it('[espécie parcial, com nome popular quebrado]', () => {
     expect(metaDocumento[0]?.tipos[0].familias[20].especies[1]).to.eql({
       bioma: "Restinga/ Floresta Ombrófila Densa",
       classeSucessional: "NP",
@@ -124,7 +124,7 @@ describe('espécies', () => {
     });
   });
 
-  it('[espécie parcial]', () => {
+  it('[espécie parcial com quebra na sindrome de dispersão]', () => {
     expect(metaDocumento[0]?.tipos[0].familias[27].especies[2]).to.eql({
       "nome": "Abarema langsdorffii (Benth.) Barneby & J.",
       "type": "head",
@@ -132,7 +132,7 @@ describe('espécies', () => {
       "tamanho": "3-10",
       "classeSucessional": "NP",
       "grupoFuncional": "D",
-      "sindromeDispersao": "AUT /",
+      "sindromeDispersao": "AUT/",
       "bioma": "Restinga/ Floresta Ombrófila Densa"
     });
   });
@@ -143,6 +143,18 @@ describe('espécies', () => {
       "type": "tail",
       "nomePopular": "pomba",
       "sindromeDispersao": "ZOO"
+    });
+  });
+
+  it('[espécie com os dois grupos funcionais]', () => {
+    expect(metaDocumento[0]?.tipos[0].familias[18].especies[6]).to.eql({
+      "nome": "* Parinari brasiliensis (Schott) Hook.f.",
+      "type": "full",
+      "tamanho": "18",
+      "classeSucessional": "P/NP",
+      "grupoFuncional": "D",
+      "sindromeDispersao": "ZOO",
+      "bioma": "ZOO Floresta Ombrófila Densa"
     });
   });
 

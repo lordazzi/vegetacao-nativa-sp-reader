@@ -28,27 +28,49 @@ export class Especies2019EspeciesInterpreter {
     const hasEspecieName = !listaEspeciesDoc.spy(this.checkIfHasNoEspecieName, this.ignoreAutoTrim);
 
     if (hasEspecieName) {
-      //  se logo depois da leitura do nome cientifico ele não foi considerado full,
-      //  então quer dizer que não só ele é uma linha parcial, mas que sua alimentação
-      //  com dados deve ser restringida agora
-      this.readNomeCientifico(listaEspeciesDoc, linhaEspecieUltimaInserida, especie);
-      if (especie.type !== 'full') {
+      const { isLineComplete } = this.readNomeCientifico(listaEspeciesDoc, linhaEspecieUltimaInserida, especie);
+      if (isLineComplete) {
         return especie;
       }
 
     } else {
-      this.setAsHeadAndTail(especie, linhaEspecieUltimaInserida);
+      this.defineAsHeadOrTail(especie, linhaEspecieUltimaInserida);
     }
 
     const result = this.readNomePopularAndTamanho(listaEspeciesDoc, especie);
+    this.defineAsHeadUsingNomePopular(especie);
     if (result.isLineComplete) {
       return especie;
     }
 
-    especie.classeSucessional = this.readClasseSucessional(listaEspeciesDoc);
-    especie.grupoFuncional = this.readGrupoFuncional(listaEspeciesDoc);
-    especie.sindromeDispersao = this.readSindromeDispersao(listaEspeciesDoc);
-    especie.bioma = this.readBioma(listaEspeciesDoc);
+    this.readBasicEspecieAttribute(especie, listaEspeciesDoc);
+
+    return especie;
+  }
+
+  private readBasicEspecieAttribute(
+    especie: EspecieMetaData, listaEspeciesDoc: IterableString
+  ): EspecieMetaData {
+    const classeSucessional = this.readClasseSucessional(listaEspeciesDoc);
+    const grupoFuncional = this.readGrupoFuncional(listaEspeciesDoc);
+    const sindromeDispersao = this.readSindromeDispersao(listaEspeciesDoc);
+    const bioma = this.readBioma(listaEspeciesDoc);
+
+    if (classeSucessional) {
+      especie.classeSucessional = classeSucessional;
+    }
+
+    if (grupoFuncional) {
+      especie.grupoFuncional = grupoFuncional;
+    }
+
+    if (sindromeDispersao) {
+      especie.sindromeDispersao = sindromeDispersao;
+    }
+
+    if (bioma) {
+      especie.bioma = bioma;
+    }
 
     return especie;
   }
@@ -64,26 +86,32 @@ export class Especies2019EspeciesInterpreter {
     } else {
 
       //  se o nome popular termina com quebra de linha,
-      //  então nada mais deve ser acrescentado nesta espécia
+      //  então nada mais deve ser acrescentado nesta espécie
       const nomePopular = listaEspeciesDoc.addCursor(this.readAllUntilTwoSpacesOrBreakLine, this.ignoreAutoTrim);
       especie.nomePopular = nomePopular.trim();
       if (nomePopular.match(/\n$/)) {
         return { especie, isLineComplete: true };
       }
 
-      especie.tamanho = listaEspeciesDoc.addCursor(readVegetacaoTamanho);
+      let tamanho = listaEspeciesDoc.addCursor(readVegetacaoTamanho);
+      if (tamanho) {
+        especie.tamanho = tamanho;
+      }
 
       //  existem condições onde o tamanho está muito grudado ao nome popular
       //  o código abaixo irá verificar se está é uma situação deste tipo
-      if (!especie.tamanho && especie.nomePopular) {
+      if (!tamanho && especie.nomePopular) {
         //  FIXME: preciso reaproveitar a lógica de identificação de
         //  informações de tamanho por regex para manter uma manutenção centralizada
         const checkIfHasTamanhoInTheEnd = /(\d|\(-)[\(\),\-\d]$/;
+
+        //  verifica se existe a informação de tamanho
+        //  concatenada no final do nome popular
         const hasTamanhoInTheEnd = especie.nomePopular.match(checkIfHasTamanhoInTheEnd);
         if (hasTamanhoInTheEnd) {
           const especieNomePopular = /.*[ ]/;
           const especieTamanho = /[ ][^ ]*$/;
-          const tamanho = especie.nomePopular.replace(especieNomePopular, '');
+          tamanho = especie.nomePopular.replace(especieNomePopular, '');
           especie.nomePopular = especie.nomePopular.replace(especieTamanho, '');
           especie.tamanho = tamanho;
         }
@@ -93,33 +121,51 @@ export class Especies2019EspeciesInterpreter {
     return { especie, isLineComplete: false };
   }
 
-  private setAsHeadAndTail(
+  private defineAsHeadOrTail(
     linhaEspecieTail: EspecieMetaData, linhaEspecieHead: EspecieMetaData | null
   ): void {
     if (linhaEspecieHead) {
       linhaEspecieHead.type = 'head';
     }
+
     linhaEspecieTail.type = 'tail';
+  }
+
+  private defineAsHeadUsingNomePopular(especie: EspecieMetaData): void {
+    const nomePopular = especie.nomePopular || '';
+    const lastCharIsNotALetter = nomePopular.match(/[,-]$/);
+
+    if (lastCharIsNotALetter) {
+      especie.type = 'head';
+    }
   }
 
   private readNomeCientifico(
     listaEspeciesDoc: IterableString,
     linhaEspecieUltimaInserida: EspecieMetaData | null,
     especie: EspecieMetaData
-  ): EspecieMetaData {
+  ): { isLineComplete: boolean } {
+    let isLineComplete = false;
     especie.nome = listaEspeciesDoc.addCursor(this.readAllUltilTwoSpaces);
     especie.type = 'full';
 
+    //
     if (!especie.nome) {
       especie.nome = listaEspeciesDoc.addCursor(this.readAllUntilBreakLine);
-      this.setAsHeadAndTail(especie, linhaEspecieUltimaInserida);
+      this.defineAsHeadOrTail(especie, linhaEspecieUltimaInserida);
+      if (especie.type !== 'full') {
+        isLineComplete = true;
+      }
     }
 
-    return especie;
+    //  não está na declaração, pois durante a rotina de de
+    especie.type = linhaEspecieUltimaInserida?.type === 'head' ? 'tail' : especie.type;
+
+    return { isLineComplete };
   }
 
   private readClasseSucessional(listaEspeciesDoc: IterableString): string {
-    const readClasseSucessional = /^\s*(P|NP|(P\/NP))/;
+    const readClasseSucessional = /^\s*((P\/NP)|P|NP)/;
     return listaEspeciesDoc.addCursor(readClasseSucessional);
   }
 
@@ -129,7 +175,7 @@ export class Especies2019EspeciesInterpreter {
   }
 
   private readSindromeDispersao(listaEspeciesDoc: IterableString): string {
-    const readSindromeDispersao = /^\s*(ANE|AUT|HIDR|ZOO)/;
+    const readSindromeDispersao = /^\s*((ANE|AUT|HIDR|ZOO)\/?)+/;
 
     return listaEspeciesDoc.addCursor(readSindromeDispersao);
   }
