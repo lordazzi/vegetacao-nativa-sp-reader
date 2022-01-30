@@ -197,7 +197,7 @@ describe('espécies', () => {
   });
 
   it('[espécie com dados mal formados]', () => {
-    expect(metaDocumento[1]?.tipos[0].familias[25].especies[33]).to.eql({
+    expect(metaDocumento[1]?.tipos[0].familias[24].especies[34]).to.eql({
       nome: "Pseudopiptadenia warmingii (Benth.)",
       type: "head",
       nomePopular: "cauvi, cambuí-vinhático, angico-cam-",
@@ -208,7 +208,7 @@ describe('espécies', () => {
       bioma: "Floresta Ombrófila Densa"
     });
 
-    expect(metaDocumento[1]?.tipos[0].familias[25].especies[34]).to.eql({
+    expect(metaDocumento[1]?.tipos[0].familias[24].especies[35]).to.eql({
       nome: "G.P.Lewis & M.P.Lima",
       type: "tail",
       nomePopular: "buim"
@@ -216,7 +216,7 @@ describe('espécies', () => {
   });
 
   it('[espécie número 3 no ínicio muito distante]', () => {
-    expect(metaDocumento[1]?.tipos[0].familias[25].especies[38]).to.eql({
+    expect(metaDocumento[1]?.tipos[0].familias[24].especies[38]).to.eql({
       nome: "3      Senegalia polyphylla (DC.) Britton &",
       type: "head",
       nomePopular: "monjoleiro, espinho-de-maricá, monjo-",
@@ -227,7 +227,7 @@ describe('espécies', () => {
       bioma: "Restinga, Floresta Ombrófila Densa"
     });
 
-    expect(metaDocumento[1]?.tipos[0].familias[25].especies[38]).to.eql({
+    expect(metaDocumento[1]?.tipos[0].familias[24].especies[38]).to.eql({
       nome: "Rose",
       type: "tail",
       nomePopular: "leiro-branco"
@@ -246,7 +246,7 @@ describe('espécies', () => {
   });
 
   it('[espécie com quebra de linha na sindrome de dispersão]', () => {
-    expect(metaDocumento[1]?.tipos[0].familias[25].especies[29]).to.eql({
+    expect(metaDocumento[1]?.tipos[0].familias[24].especies[29]).to.eql({
       nome: "Ormosia arborea (Vell.) Harms",
       type: "head",
       nomePopular: "olho-de-cabra, olho-de-cabra-vermelho",
@@ -257,7 +257,7 @@ describe('espécies', () => {
       bioma: "Restinga, Floresta Ombrófila Densa"
     });
 
-    expect(metaDocumento[1]?.tipos[0].familias[25].especies[30]).to.eql({
+    expect(metaDocumento[1]?.tipos[0].familias[24].especies[30]).to.eql({
       type: "tail",
       sindromeDispersao: "ZOOM"
     });

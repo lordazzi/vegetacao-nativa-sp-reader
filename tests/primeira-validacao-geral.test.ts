@@ -1025,13 +1025,13 @@ describe('validação de amostragem', () => {
     expect(metaDocumento[0]?.tipos[0].familias[10].especies[3]).to.eql(conteudoConfirmadoNoPDF[0].tipos[0].familias[10].especies[3]);
 
     expect(metaDocumento[0]?.tipos[0].familias[11].nome).to.eql('CACTACEAE');
-    expect(metaDocumento[0]?.tipos[0].familias[11].especies[0]).to.eql(conteudoConfirmadoNoPDF[0].tipos[0].familias[10].especies[0]);
+    expect(metaDocumento[0]?.tipos[0].familias[11].especies[0]).to.eql(conteudoConfirmadoNoPDF[0].tipos[0].familias[11].especies[0]);
 
     expect(metaDocumento[0]?.tipos[0].familias[12].nome).to.eql('CALOPHYLLACEAE');
-    expect(metaDocumento[0]?.tipos[0].familias[12].especies[0]).to.eql(conteudoConfirmadoNoPDF[0].tipos[0].familias[10].especies[0]);
+    expect(metaDocumento[0]?.tipos[0].familias[12].especies[0]).to.eql(conteudoConfirmadoNoPDF[0].tipos[0].familias[12].especies[0]);
 
     expect(metaDocumento[0]?.tipos[0].familias[13].nome).to.eql('CANELLACEAE');
-    expect(metaDocumento[0]?.tipos[0].familias[13].especies[0]).to.eql(conteudoConfirmadoNoPDF[0].tipos[0].familias[10].especies[0]);
+    expect(metaDocumento[0]?.tipos[0].familias[13].especies[0]).to.eql(conteudoConfirmadoNoPDF[0].tipos[0].familias[13].especies[0]);
 
     expect(metaDocumento[0]?.tipos[0].familias[14].nome).to.eql('CANNABACEAE');
     expect(metaDocumento[0]?.tipos[0].familias[14].especies[0]).to.eql(conteudoConfirmadoNoPDF[0].tipos[0].familias[14].especies[0]);
