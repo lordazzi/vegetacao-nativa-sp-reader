@@ -6,7 +6,6 @@
     "build": "tsc --project .",
     "lint": "tslint --project tsconfig.json",
     "start": "tsc --project . && node dist/src/index.js --inspect",
-    "serve": "http-server",
     "test": "mocha -r ts-node/register tests/**/*.test.ts",
     "coverage": "nyc -r lcov -e .ts -x \"*.test.ts\" npm run test"
   },
