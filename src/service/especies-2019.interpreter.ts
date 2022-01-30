@@ -10,7 +10,6 @@ export class Especies2019Interpreter {
 
   private readonly logger = getLogger();
   private readonly especiesInterpreter = new Especies2019EspeciesInterpreter();
-  // private logger = console;
 
   private readonly regiaoMap: {
     [prop: string]: RegiaoVegetal;
@@ -29,7 +28,7 @@ export class Especies2019Interpreter {
 
     const identificaRegiao = /^\s*#?\s*(REGIÃO(\n?)|LITORAL)[^\n]+\n/;
     const identificaVegetacaoTipo = /^\s*#?([^\n]+)\s*•/;
-    const identificaFamilia = /^\s*[A-Z]+\s*\n/;
+    const identificaFamilia = /^(\s+\n)?[A-Z]+\s*\n/;
 
     const regioes: RegiaoMetaData[] = [];
     let regiao: RegiaoMetaData | null = null;
@@ -80,6 +79,7 @@ export class Especies2019Interpreter {
 
     return vegetacaoTipo;
   }
+
   private registerFamilia(
     result: string, vegetacaoTipo: VegetacaoTipoMetaData | null, familia: FamiliaMetaData | null
   ): FamiliaMetaData | null {
