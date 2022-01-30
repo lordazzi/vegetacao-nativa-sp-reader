@@ -222,7 +222,7 @@ describe('espécies', () => {
       nomePopular: "monjoleiro, espinho-de-maricá, monjo-",
       tamanho: "15-20",
       classeSucessional: "P",
-      grupoFuncional: "D",
+      grupoFuncional: "P",
       sindromeDispersao: "AUT",
       bioma: "Restinga, Floresta Ombrófila Densa"
     });

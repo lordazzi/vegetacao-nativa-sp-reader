@@ -146,7 +146,8 @@ export class Especies2019EspeciesInterpreter {
     especie: EspecieMetaData
   ): { isLineComplete: boolean } {
     let isLineComplete = false;
-    especie.nome = listaEspeciesDoc.addCursor(this.readAllUltilTwoSpaces);
+    const readEspecieNomeCientifico = /^\s*([3\*]\s*)?([^\n ]+[ ])+[ ]/i;
+    especie.nome = listaEspeciesDoc.addCursor(readEspecieNomeCientifico);
     especie.type = 'full';
 
     //
