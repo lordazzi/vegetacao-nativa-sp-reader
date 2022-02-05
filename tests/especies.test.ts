@@ -45,41 +45,41 @@ describe('espécies', () => {
 
   it('[espécie parcial nomePopular head]', () => {
     expect(metaDocumento[0]?.tipos[0].familias[1].especies[2]).to.eql({
-      "nome": "Schinus terebinthifolius Raddi",
-      "type": "head",
-      "nomePopular": "aroeira-pimenteira, aroeira-mansa,",
-      "tamanho": "5-10",
-      "classeSucessional": "P",
-      "grupoFuncional": "P",
-      "sindromeDispersao": "ZOO",
-      "bioma": "Restinga/ Floresta Ombrófila Densa"
+      nome: "Schinus terebinthifolius Raddi",
+      type: "head",
+      nomePopular: "aroeira-pimenteira, aroeira-mansa,",
+      tamanho: "5-10",
+      classeSucessional: "P",
+      grupoFuncional: "P",
+      sindromeDispersao: "ZOO",
+      bioma: "Restinga/ Floresta Ombrófila Densa"
     });
   });
 
   it('[espécie parcial nomePopular tail]', () => {
     expect(metaDocumento[0]?.tipos[0].familias[1].especies[3]).to.eql({
-      "type": "tail",
-      "nomePopular": "aroeirinha, aroeira-pimenta"
+      type: "tail",
+      nomePopular: "aroeirinha, aroeira-pimenta"
     });
   });
 
   it('[espécie tamanho]', () => {
     expect(metaDocumento[0]?.tipos[0].familias[2].especies[0]).to.eql({
-      "nome": "Annona cacans Warm.",
-      "type": "full",
-      "nomePopular": "araticum, araticum-cagão, fruta-do-conde",
-      "tamanho": "7-30",
-      "classeSucessional": "P",
-      "grupoFuncional": "D",
-      "sindromeDispersao": "ZOO",
-      "bioma": "Floresta Ombrófila Densa"
+      nome: "Annona cacans Warm.",
+      type: "full",
+      nomePopular: "araticum, araticum-cagão, fruta-do-conde",
+      tamanho: "7-30",
+      classeSucessional: "P",
+      grupoFuncional: "D",
+      sindromeDispersao: "ZOO",
+      bioma: "Floresta Ombrófila Densa"
     });
   });
 
   it('[espécie parcial nomePopular]', () => {
     expect(metaDocumento[0]?.tipos[0].familias[3].especies[4]).to.eql({
-      "type": "tail",
-      "nomePopular": "guatambu"
+      type: "tail",
+      nomePopular: "guatambu"
     });
   });
 
@@ -215,6 +215,18 @@ describe('espécies', () => {
     });
   });
 
+  it('[espécie com tamanho usando caracteres incomuns]', () => {
+    expect(metaDocumento[0]?.tipos[0].familias[35].especies[2]).to.eql({
+      nome: "Leandra barbinervis (Cham. ex Triana) Cogn. pixirica",
+      type: "full",
+      tamanho: "1 /2-8",
+      classeSucessional: "P",
+      grupoFuncional: "D",
+      sindromeDispersao: "ZOO",
+      bioma: "Floresta Ombrófila Densa"
+    });
+  });
+
   it('[espécie número 3 no ínicio muito distante]', () => {
     expect(metaDocumento[1]?.tipos[0].familias[24].especies[38]).to.eql({
       nome: "3      Senegalia polyphylla (DC.) Britton &",
@@ -227,13 +239,13 @@ describe('espécies', () => {
       bioma: "Restinga, Floresta Ombrófila Densa"
     });
 
-    expect(metaDocumento[1]?.tipos[0].familias[24].especies[38]).to.eql({
+    expect(metaDocumento[1]?.tipos[0].familias[24].especies[39]).to.eql({
       nome: "Rose",
       type: "tail",
       nomePopular: "leiro-branco"
     });
 
-    expect(metaDocumento[0]?.tipos[0].familias[31].especies[25]).to.eql({
+    expect(metaDocumento[0]?.tipos[0].familias[30].especies[25]).to.eql({
       nome: "*  Ocotea catharinensis Mez",
       type: "full",
       nomePopular: "canela-coqueiro",
@@ -259,8 +271,9 @@ describe('espécies', () => {
 
     expect(metaDocumento[1]?.tipos[0].familias[24].especies[30]).to.eql({
       type: "tail",
-      sindromeDispersao: "ZOOM"
+      sindromeDispersao: "ZOO"
     });
+
   });
 
 });

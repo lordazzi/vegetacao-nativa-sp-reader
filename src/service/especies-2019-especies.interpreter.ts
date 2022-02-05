@@ -7,7 +7,6 @@ export class Especies2019EspeciesInterpreter {
 
   private readonly checkIfHasNoEspecieName = /^[ ]/;
   private readonly ignoreAutoTrim = false;
-  private readonly readAllUltilTwoSpaces = /^\s*([^\n ]+[ ])+[ ]/i;
   //  read all until two spaces or breakline
   private readonly readAllUntilTwoSpacesOrBreakLine = /^\s*(([^\n ]+[ ])+[ ]|[^\n]+[ ]?\n)/i;
   private readonly readAllUntilBreakLine = /^\n*[^\n]+\n/;
@@ -78,12 +77,13 @@ export class Especies2019EspeciesInterpreter {
   private readNomePopularAndTamanho(
     listaEspeciesDoc: IterableString, especie: EspecieMetaData
   ): { especie: EspecieMetaData, isLineComplete: boolean } {
-    const readVegetacaoTamanho = /^[ ]+(\d|\(-)[\(\),\-\d]*[ ]/;
+    const readVegetacaoTamanho = /^[ ]+(\d|\(-)([ ]\/)?[\(\),\-\d]*[ ]/;
+    const nomePopularPattern = /^\s*[a-z\-]+\s*/;
     const vegetacaoTamanho = listaEspeciesDoc.addCursor(readVegetacaoTamanho);
 
     if (vegetacaoTamanho) {
       especie.tamanho = vegetacaoTamanho;
-    } else {
+    } else if (listaEspeciesDoc.spy(nomePopularPattern)) {
 
       //  se o nome popular termina com quebra de linha,
       //  então nada mais deve ser acrescentado nesta espécie
