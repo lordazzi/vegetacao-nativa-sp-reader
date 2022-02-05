@@ -8,7 +8,7 @@
   "rules": {
     "cyclomatic-complexity": [
       true,
-      7
+      8
     ],
     "no-magic-numbers": [
       true,

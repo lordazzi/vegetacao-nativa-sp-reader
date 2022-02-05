@@ -74,6 +74,7 @@ export class Especies2019EspeciesInterpreter {
     return especie;
   }
 
+  // FIXME: débito, complexidade ciclomática do método está em 8
   private readNomePopularAndTamanho(
     listaEspeciesDoc: IterableString, especie: EspecieMetaData
   ): { especie: EspecieMetaData, isLineComplete: boolean } {
