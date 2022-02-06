@@ -11108,7 +11108,7 @@ Allagoptera campestris (Mart.) Kuntze       buri, imburi                        
 Syagrus loefgrenii Glassman                 acumã-mirim, acumã-rasteiro           0,7-1         NP              D    ZOO   Cerrado
 ASTERACEAE
 Ambrosia polystachya DC.                    artemisia-brava, losna-do-campo        1-2            P             P    ANE   Cerrado/ Área Antropica
-* Aspilia floribunda (Gardner) Baker                                             0,35-2,5         D             P    ANE   Cerrado/ Mata Ciliar
+* Aspilia floribunda (Gardner) Baker                                             0,35-2,5         P             P    ANE   Cerrado/ Mata Ciliar
 Baccharis aphylla (Vell.) DC.                                                    0,4-0 ,6         P             P    ANE   Cerrado
 Baccharis brevifolia DC.                                                         0,3-1,5          P             D    ANE   Cerrado
 #                                                      S U B A R B U S T I VA S •
@@ -12887,7 +12887,7 @@ Maytenus floribunda Reissek                                                     
 CHRYSOBALANACEAE
 Hirtella gracilipes (Hook. f.) Prance      irtela                                    6          NP              D    ZOO Floresta Estacional Semidecidua
 ERYTHROXYLACEAE
-Erythroxylum cuneifolium (Mart.) O. E.     fruta-de-pomba                          1-6            D            ZOO        Cerrado
+Erythroxylum cuneifolium (Mart.) O. E.     fruta-de-pomba                          1-6            P            ZOO        Cerrado
 Schultz
 Mabea fistulifera Mart.                    canudo-de-pito, canudeiro, mamoninha-   4-8            P             P    AUT Floresta Estacional Semidecidua
                                            do-mato
