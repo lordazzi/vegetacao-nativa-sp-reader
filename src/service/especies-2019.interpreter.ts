@@ -149,26 +149,3 @@ export class Especies2019Interpreter {
   }
 }
 
-
-// REGRAS DE COMO SEPARAR O NOME DA ESPÉCIE DO NOME POPULAR
-//  1. no caso mais fácil haverá pelo menos dois espaços separando os nomes
-//  2. se após coletar o texto, verificar que logo após se apresenta as medições da planta, regitrar um log
-//     identificando o procedimento
-//  3. se o próximo item for o nome popular, então ele é coletado; se forem as medições, então seguir:
-//  4. nomes populares são conjuntos de caracteres sem espaços, separados por vírgulas, verificar se este padrão
-//     ocorre na sentença anterior, se sim, extrair e coletar
-//  5. verificar se a próxima linha é um registro incompleto, se sim, absorver estes registros, registrar um warning
-//  6. se não houver nome popular identificado, registrar um warning
-
-// PROBLEMAS
-//  A informação de região nem sempre é precedida pela palavra REGIÃO e será confundida com um nome de familia
-//                                                                            L I TOR A L S U L
-//  Estou presumindo que o nome das familias não tem espaço no meio.
-//  Considerando isso, se não houver quebra de linha logo após o conjunto de maiusculas, não é o nome de uma familia
-//  Não é garantido, toda situação de maiusculas com espaço no meio deve ter um log de warning informando.
-
-//  As espécies parciais não necessariamente fazem parte de uma não-parcial precedente. Existem situações onde
-//  três linhas de espécie escrita com informações parciais se complementam
-
-//  WARNINGS
-//  Se a espécie só tiver caracteres maiusculos, gerar um warn
