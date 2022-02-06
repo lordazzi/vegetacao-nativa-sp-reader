@@ -1402,7 +1402,7 @@ Urvillea ulmacea Kunth                       balãozinho, chumbinho             
 
 
 SMILACACEAE
-Smilax japicanga Griseb.             Japicanga/ jupicanga                              NP              D    ZOO Floresta Ombrófila Densa
+Smilax japicanga Griseb.             japicanga, jupicanga                              NP              D    ZOO Floresta Ombrófila Densa
 TROPAEOLACEAE
 * Tropaeolum warmingianum Rohrb.                                                       NP              D    AUT Floresta Ombrófila Densa
 VIOLACEAE
@@ -1955,7 +1955,7 @@ Salacia arborea (Schrank) Peyr.                                                 
 CHLORANTHACEAE
 Hedyosmum brasiliense Mart. ex Miq.          erva-de-soldado, erva-cidreira        1,5-6         NP             D    ZOO Restinga, Floresta Ombrófila Densa
 CHRYSOBALANACEAE
-* Couepia leitaofilhoi Prance                                                       12           D              D    ZOO     Floresta Ombrófila Densa
+* Couepia leitaofilhoi Prance                                                       12           P              D    ZOO     Floresta Ombrófila Densa
 Hirtella hebeclada Moric. ex DC.             macucurana, pau-de-lixa               15-18         NP             D    ZOO     Restinga, Floresta Ombrófila Densa
 Licania hoehnei Pilg.                        cariperana, caraipé                    15           NP             D    ZOO     Floresta Ombrófila Densa
 Licania kunthiana Hook.f.                    caraipé-branco                         25           NP             D    ZOO     Floresta Ombrófila Densa
@@ -2181,7 +2181,7 @@ A.B.Martins
 Miconia prasina (Sw.) DC.                     jacatirão, fruto-de-jacu                     10     P                    D    ZOO     Floresta Ombrófila Densa
 Miconia pusilliflora (DC.) Naudin             pixirica                                     12     P                    D    ZOO     Floresta Ombrófila Densa
 Miconia pusilliflora (DC.) Naudin             jacatirão-de-caca-lisa, capa-rosa          1,5-15 P/NP                   D    ZOO     Restinga, Floresta Ombrófila Densa
-* Miconia serrulata (DC.) Naudin              Buxixú-canela-de-velho                      3-12   NP                    D    ZOO     Floresta Ombrófila Densa
+* Miconia serrulata (DC.) Naudin              buxixú-canela-de-velho                      3-12   NP                    D    ZOO     Floresta Ombrófila Densa
 Miconia stenostachya DC.                      pixirica                                    2-10   NP                    D    ZOO     Floresta Ombrófila Densa
 * Miconia tentaculifera Naudin                                                            3-15   NP                    D    ZOO     Floresta Ombrófila Densa
 Mouriri chamissoana Cogn.                     cafezinho, cafezinho-mole                   7-10   NP                    D    ZOO     Floresta Ombrófila Densa
@@ -3824,7 +3824,7 @@ ARAUCARIACEAE
 ARECACEAE
 Acrocomia aculeata (Jacq.) Lodd. ex Mart. macaúba, palmeira-macaúba                        10-15         NP              D   ZOO Floresta Ombrófila Densa
 Attalea dubia (Mart.) Burret                  palmeira-indaiá-açu                           5-25         NP              D   ZOO Floresta Ombrófila Densa
-* Attalea oleifera Barb.Rodr.                 Palmeira-pindoba                              7-15         NP              D   ZOO Floresta Estacional Semidecidua/
+* Attalea oleifera Barb.Rodr.                 palmeira-pindoba                              7-15         NP              D   ZOO Floresta Estacional Semidecidua/
                                                                                                                                  Cerrado
 Attalea phalerata Mart. ex Spreng.             acuri, bacuri                               5-10            P             D   ZOO Floresta Estacional Semidecidua/
                                                                                                                                  Mata Ciliar
@@ -3852,7 +3852,7 @@ Baker) R.M.King & H.Rob.                                                        
 Baccharis serrulata (Lam.) Pers.          alecrim, alecrim-do-campo                      7            P             P   ANE Floresta Altomontana/ Floresta
                                                                                                                             Estacional Semidecidua/ Mata Ciliar/
                                                                                                                             Cerrado
-Dasyphyllum brasiliense (Spreng.) Cabrera espinho-de-agulha, espinho-agulha            12             p             P   ANE Floresta Ombrófila Densa/ Floresta
+Dasyphyllum brasiliense (Spreng.) Cabrera espinho-de-agulha, espinho-agulha            12             P             P   ANE Floresta Ombrófila Densa/ Floresta
                                                                                                                             Altomontana/ Floresta Estacional
                                                                                                                             Semidecidua/ Mata Ciliar/ Cerrado
 Dasyphyllum spinescens (Less.) Cabrera    cambará-de-espinho, não-me-toque            10-14           P             P   ANE Floresta Ombrófila Densa/ Floresta
@@ -3861,7 +3861,7 @@ Dasyphyllum spinescens (Less.) Cabrera    cambará-de-espinho, não-me-toque    
 Eremanthus erythropappus (DC.) MacLeish candeia-verdadeira, candeia-de-folha-         6-18            P             P   ANE Floresta Ombrófila Densa/ Floresta
                                         -miúda                                                                              Altomontana/ Floresta Estacional
                                                                                                                             Semidecidua/ Mata Ciliar/ Cerrado
-Gochnatia floribunda Cabrera              cambará-vassoura                             30             p             P   ANE Floresta Estacional Semidecidua/
+Gochnatia floribunda Cabrera              cambará-vassoura                             30             P             P   ANE Floresta Estacional Semidecidua/
                                                                                                                             Mata Ciliar/ Cerrado
 Moquiniastrum polymorphum (Less.)       candeia, cambará, cambará-branco               6-8            P             P   ANE Floresta Ombrófila Densa/ Floresta
 G.Sancho                                                                                                                    Altomontana
@@ -3916,7 +3916,7 @@ Tabebuia obtusifolia (Cham.) Bureau          ipê, pau-dárco                   
                                                                                                                             Mata Ciliar/ Cerrado
 Sparattosperma leucanthum (Vell.) K.         ipê-branco, ipê-branco-do-mato-grosso, 6-25              P            D    ANE Floresta Ombrófila Densa
 Schum.                                       carimã, caroba-branca
-* Zeyheria tuberculosa (Vell.) Bureau ex     Ipe-branco, buxo-de-boi, culhões-de-   2,5-20            P            D    ANE Floresta Estacional Semideecidua
+* Zeyheria tuberculosa (Vell.) Bureau ex     ipê-branco, buxo-de-boi, culhões-de-   2,5-20            P            D    ANE Floresta Estacional Semideecidua
 Verl.                                        -bode
 BIXACEAE
 Bixa ollerana L.                             urucum, colorau, açafroa                 6-11            P            D    ZOO Floresta Ombrófila Densa/ Floresta
@@ -4011,7 +4011,7 @@ Hirtella hebeclada Moric. ex DC.              macucurana, pau-de-lixa           
                                                                                                                              Estacional Semidecidua
 Licania hoehnei Pilg.                         cariperana, caraipé                       15          NP              D    ZOO Floresta Estacional Semidecidua/
                                                                                                                              Mata Ciliar
-*   Licania indurata Pilg.                    Milho-cozido                               5          NP              D    ZOO Floresta Ombrófila Densa
+*   Licania indurata Pilg.                    milho-cozido                               5          NP              D    ZOO Floresta Ombrófila Densa
 #                                                                                     ARBÓREAS•
 
 
@@ -4759,7 +4759,7 @@ Eugenia francavilleana O.Berg          guamirim, cambuí                        
                                                                                                                         Altomontana/ Floresta Estacional
                                                                                                                         Semidecidua/ Mata Ciliar
 Eugenia handroana D. Legrand           eugenia                                   3-15          NP              D    ZOO Floresta Ombrófila Densa
-*   Eugenia handroi (Mattos) Mattos    Batinga-açu                               2-25          NP              D    ZOO Floresta Ombrófila Densa/ Floresta
+*   Eugenia handroi (Mattos) Mattos    batinga-açu                               2-25          NP              D    ZOO Floresta Ombrófila Densa/ Floresta
                                                                                                                         Altomontana
 *   Eugenia hermesiana Mattos                                                     2-3          NP              D    ZOO Floresta Ombrófila Densa
 Eugenia involucrata DC.                cereja-do-rio-grande, cereja, cerejeira    5-8          NP              D    ZOO Floresta Ombrófila Densa/ Floresta
@@ -5039,7 +5039,7 @@ Ruprechtia laxiflora Meisn.              arco-de-peneira, marmeleiro            
 Triplaris americana L.                   pau-de-novato, novateiro, pau-formiga,    5-12            P            D    ANE Mata Ciliar
                                          pachiuba
 PRIMULACEAE
-Myrsine balansae (Mez) Otegui                                                     1,5-25           P             p   ZOO Floresta Estacional Semidecidua/
+Myrsine balansae (Mez) Otegui                                                     1,5-25           P             P   ZOO Floresta Estacional Semidecidua/
                                                                                                                          Mata Ciliar
 3 Myrsine coriacea (Sw.) R.Br. ex Roem. capororoca, pororoca, corotéia, caporo-    1-20            P            D    ZOO Floresta Ombrófila Densa/ Floresta
 & Schult.                               roca-ferrugem                                                                    Altomontana/ Floresta Estacional
@@ -5713,7 +5713,7 @@ Rudgea sessilis (Vell.) Müll.Arg.       casca-branca, cotó                    
 Tocoyena formosa (Cham. & Schltdl.)     cafezinho                            1,5-4           P            D    ZOO Floresta Ombrófila Densa/ Floresta
 K.Schum.                                                                                                           Estacional Semidecidua/ Mata Ciliar/
                                                                                                                    Cerrado
-* Schizocalyx cuspidatus (A.St.-Hil.)   Quinza-cinzena/ quina-do-mato          6          NP              D    ZOO Floresta Ombrófila Densa/ Floresta
+* Schizocalyx cuspidatus (A.St.-Hil.)   quinza-cinzena, quina-do-mato          6          NP              D    ZOO Floresta Ombrófila Densa/ Floresta
 Kainul. & B. Bremer                                                                                                Estacional Semidecidua
 SALICACEAE
 Abatia americana (Gardner) Eichler      marmeleiro, guaxuimba                  4          NP              D    ZOO Floresta Ombrófila Densa/ Floresta
@@ -6274,7 +6274,7 @@ Psidium guineense Sw.                           araçá                         
 * Psidium sartorianum (O.Berg) Nied.            goiabinha                              2,5-30         NP              D   ZOO Campo Alagado/ Floresta Estacional
                                                                                                                               Semidecidua/ Cerrado
 NYCTAGINACEAE
-*   Neea verticillata Ruiz & Pav.               João-mole                                1-7          NP              D   ZOO Floresta Ombrófila Densa
+*   Neea verticillata Ruiz & Pav.               joão-mole                                1-7          NP              D   ZOO Floresta Ombrófila Densa
 OCHNACEAE
 Ouratea parviflora (A.DC.) Baill.               coração-de-bugre-vermelho, quatinga,     2-5          NP              D   ZOO Floresta Ombrófila Densa/ Floresta
                                                 guarapirim-miudo                                                              Altomontana/ Floresta Estacional
@@ -6484,7 +6484,7 @@ Hamelia patens Jacq.                         erva-de-rato/ gica                 
                                                                                                                              Cerrado
 Hillia parasitica Jacq.                      jasmim-do-mato                           1,5-5         NP              D    ZOO Floresta Ombrófila Densa/ Floresta
                                                                                                                              Altomontana/ Mata Ciliar
-Ixora gardneriana Benth.                     Ixora-arbórea                             4-5          NP              D    ZOO Floresta Ombrófila Densa
+Ixora gardneriana Benth.                     ixora-arbórea                             4-5          NP              D    ZOO Floresta Ombrófila Densa
 Ixora venulosa Benth.                        ixora-do-mato                             4-5          NP              D    ZOO Floresta Ombrófila Densa/ Floresta
                                                                                                                              Estacional Semidecidua/ Cerrado
 Margaritopsis cephalantha (Müll.Arg.)        erva-de-rato                                2          NP              D    ZOO Floresta Ombrófila Densa/ Floresta
@@ -7710,7 +7710,7 @@ Anderb.
 & Anderb.                                                                                                                   Altomontana
 * Lysimachia buxifolia Molina                                                        0,02          NP              D    AUT Floresta Ombrófila Densa
 ROSACEAE
-* Acaena eupatoria Cham. & Schltdl.         Carrapicho-rasteiro                       0,3          NP              D    AUT Campo de Altitude
+* Acaena eupatoria Cham. & Schltdl.         carrapicho-rasteiro                       0,3          NP              D    AUT Campo de Altitude
 *   Agrimonia parviflora Aiton                                                      0,8-1,5        NP              D    AUT Cerrado
 RUBIACEAE
 Borreria cupularis DC.                                                              0,25-0,4          P             P   AUT Cerrado
@@ -8401,19 +8401,19 @@ Eurystyles cotyledon Wawra                                                      
 Gomesa ciliata (Lindl.) M.W.Chase &             chita                                   0,15          NP              D    ANE Floresta Ombrófila Densa/ Floresta
 N.H.Williams                                                                                                                   Altomontana/ Floresta Estacional
                                                                                                                                Semidecidua/ Mata Ciliar
-Gomesa concolor (Hook.) M.W.Chase &             Chita,chita-graúda                       0,2          NP              D    ANE Floresta Ombrófila Densa
+Gomesa concolor (Hook.) M.W.Chase &             chita, chita-graúda                       0,2          NP              D    ANE Floresta Ombrófila Densa
 N.H.Williams
 Gomesa crispa (Lindl.) Klotzsch & Rchb.f.                                              0,1-0,3        NP              D    ANE Floresta Ombrófila Densa/ Floresta
                                                                                                                                Altomontana/ Floresta Estacional
                                                                                                                                Semidecidua/ Mata Ciliar
-* Gomesa cruciata (Rchb.f.) M.W.Chase           Chita, chita-miúda                      0,15          NP              D    ANE Floresta Ombrófila Densa
+* Gomesa cruciata (Rchb.f.) M.W.Chase           chita, chita-miúda                      0,15          NP              D    ANE Floresta Ombrófila Densa
 & N.H.Williams
 * Gomesa cuneata (Scheidw.)                                                             0,15          NP              D    ANE Floresta Ombrófila Densa
 M.W.Chase & N.H.Williams
 * Gomesa handroi (Hoehne) Pabst                                                        0,1-0,2        NP              D    ANE Floresta Ombrófila Densa
-* Gomesa pectoralis (Lindl.) M.W.Chase          Chita, chita-crespa, chita-graúda        0,4          NP              D    ANE Floresta Ombrófila Densa
+* Gomesa pectoralis (Lindl.) M.W.Chase          chita, chita-crespa, chita-graúda        0,4          NP              D    ANE Floresta Ombrófila Densa
 & N.H.Williams
-* Gomesa praetexta (Rchb.f.)                    Chita, chita-graúda, flor-do-divino-   0,3-0,5        NP              D    ANE Mata Ciliar
+* Gomesa praetexta (Rchb.f.)                    chita, chita-graúda, flor-do-divino-   0,3-0,5        NP              D    ANE Mata Ciliar
 M.W.Chase & N.H.Williams                        espirito-santo
 Gomesa recurva R.Br.                                                                   0,2-0,5        NP              D    ANE Floresta Ombrófila Densa/ Floresta
                                                                                                                                Estacional Semidecidua/ Mata Ciliar/
@@ -8422,7 +8422,7 @@ Gomesa recurva R.Br.                                                            
 N.H.Williams
 * Grandiphyllum divaricatum (Lindl.)                                                   0,4-0,7        NP              D    ANE Floresta Ombrófila Densa/ Mata Ciliar
 Docha Neto
-* Grandiphyllum hians (Lindl.) Docha Chita; chita-miúda, orelha-de-burro,                0,2          NP              D    ANE Floresta Ombrófila Densa/ Floresta
+* Grandiphyllum hians (Lindl.) Docha Chita;     chita-miúda, orelha-de-burro,            0,2          NP              D    ANE Floresta Ombrófila Densa/ Floresta
 Neto                                  mule-ear orchid                                                                          Estacional Semidecidua
 #                                                                                        E P Í F I TA S •
 
@@ -9268,7 +9268,7 @@ Syagrus romanzoffiana (Cham.) Glassman     jerivá, palmeira-jerivá, coco-geriv
                                                                                                                                 Estacional Decidua/ Cerrado
 ASTERACEAE
 Baccharis serrulata (Lam.) Pers.          alecrim, alecrim-do-campo                         7             P             P   ANE Floresta Altomontana
-Dasyphyllum brasiliense (Spreng.) Cabrera espinho-de-agulha, espinho-agulha                12             p             P   ANE Floresta Altomontana/ Floresta
+Dasyphyllum brasiliense (Spreng.) Cabrera espinho-de-agulha, espinho-agulha                12             P             P   ANE Floresta Altomontana/ Floresta
                                                                                                                                 Estacional Semidecidua/ Mata Ciliar/
                                                                                                                                 Floresta Estacional Decidua/ Cerrado
 * Eremanthus elaeagnus (Mart. ex DC.)                                                     2-5             P             P   ANE Cerrado
@@ -9329,7 +9329,7 @@ Tabebuia insignis (Miq.) Sandwith            ipê-branco-do-brejo, ipê-branco-d
                                              cerrado                                                                        Mata Ciliar/ Floresta Estacional
                                                                                                                             Decidua/ Cerrado
 Tabebuia roseoalba (Ridl.) Sandwith          ipê-branco                                7-16         NP              D   ANE Floresta Estacional Decidua
-* Zeyheria tuberculosa (Vell.) Bureau ex     Ipe-branco/ buxo-de-boi, culhões-de-     2,5-20         P              D   ANE Floresta Estacional Semideecidua
+* Zeyheria tuberculosa (Vell.) Bureau ex     ipê-branco/ buxo-de-boi, culhões-de-     2,5-20         P              D   ANE Floresta Estacional Semideecidua
 Verl.                                        bode
 BORAGINACEAE
 Cordia americana (L.) Gottschling &          guaiuvira, guajuvira                      30           NP              D   ANE Floresta Estacional Semidecidua/
@@ -10115,7 +10115,7 @@ Coccoloba mollis Casar.                   folha-de-bolo, pajeú                 
 Ruprechtia laxiflora Meisn.               arco-de-peneira, marmeleiro              5-30          NP              D    ANE Floresta Estacional Semidecidua/ Mata
                                                                                                                           Ciliar/ Floresta Estacional Decidua
 PRIMULACEAE
-Myrsine balansae (Mez) Otegui                                                      1,5-25           P             p   ZOO Floresta Estacional Semidecidua/ Mata
+Myrsine balansae (Mez) Otegui                                                      1,5-25           P             P   ZOO Floresta Estacional Semidecidua/ Mata
                                                                                                                           Ciliar
 3 Myrsine coriacea (Sw.) R.Br. ex Roem.   capororoca, pororoca, corotéia,          1-20             P            D    ZOO Floresta Altomontana/ Floresta
 & Schult.                                 capororoca-ferrugem                                                             Estacional Semidecidua/ Mata Ciliar/
@@ -10987,7 +10987,7 @@ Hamelia patens Jacq.                          erva-de-rato, gica                
                                                                                                                           Mata Ciliar/ Mata Paludosa/ Floresta
                                                                                                                           Estacional Decidua/ Cerrado
 Hillia parasitica Jacq.                       jasmim-do-mato                       1,5-5         NP              D    ZOO Floresta Altomontana/ Mata Ciliar
-Ixora gardneriana Benth.                      Ixora-arbórea                         4-5          NP              D    ZOO Floresta Estacional Semidecidua/ Mata
+Ixora gardneriana Benth.                      ixora-arbórea                         4-5          NP              D    ZOO Floresta Estacional Semidecidua/ Mata
                                                                                                                           Ciliar/ Cerrado
 Margaritopsis cephalantha (Müll.Arg.)         erva-de-rato                            2          NP              D    ZOO Floresta Estacional Semidecidua
 C.M.Taylor
@@ -11688,7 +11688,7 @@ Saccharum asperum (Nees) Steud.             capim-rabo-de-boi                   
                                                                                       2,96
 Saccharum villosum Steud.                   capim-rabo-de-boi, capim-touceira,      0,83-4,5         P             P   ANE Floresta Altomontana/ Cerrado/ Área
                                             capim-pororó-assú                                                              Antrópica
-Sacciolepis vilvoides (Trin.) Chase                                                 0,3-1,5        p               P   ANE Floresta Estacional Decidua
+Sacciolepis vilvoides (Trin.) Chase                                                 0,3-1,5        P               P   ANE Floresta Estacional Decidua
 Schizachyrium condensatum (Kunth) Nees                                              0,35-1,1        P              D   AUT Cerrado
 Setaria scandens Schrad.                                                               0,6          P              P   AUT Mata Ciliar/ Cerrado/ Área Antrópica
 Setaria vulpiseta (Lam.) Roem. & Schult.                                            0,4-0,7        NP              D   AUT Floresta Altomontana/ Floresta
@@ -11881,12 +11881,12 @@ Ipomoea indica (Burm.) Merr.                 campainha, corda-de-viola, corriola
 Ipomoea saopaulista O’Donell                                                                       NP                 P       AUT Mata Ciliar/ Cerrado
 Jacquemontia velutina Choisy                                                                       NP                 D       AUT Mata Ciliar/ Cerrado
 Merremia macrocalyx (Ruiz & Pav.) O’Donell batatarana, jetirana                                    NP                 P       AUT Mata Ciliar/ Cerrado/ Área Antrópica
-* Operculina macrocarpa (L.) Urb.          Amaro-leite, batata-de-purga                            NP                 P       AUT Mata Ciliar/ Cerrado
+* Operculina macrocarpa (L.) Urb.          amaro-leite, batata-de-purga                            NP                 P       AUT Mata Ciliar/ Cerrado
 CUCURBITACEAE
 Melothria pendula L.                       pepino-silvestre, melão-de-morcego                      NP                 D       ZOO Mata Ciliar/ Cerrado
 DIOSCOREACEAE
 Dioscorea grandiflora Mart. ex Griseb                                                              NP                 D       AUT Mata Ciliar/ Cerrado
-* Dioscorea multiflora Mart. ex Griseb. inhame-de-espinho, japecanga                               NP                 D       AUT Cerrado
+* Dioscorea multiflora Mart. ex Griseb.     inhame-de-espinho, japecanga                           NP                 D       AUT Cerrado
 FABACEAE
 * Ancistrotropis firmula (Mart. ex Benth.)                                                         NP                 D       AUT Cerrado/ Área Antropica
 A.Delgado
@@ -12442,13 +12442,13 @@ Piptocarpha rotundifolia (Less.) Baker     candeia                              
 BIGNONIACEAE
 Cybistax antisyphilitica (Mart.) Mart.     ipê-da-flor-verde, ipê-verde, caroba-da-   4-20          NP              D    ANE Cerrado
                                            flor-verde, caroba
-Handroanthus ochraceus (Cham.) Mattos ipê-amarelo, ipê-amarelo-do-cerrado,            6-14          NP              D    ANE Floresta Estacional Semidecidua/
+Handroanthus ochraceus (Cham.) Mattos      ipê-amarelo, ipê-amarelo-do-cerrado,            6-14          NP              D    ANE Floresta Estacional Semidecidua/
                                            ipê-do-campo                                                                      Cerrado
-Handroanthus serratifolius (Vahl) S. Grose ipê-amarelo, ipê-amarelo-do-cerrado        8-20          NP              D    ANE Floresta Estacional Semidecidua
+Handroanthus serratifolius (Vahl) S. Grose  ipê-amarelo, ipê-amarelo-do-cerrado        8-20          NP              D    ANE Floresta Estacional Semidecidua
 Tabebuia aurea (Silva Manso) Benth. &      ipê-amarelo-craibeira, ipê-amarelo-do-     4-20          NP              D    ANE Cerrado
 Hook. f. ex S. Moore                       cerrado
 Tabebuia roseoalba (Ridl.) Sandwith        ipê-branco                                  7-16         NP              D    ANE Floresta Estacional Semidecidua
-* Zeyheria tuberculosa (Vell.) Bureau ex Ipe-branco/ buxo-de-boi, culhões-de-         2,5-20         P              D    ANE Floresta Estacional Semidecidua
+* Zeyheria tuberculosa (Vell.) Bureau ex   ipê-branco, buxo-de-boi, culhões-de-        2,5-20         P              D    ANE Floresta Estacional Semidecidua
 Verl.                                      bode
 BORAGINACEAE
 Cordia americana (L.) Gottschling &        guaiuvira, guajuvira                         30          NP              D    ANE Floresta Estacional Semidecidua
@@ -12456,7 +12456,7 @@ J.S.Mill.
 Cordia ecalyculata Vell.                   café-de-bugre, claraíba                     20           NP              D    ZOO Floresta Estacional Semidecidua
 Cordia superba Cham.                       babosa-branca, baba-de-boi, cordia,        4-15          P               P    ZOO Floresta Estacional Semidecidua
                                            grão-de-galo
-Cordia trichotoma (Vell.) Arráb. ex Steud. louro-pardo, freijó                        5-14          NP              D    ANE Floresta Estacional Semidecidua
+Cordia trichotoma (Vell.) Arráb. ex Steud.  louro-pardo, freijó                        5-14          NP              D    ANE Floresta Estacional Semidecidua
 BURSERACEAE
 Protium heptaphyllum (Aubl.) Marchand      almecega, almecegueira                     5-15          NP              D    ZOO Floresta Estacional Semidecidua/
                                                                                                                              Cerrado
@@ -12564,7 +12564,7 @@ Ormosia arborea (Vell.) Harms              olho-de-cabra, olho-de-cabra-vermelho
                                                                                                                          ZOO
 Parapiptadenia rigida (Benth.) Brenan       angico-da-mata, angico-rosa, angico-      20-30         NP              D    AUT Floresta Estacional Semidecidua
                                             branco, angico-amarelo
-* Peltogyne confertiflora (Mart. ex         Guarabu-roxo/ jatobá-roxo/ quebra-         5-8          NP              D    AUT Floresta Estacional Semidecidua/
+* Peltogyne confertiflora (Mart. ex         guarabu-roxo/ jatobá-roxo/ quebra-         5-8          NP              D    AUT Floresta Estacional Semidecidua/
 Hayne) Benth.                               machado                                                                          Mata Ciliar
 3 Peltophorum dubium (Spreng.) Taub. canafístula, guarucaia                           15-25          P              D    AUT Floresta Estacional Semidecidua
 Piptadenia gonoacantha (Mart.) J. F. Macbr. pau-jacaré                                10-20          P              D    AUT Floresta Estacional Semidecidua
@@ -13084,7 +13084,7 @@ Neea schwackeana Heimerl                                                        
 OXALIDACEAE
 Oxalis physocalyx Zucc. ex Progel                                                    0,6-2         NP              D    AUT Cerrado
 PIPERACEAE
-Piper amalago L.                              Jaborandi                              1,5-5         NP              D   ZOO Cerrado
+Piper amalago L.                              jaborandi                              1,5-5         NP              D   ZOO Cerrado
 Piper mollicomum Kunth                                                                1-2          NP              D   ZOO Floresta Estacional Semidecidua/
                                                                                                                            Mata Ciliar/ Área Antrópica
 POACEAE
@@ -13116,7 +13116,7 @@ Chomelia obtusa Cham. & Schltdl.                                                
                                                                                                                            Mata Ciliar
 Hamelia patens Jacq.                          erva-de-rato, gica                        6          NP              D   ZOO Floresta Estacional Semidecidua/
                                                                                                                            Mata Ciliar/ Cerrado/ Área Antrópica
-Ixora gardneriana Benth.                      Ixora-arbórea                           4-5          NP              D   ZOO Floresta Estacional Semidecidua
+Ixora gardneriana Benth.                      ixora-arbórea                           4-5          NP              D   ZOO Floresta Estacional Semidecidua
 Margaritopsis cephalantha (Müll.Arg.)         erva-de-rato                             2           NP              D   ZOO Floresta Estacional Semidecidua
 C.M.Taylor
 Psychotria carthagenensis Jacq.               erva-de-gralha                          3-6          NP              D   ZOO Floresta Estacional Semidecidua
@@ -13144,7 +13144,7 @@ Cestrum mariquitense Kunth                 coerana                             4
 Solanum didymum Dunal                                                        1-3             P             D   ZOO Floresta Estacional Semidecidua/
                                                                                                                    Cerrado/ Área Antrópica
 3Solanum lycocarpum A. St.-Hil.            fruta-de-lobo, lobeira            3-5             P             P   ZOO Cerrado
-Solanum paniculatum L.                     Jurubeba                          1-2             P             P   ZOO Floresta Estacional Semidecidua
+Solanum paniculatum L.                     jurubeba                          1-2             P             P   ZOO Floresta Estacional Semidecidua
 THEOPHRASTACEAE
 Clavija nutans (Vell.) B.Ståhl             cafezinho-do-mato                1,7-3         NP               D   ZOO Mata Ciliar
 TRIGONIACEAE
@@ -13677,7 +13677,7 @@ Eriochrysis laxa Swallen                                                       0
 
 
 Paspalum repens P.J.Bergius                                                     1-2         NP              P    AUT Cerrado/ Lago/ Brejo
-Sacciolepis vilvoides (Trin.) Chase                                           0,3-1,5       p               P    ANE Cerrado/ Brejo
+Sacciolepis vilvoides (Trin.) Chase                                           0,3-1,5       P               P    ANE Cerrado/ Brejo
 Steinchisma laxum (Sw.) Zuloaga                                                0,15-         P              D    AUT Cerrado/ Brejo
                                                                                1,15
 POLYGONACEAE
@@ -14991,7 +14991,7 @@ Sporobolus indicus (L.) R.Br.                                                   
 Renvoize
 Tristachya leiostachya Nees                                                      1-2,1           P             D    AUT Cerrado
 RUBIACEAE
-Borreria pulchristipula (Bremek.)                                                 0,6           D              D    AUT Mata Ciliar/ Cerrado/ Campo Alagado
+Borreria pulchristipula (Bremek.)                                                 0,6           P              D    AUT Mata Ciliar/ Cerrado/ Campo Alagado
 Bacigalupo & E.L.Cabral
 Borreria tenella (Kunth) Cham. & Schltdl.                                       0,15-0,5                           AUT Cerrado
 Coccocypselum lanceolatum (Ruiz & Pav.) anil, erva-de-corocochó                  0,2-0,3       NP              D   ZOO Floresta Estacional Semidecidua/
@@ -15222,7 +15222,7 @@ Bacopa salzmannii (Benth.) Wettst. ex Edwall                                    
 Scoparia dulcis L.                           vassoura-de-botão                      0 ,1-0,6 P                    P   AUT Cerrado/ Brejo/ Área Antrópica
 POACEAE
 Paspalum repens P.J.Bergius                                                            1-2   NP                  P    AUT Cerrado/ Lagoa/ Brejo/Antrópica
-Sacciolepis vilvoides (Trin.) Chase                                                 0,3-1,5  p                   P    ANE Cerrado/ Brejo
+Sacciolepis vilvoides (Trin.) Chase                                                 0,3-1,5  P                   P    ANE Cerrado/ Brejo
 Steinchisma laxum (Sw.) Zuloaga                                                    0,15-1,15 P                   D    AUT Cerrado/ Brejo
 POLYGONACEAE
 Polygonum meisnerianum Cham.                 erva-de-bicho                          0,2-0,5 NP                   D    AUT Cerrado/ Brejo/ Área Antrópica

@@ -78,8 +78,8 @@ export class Especies2019EspeciesInterpreter {
   private readNomePopularAndTamanho(
     listaEspeciesDoc: IterableString, especie: EspecieMetaData
   ): { especie: EspecieMetaData, isLineComplete: boolean } {
-    const readVegetacaoTamanho = /^[ ]+(\d|\(-)([ ]\/)?[\(\),\-\d]*[ ]/;
-    const nomePopularPattern = /^\s*[a-z\-]+\s*/;
+    const readVegetacaoTamanho = /^[ ]+(\d|\(-)[ \(\),\-\d\/]*[ ]/;
+    const nomePopularPattern = /^\s*[óíúa-z\-]+\s*/;
     const vegetacaoTamanho = listaEspeciesDoc.addCursor(readVegetacaoTamanho);
 
     if (vegetacaoTamanho) {

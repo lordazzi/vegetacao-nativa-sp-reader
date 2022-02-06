@@ -13,26 +13,39 @@ if (!metaDocumento) {
 describe('espécies', () => {
   it('[espécie]', () => {
     expect(metaDocumento[0]?.tipos[0].familias[0].especies[0]).to.eql({
-      "nome": "Avicennia germinans (L.) L.",
-      "type": "full",
-      "tamanho": "3-10",
-      "classeSucessional": "NP",
-      "grupoFuncional": "D",
-      "sindromeDispersao": "AUT",
-      "bioma": "Manguezal"
+      nome: "Avicennia germinans (L.) L.",
+      type: "full",
+      tamanho: "3-10",
+      classeSucessional: "NP",
+      grupoFuncional: "D",
+      sindromeDispersao: "AUT",
+      bioma: "Manguezal"
+    });
+  });
+
+  it('[espécie parcial nome head]', () => {
+    expect(metaDocumento[2]?.tipos[0].familias[8].especies[0]).to.eql({
+      nome: "Cybistax antisyphilitica (Mart.) Mart.",
+      nomePopular: "ipê-da-flor-verde, ipê-verde, caroba-da-",
+      type: "head",
+      tamanho: "4-20",
+      classeSucessional: "NP",
+      grupoFuncional: "D",
+      sindromeDispersao: "ANE",
+      bioma: "Floresta Ombrófila Densa"
     });
   });
 
   it('[espécie parcial nome head]', () => {
     expect(metaDocumento[0]?.tipos[0].familias[0].especies[1]).to.eql({
-      "nome": "Avicennia schaueriana Stapf & Leechm. ex",
-      "type": "head",
-      "nomePopular": "mangue-amarelo, mangre-branco",
-      "tamanho": "3-7",
-      "classeSucessional": "P",
-      "grupoFuncional": "P",
-      "sindromeDispersao": "AUT",
-      "bioma": "Manguezal"
+      nome: "Avicennia schaueriana Stapf & Leechm. ex",
+      type: "head",
+      nomePopular: "mangue-amarelo, mangre-branco",
+      tamanho: "3-7",
+      classeSucessional: "P",
+      grupoFuncional: "P",
+      sindromeDispersao: "AUT",
+      bioma: "Manguezal"
     });
   });
 
@@ -92,14 +105,14 @@ describe('espécies', () => {
 
   it('[espécie]', () => {
     expect(metaDocumento[0]?.tipos[0].familias[3].especies[5]).to.eql({
-      "nome": "Aspidosperma polyneuron Müll. Arg.",
-      "nomePopular": "peroba-rosa",
-      "tamanho": "6-30",
-      "classeSucessional": "NP",
-      "grupoFuncional": "D",
-      "sindromeDispersao": "ANE",
-      "bioma": "Floresta Ombrófila Densa",
-      "type": "full"
+      nome: "Aspidosperma polyneuron Müll. Arg.",
+      nomePopular: "peroba-rosa",
+      tamanho: "6-30",
+      classeSucessional: "NP",
+      grupoFuncional: "D",
+      sindromeDispersao: "ANE",
+      bioma: "Floresta Ombrófila Densa",
+      type: "full"
     });
   });
 
@@ -207,7 +220,8 @@ describe('espécies', () => {
       sindromeDispersao: "AUT",
       bioma: "Floresta Ombrófila Densa"
     });
-
+  });
+  it('[espécie com dados mal formados]', () => {
     expect(metaDocumento[1]?.tipos[0].familias[24].especies[35]).to.eql({
       nome: "G.P.Lewis & M.P.Lima",
       type: "tail",
@@ -238,13 +252,16 @@ describe('espécies', () => {
       sindromeDispersao: "AUT",
       bioma: "Restinga, Floresta Ombrófila Densa"
     });
-
+  });
+  it('[espécie número 3 no ínicio muito distante]', () => {
     expect(metaDocumento[1]?.tipos[0].familias[24].especies[39]).to.eql({
       nome: "Rose",
       type: "tail",
       nomePopular: "leiro-branco"
     });
+  });
 
+  it('[espécie número 3 no ínicio muito distante]', () => {
     expect(metaDocumento[0]?.tipos[0].familias[30].especies[25]).to.eql({
       nome: "*  Ocotea catharinensis Mez",
       type: "full",
@@ -268,13 +285,126 @@ describe('espécies', () => {
       sindromeDispersao: "AUT/",
       bioma: "Restinga, Floresta Ombrófila Densa"
     });
+  });
 
+  it('[espécie com quebra de linha na sindrome de dispersão]', () => {
     expect(metaDocumento[1]?.tipos[0].familias[24].especies[30]).to.eql({
       type: "tail",
       sindromeDispersao: "ZOO"
     });
-
   });
 
-});
+  it('[nome popular com acento]', () => {
+    expect(metaDocumento[0]?.tipos[0].familias[27].especies[13]).to.eql({
+      nome: "Copaifera langsdorffii Desf.",
+      type: "full",
+      nomePopular: "óleo-de-copaíba, copaíba",
+      tamanho: "10-15",
+      classeSucessional: "NP",
+      grupoFuncional: "D",
+      sindromeDispersao: "ZOO",
+      bioma: "Floresta Ombrófila Densa"
+    });
+  });
 
+  it('[nome popular com acento]', () => {
+    expect(metaDocumento[0]?.tipos[0].familias[27].especies[39]).to.eql({
+      nome: "Myrocarpus frondosus Allemão",
+      type: "full",
+      nomePopular: "óleo-pardo, cabreúva-parda",
+      tamanho: "20-30",
+      classeSucessional: "NP",
+      grupoFuncional: "D",
+      sindromeDispersao: "ANE",
+      bioma: "Floresta Ombrófila Densa"
+    });
+  });
+
+  it('[nome popular com acento]', () => {
+    expect(metaDocumento[0]?.tipos[8].familias[14].especies[2]).to.eql({
+      nome: "Scoparia dulcis L.",
+      nomePopular: "vassoura-de-botão",
+      type: "full",
+      tamanho: "0 ,1-0,6",
+      classeSucessional: "P",
+      grupoFuncional: "P",
+      sindromeDispersao: "AUT",
+      bioma: "Restinga / Floresta Ombrófila Densa"
+    });
+  });
+
+  it('[nome popular com acento]', () => {
+    expect(metaDocumento[1]?.tipos[0].familias[24].especies[6]).to.eql({
+      nome: "Copaifera langsdorffii Desf.",
+      nomePopular: "óleo-de-copaíba, copaíba",
+      type: "full",
+      tamanho: "10-15",
+      classeSucessional: "NP",
+      grupoFuncional: "D",
+      sindromeDispersao: "ZOO",
+      bioma: "Floresta Ombrófila Densa"
+    });
+  });
+
+  it('[nome popular escrito de forma irregular usando caractere especial irregular]', () => {
+    expect(metaDocumento[0]?.tipos[5].familias[20].especies[0]).to.eql({
+      nome: "Smilax japicanga Griseb.",
+      type: "full",
+      nomePopular: "japicanga, jupicanga",
+      tamanho: "20-30",
+      classeSucessional: "NP",
+      grupoFuncional: "D",
+      sindromeDispersao: "ZOO",
+      bioma: "Floresta Ombrófila Densa"
+    });
+  });
+
+  it('[uso de espaço dentro do tamanho]', () => {
+    expect(metaDocumento[0]?.tipos[7].familias[15].especies[20]).to.eql({
+      nome: "Selaginella flexuosa Spring",
+      type: "head",
+      tamanho: "0 /2-0/4",
+      classeSucessional: "NP",
+      grupoFuncional: "D",
+      sindromeDispersao: "ANE",
+      bioma: "Floresta Ombrófila Densa"
+    });
+  });
+
+  it('[uso de espaço dentro do tamanho]', () => {
+    expect(metaDocumento[0]?.tipos[7].familias[15].especies[22]).to.eql({
+      nome: "Selaginella macrostachya (Spring) Spring",
+      type: "full",
+      tamanho: "0 /2-0/4",
+      classeSucessional: "NP",
+      grupoFuncional: "D",
+      sindromeDispersao: "ANE",
+      bioma: "Floresta Ombrófila Densa"
+    });
+  });
+
+  it('[1]', () => {
+    expect(metaDocumento[1]?.tipos[7].familias[16].especies[1]).to.eql({
+      nome: "Thelypteris opposita (Vahl) Ching",
+      type: "head",
+      tamanho: "0/15-0/7",
+      classeSucessional: "NP",
+      grupoFuncional: "D",
+      sindromeDispersao: "ANE",
+      bioma: "Floresta Ombrófila Densa"
+    });
+  });
+
+  it('[3]', () => {
+    expect(metaDocumento[1]?.tipos[0].familias[16].especies[0]).to.eql({
+      nome: "* Couepia leitaofilhoi Prance",
+      type: "full",
+      tamanho: "12",
+      classeSucessional: "P",
+      grupoFuncional: "D",
+      sindromeDispersao: "ZOO",
+      bioma: "Floresta Ombrófila Densa"
+    });
+  });
+  // {"type":"tail","bioma":"/7                                  Mata Ciliar"}
+});
