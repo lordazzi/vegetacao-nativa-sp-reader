@@ -209,7 +209,7 @@ describe('espécies', () => {
     });
   });
 
-  it('[espécie com dados mal formados]', () => {
+  it('[espécie com dados mal formados head]', () => {
     expect(metaDocumento[1]?.tipos[0].familias[24].especies[34]).to.eql({
       nome: "Pseudopiptadenia warmingii (Benth.)",
       type: "head",
@@ -221,7 +221,8 @@ describe('espécies', () => {
       bioma: "Floresta Ombrófila Densa"
     });
   });
-  it('[espécie com dados mal formados]', () => {
+
+  it('[espécie com dados mal formados tail]', () => {
     expect(metaDocumento[1]?.tipos[0].familias[24].especies[35]).to.eql({
       nome: "G.P.Lewis & M.P.Lima",
       type: "tail",
@@ -241,7 +242,7 @@ describe('espécies', () => {
     });
   });
 
-  it('[espécie número 3 no ínicio muito distante]', () => {
+  it('[espécie número 3 no ínicio muito distante head]', () => {
     expect(metaDocumento[1]?.tipos[0].familias[24].especies[38]).to.eql({
       nome: "3      Senegalia polyphylla (DC.) Britton &",
       type: "head",
@@ -253,7 +254,8 @@ describe('espécies', () => {
       bioma: "Restinga, Floresta Ombrófila Densa"
     });
   });
-  it('[espécie número 3 no ínicio muito distante]', () => {
+
+  it('[espécie número 3 no ínicio muito distante tail]', () => {
     expect(metaDocumento[1]?.tipos[0].familias[24].especies[39]).to.eql({
       nome: "Rose",
       type: "tail",
@@ -274,7 +276,7 @@ describe('espécies', () => {
     });
   });
 
-  it('[espécie com quebra de linha na sindrome de dispersão]', () => {
+  it('[espécie com quebra de linha na sindrome de dispersão head]', () => {
     expect(metaDocumento[1]?.tipos[0].familias[24].especies[29]).to.eql({
       nome: "Ormosia arborea (Vell.) Harms",
       type: "head",
@@ -287,7 +289,7 @@ describe('espécies', () => {
     });
   });
 
-  it('[espécie com quebra de linha na sindrome de dispersão]', () => {
+  it('[espécie com quebra de linha na sindrome de dispersão tail]', () => {
     expect(metaDocumento[1]?.tipos[0].familias[24].especies[30]).to.eql({
       type: "tail",
       sindromeDispersao: "ZOO"
@@ -321,7 +323,7 @@ describe('espécies', () => {
   });
 
   it('[nome popular com acento]', () => {
-    expect(metaDocumento[0]?.tipos[8].familias[14].especies[2]).to.eql({
+    expect(metaDocumento[0]?.tipos[8].familias[14].especies[3]).to.eql({
       nome: "Scoparia dulcis L.",
       nomePopular: "vassoura-de-botão",
       type: "full",
@@ -351,7 +353,6 @@ describe('espécies', () => {
       nome: "Smilax japicanga Griseb.",
       type: "full",
       nomePopular: "japicanga, jupicanga",
-      tamanho: "20-30",
       classeSucessional: "NP",
       grupoFuncional: "D",
       sindromeDispersao: "ZOO",
@@ -360,9 +361,9 @@ describe('espécies', () => {
   });
 
   it('[uso de espaço dentro do tamanho]', () => {
-    expect(metaDocumento[0]?.tipos[7].familias[15].especies[20]).to.eql({
+    expect(metaDocumento[0]?.tipos[7].familias[15].especies[1]).to.eql({
       nome: "Selaginella flexuosa Spring",
-      type: "head",
+      type: "full",
       tamanho: "0 /2-0/4",
       classeSucessional: "NP",
       grupoFuncional: "D",
@@ -372,7 +373,7 @@ describe('espécies', () => {
   });
 
   it('[uso de espaço dentro do tamanho]', () => {
-    expect(metaDocumento[0]?.tipos[7].familias[15].especies[22]).to.eql({
+    expect(metaDocumento[0]?.tipos[7].familias[15].especies[2]).to.eql({
       nome: "Selaginella macrostachya (Spring) Spring",
       type: "full",
       tamanho: "0 /2-0/4",
@@ -383,28 +384,4 @@ describe('espécies', () => {
     });
   });
 
-  it('[1]', () => {
-    expect(metaDocumento[1]?.tipos[7].familias[16].especies[1]).to.eql({
-      nome: "Thelypteris opposita (Vahl) Ching",
-      type: "head",
-      tamanho: "0/15-0/7",
-      classeSucessional: "NP",
-      grupoFuncional: "D",
-      sindromeDispersao: "ANE",
-      bioma: "Floresta Ombrófila Densa"
-    });
-  });
-
-  it('[3]', () => {
-    expect(metaDocumento[1]?.tipos[0].familias[16].especies[0]).to.eql({
-      nome: "* Couepia leitaofilhoi Prance",
-      type: "full",
-      tamanho: "12",
-      classeSucessional: "P",
-      grupoFuncional: "D",
-      sindromeDispersao: "ZOO",
-      bioma: "Floresta Ombrófila Densa"
-    });
-  });
-  // {"type":"tail","bioma":"/7                                  Mata Ciliar"}
 });

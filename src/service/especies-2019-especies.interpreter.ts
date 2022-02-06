@@ -7,8 +7,7 @@ export class Especies2019EspeciesInterpreter {
 
   private readonly checkIfHasNoEspecieName = /^[ ]/;
   private readonly ignoreAutoTrim = false;
-  //  read all until two spaces or breakline
-  private readonly readAllUntilTwoSpacesOrBreakLine = /^\s*(([^\n ]+[ ])+[ ]|[^\n]+[ ]?\n)/i;
+
   private readonly readAllUntilBreakLine = /^\n*[^\n]+\n/;
 
   constructor() {
@@ -79,7 +78,7 @@ export class Especies2019EspeciesInterpreter {
     listaEspeciesDoc: IterableString, especie: EspecieMetaData
   ): { especie: EspecieMetaData, isLineComplete: boolean } {
     const readVegetacaoTamanho = /^[ ]+(\d|\(-)[ \(\),\-\d\/]*[ ]/;
-    const nomePopularPattern = /^\s*[óíúa-z\-]+\s*/;
+    const nomePopularPattern = /^\s*([a-záãâêéíóôõúüç’\-,]+[ ]?)+[a-záãâêéíóôõúüç’\-,]\n?/;
     const vegetacaoTamanho = listaEspeciesDoc.addCursor(readVegetacaoTamanho);
 
     if (vegetacaoTamanho) {
@@ -88,7 +87,7 @@ export class Especies2019EspeciesInterpreter {
 
       //  se o nome popular termina com quebra de linha,
       //  então nada mais deve ser acrescentado nesta espécie
-      const nomePopular = listaEspeciesDoc.addCursor(this.readAllUntilTwoSpacesOrBreakLine, this.ignoreAutoTrim);
+      const nomePopular = listaEspeciesDoc.addCursor(nomePopularPattern, this.ignoreAutoTrim);
       especie.nomePopular = nomePopular.trim();
       if (nomePopular.match(/\n$/)) {
         return { especie, isLineComplete: true };
