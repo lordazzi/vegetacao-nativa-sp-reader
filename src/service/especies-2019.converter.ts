@@ -54,9 +54,9 @@ export class Especies2019Conveter {
   }
 
   private pushFamiliaIfNotExists(familias: VegetacaoFamilia[], familiaMetaData: FamiliaMetaData): VegetacaoFamilia[] {
-    const domainFamilia = familias.find(domainFamilia => {
-      if (domainFamilia.nome === familiaMetaData.nome) {
-        return domainFamilia;
+    const domainFamilia = familias.find(familia => {
+      if (familia.nome === familiaMetaData.nome) {
+        return familia;
       }
     });
 
@@ -104,7 +104,7 @@ export class Especies2019Conveter {
       //  remove os espaços que separam os biomas junto da '/' para não ter que aplica trim após o split
       rebuilBioma = rebuilBioma.replace(/\s*(\/|,)\s*/g, '/');
 
-      biomas.splice(0, biomas.length)
+      biomas.splice(0, biomas.length);
       rebuilBioma
         .split('/')
         .filter(b => b)
@@ -158,7 +158,7 @@ export class Especies2019Conveter {
         return { nomeCientifico, metadata };
       } else if (rapidoRecobrimentoPattern.test(metaNome)) {
         metadata.rapidoRecobrimento = true;
-        return { nomeCientifico: nomeCientifico, metadata };
+        return { nomeCientifico, metadata };
       }
     }
 
@@ -168,5 +168,4 @@ export class Especies2019Conveter {
   private splitNomePopular(nomePopular?: string): string[] {
     return nomePopular ? nomePopular.replace(/\s*/g, '').split(',') : [];
   }
-
 }
