@@ -6702,7 +6702,7 @@ King & H.Rob.                                                                   
 R.M.King & H.Rob.
 Centratherum punctatum Cass.                                                          0,2-0,5          P             P   ANE Floresta Estacional Semidecidua/
                                                                                                                              Cerrado
-Chrysolaena cognata (Less.) Dematt.                                                   1-1,8            P            NP   ANE Cerrado
+Chrysolaena cognata (Less.) Dematt.                                                   1-1,8            P             P   ANE Cerrado
 Conocliniopsis prasiifolia (DC.) R.M.King                                             0,8-1            P             P   ANE Floresta Ombrófila Densa/ Floresta
 & H.Rob.                                                                                                                     Estacional Semidecidua/ Cerrado/
                                                                                                                              Área Antrópica
@@ -9018,7 +9018,7 @@ Leersia hexandra Sw.                                                        0,51
                                                                                                                     Altomontana/ Floresta Estacional
                                                                                                                     Semidecidua/ Mata Ciliar/ Cerrado/
                                                                                                                     Lago/ Brejo
-Panicum aquaticum Poir.                                                     0,34-1,2          P             P   AUt Floresta Ombrófila Densa/ Floresta
+Panicum aquaticum Poir.                                                     0,34-1,2          P             P   AUT Floresta Ombrófila Densa/ Floresta
                                                                                                                     Estacional Semidecidua/ Cerrado/
                                                                                                                     Lago/ Brejo
 Panicum gouinii E.Fourn.                    grama-portuguesa                0,4-0,8           P             P   AUT Floresta Ombrófila Densa/ Lago/
@@ -12681,7 +12681,7 @@ O. Berg
 Eugenia florida DC.                           pitanga-preta                               5-9          NP              D    ZOO   Floresta Estacional Semidecidua
 Eugenia involucrata DC.                       cereja-do-rio-grande, cereja, cerejeira     5-8          NP              D    ZOO   Floresta Estacional Semidecidua
 * Eugenia lambertiana DC.                                                                2,5-27        NP              D    ZOO   Floresta Estacional Semidecidua
-* Eugenia modesta DC.                                                                    1,5-4         NP              D    ZOO   CER - FES - FOD - 3 - 4 - 6
+* Eugenia modesta DC.                                                                    1,5-4         NP              D    ZOO   Floresta Estacional Semidecidua/Cerrado/Floresta Ombrófila Densa
 Eugenia myrcianthes Nied.                     pêssego-do-mato, cereja-do-rio-grande       5-10          P              D    ZOO   Floresta Estacional Semidecidua/
                                                                                                                                   Cerrado
 Myrcia guianensis (Aubl.) DC.                 guamirim                                   3-10          NP              D    ZOO   Floresta Estacional Semidecidua/
