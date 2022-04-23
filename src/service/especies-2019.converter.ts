@@ -85,7 +85,7 @@ export class Especies2019Conveter {
 
   private resultsetToEspecie(plantaEspecie: PlantaEspecie, resultset: EspecieMetaData): PlantaEspecie {
     const nomeMetadata = this.getMetadataFromNomeCientifico(resultset);
-    plantaEspecie.nome += nomeMetadata.nomeCientifico;
+    plantaEspecie.nome = `${plantaEspecie.nome} ${nomeMetadata.nomeCientifico}`.trim();
     plantaEspecie = { ...plantaEspecie, ...nomeMetadata.metadata };
     plantaEspecie.nomePopular = plantaEspecie.nomePopular.concat(this.splitNomePopular(resultset.nomePopular));
     plantaEspecie.classeSucessional = plantaEspecie.classeSucessional.concat(
@@ -99,8 +99,15 @@ export class Especies2019Conveter {
   private convertBiomas(biomas: Bioma[], biomaResultset: string | undefined): Bioma[] {
     if (biomaResultset) {
       let rebuilBioma = biomas.map(b => b.nome).join('/');
-      //  removendo possível traço no final dos biomas, é o traço agrupador de palavras separadas no final da linha
-      rebuilBioma = rebuilBioma.replace(/\-$/, '') + biomaResultset;
+
+      //  se houve um traço no final da linha, então é continuação da palavra, se não os biomas são separados
+      const verificaPalavraEmLinhaQuebrada = /\-$/;
+      if (verificaPalavraEmLinhaQuebrada.test(rebuilBioma)) {
+        rebuilBioma = rebuilBioma.replace(/\-$/, '') + biomaResultset;
+      } else {
+        rebuilBioma = `${rebuilBioma}/${biomaResultset}`;
+      }
+
       //  remove os espaços que separam os biomas junto da '/' para não ter que aplica trim após o split
       rebuilBioma = rebuilBioma.replace(/\s*(\/|,)\s*/g, '/');
 
@@ -108,9 +115,7 @@ export class Especies2019Conveter {
       rebuilBioma
         .split('/')
         .filter(b => b)
-        .forEach(nome => {
-          biomas.push({ nome });
-        });
+        .forEach(nome => biomas.push({ nome }));
     }
 
     return biomas;

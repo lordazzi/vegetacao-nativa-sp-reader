@@ -209,8 +209,7 @@ Dalbergia villosa (Benth.) Benth.             canafístula-brava,,jacarandá, ca
 
 Hymenaea courbaril L. var. stilbocarpa     jatobá, jatobá-miúdo, jatobá-da-mata         15-20         NP              D    ZOO Floresta Ombrófila Densa
 (Hayne) Y. T. Lee & Langenh
-Inga capitata Desv.                        ingá, ingazeiro                                18          NP              D    ZOO Floresta Ombrófila Densa/ Áreas An-
-                                                                                                                               tropicas
+Inga capitata Desv.                        ingá, ingazeiro                                18          NP              D    ZOO Floresta Ombrófila Densa/ Área Antrópica
 Inga edulis Mart.                          ingá-de-metro                                6-25          NP              P    ZOO Floresta Ombrófila Densa
 Inga edwallii (Harms) T.D.Penn.            ingá                                         5-10          NP              D    ZOO Floresta Ombrófila Densa
 Inga marginata Willd.                      ingá-feijão                                  5-20          NP              P    ZOO Restinga/ Floresta Ombrófila Densa
@@ -220,7 +219,7 @@ Inga sessilis (Vell.) Mart.                ingá-ferradura, ingá-amarelo, ingá
                                            macaco
 Inga striata Benth.                        ingá-banana, ingá-caixão, ingá-falcão        8-20           P              P    ZOO Floresta Ombrófila Densa
 Inga subnuda Salzm. ex Benth.              ingá, ingazeiro                               10           NP              D    ZOO Restinga/ Floresta Ombrófila Densa/
-                                                                                                                               Áreas Antropicas
+                                                                                                                               Área Antrópica
 Machaerium brasiliense Vogel               sapuva,jacarandá-branco,pau-sangue,            23          NP              D    ANE Restinga
                                            jacarandá-sangue
 Machaerium nyctitans (Vell.) Benth.        bico-de-pato, jacarandá-bico-de-             8-25          NP              D    ANE Floresta Ombrófila Densa
@@ -242,7 +241,7 @@ Rose                                        monjoleiro-branco
 3 Senna multijuga (Rich.) H. S. Irwin & pau-cigarra, aleluieiro, aleluia                6-10            P              P   ZOO Restinga/ Floresta Ombrófila Densa
 Barneby
 Senna splendida (Vogel) H.S.Irwin &         bico-de-corvo, fedegoso                       12            P              P   AUT Restinga/ Floresta Ombrófila Densa/
-Barneby                                                                                                                        Área Antropica
+Barneby                                                                                                                        Área Antrópica
 Sesbania virgata (Cav.) Pers.               saranzinho                                  1,5-9          P              P    AUT Restinga/ Floresta Ombrófila Densa
 Swartzia langsdorffii Raddi                 pacová-de-macaco                            10-16         NP              D    ZOO Restinga/ Floresta Ombrófila Densa
 Tachigali denudata (Vogel) Oliveira-Filho passuaré                                      20-30         NP              D    ANE Floresta Ombrófila Densa
@@ -848,7 +847,7 @@ Inga vulpina Mart. ex Benth.                ingá, ingazeiro                    
 Mimosa bimucronata (DC.) Kuntze.            maricá, angico-preto, espinheira-de-ma-    4-8            P             P   AUT Restinga
                                             ricá, espinho-de-maricá
 Sesbania virgata (Cav.) Pers.               angiquinho-grande, sebania                 2-6            P             P    AUT Restinga
-Sophora tomentosa L.                        aleluia-cascuda                           1,5-3           P             P    AUT Restinga/ Áreas Antropicas
+Sophora tomentosa L.                        aleluia-cascuda                           1,5-3           P             P    AUT Restinga/ Área Antrópica
 
 #                                                                       A R B U S T I VA S •
 
@@ -952,7 +951,7 @@ Chomelia parvifolia (Standl.) Govaerts                                          
 Coussarea nodosa (Benth.) Müll.Arg.                                                    2-4          P              D   ZOO Floresta Ombrófila Densa
 Faramea multiflora A.Rich. ex DC.                                                      1-5         NP              D   ZOO Floresta Ombrófila Densa
 Hamelia patens Jacq.                          erva-de-rato, gica                        6          NP              D   ZOO Restinga/ Floresta Ombrófila
-                                                                                                                           Densa/ Áreas Antropicas
+                                                                                                                           Densa/ Área Antrópica
 Hillia parasitica Jacq.                       jasmim-do-mato                         1,5-5         NP              D   ZOO Floresta Ombrófila Densa
 #                                                                               A R B U S T I VA S •
 
@@ -1029,19 +1028,19 @@ Allagoptera arenaria (Gomes) Kuntze         caxandó, coco-de-praia             
 ASTERACEAE
 Baccharis crispa Spreng.                    carqueja, carqueja-amargosa               0,5-1,2         P             P    ANE Floresta Ombrófila Densa
 Baccharis junciformis DC.                                                              0,6-1          P             D    ANE Restinga
-Campuloclinium purpurascens (Sch.Bip. ex                                               0,8-1          P             P    ANE Restinga/ Área Antropica
+Campuloclinium purpurascens (Sch.Bip. ex                                               0,8-1          P             P    ANE Restinga/ Área Antrópica
 Baker) R.M.King & H.Rob.
-Conyza sumatrensis (Retz.) E.Walker                                                   0,8-1,3         P             P    ANE   Restinga/ Área Antropica
-Pluchea sagittalis (Lam.) Cabrera           macela, lucera                             0,5-1          P             P    ANE   Restinga/ Área Antropica
+Conyza sumatrensis (Retz.) E.Walker                                                   0,8-1,3         P             P    ANE   Restinga/ Área Antrópica
+Pluchea sagittalis (Lam.) Cabrera           macela, lucera                             0,5-1          P             P    ANE   Restinga/ Área Antrópica
 Pterocaulon angustifolium DC.                                                         0,3-0,6         P             P    ANE   Restinga
-Solidago chilensis Meyen                    arnica-brasileira, erva-lanceta, arnica   0,6-1,8         P             P    ANE   Restinga/ Área Antropica
+Solidago chilensis Meyen                    arnica-brasileira, erva-lanceta, arnica   0,6-1,8         P             P    ANE   Restinga/ Área Antrópica
 CAMPANULACEAE
 Siphocampylus betulifolius (Cham.) G.Don    coral-da-serra                             1,5          NP              D    AUT Floresta Ombrófila Densa
 EUPHORBIACEAE
 Croton fuscescens Spreng.                                                             1-1,6           P              P   AUT Floresta Ombrófila Densa
 FABACEAE
 Desmodium barbatum (L.) Benth.              barbadinho, amores-do-campo               0,3-0,6         P              P   AUT Restinga/ Floresta Ombrófila
-                                                                                                                             Densa/ Área Antropica
+                                                                                                                             Densa/ Área Antrópica
 GENTIANACEAE
 Macrocarpaea rubra Malme                                                              0,5-1         NP              D    AUT Floresta Ombrófila Densa
 GOODENIACEAE
@@ -1051,7 +1050,7 @@ Salvia splendens Sellow ex Roem. & Schult.                                      
                                                                                                                              Antropica
 MALVACEAE
 Pavonia nemoralis A.St.-Hil.                                                          0,5-1,5       NP              D    AUT Floresta Ombrófila Densa
-Sidastrum paniculatum (L.) Fryxell          malva-roxa                                  1-2          P              P    AUT Restinga/ Área Antropica
+Sidastrum paniculatum (L.) Fryxell          malva-roxa                                  1-2          P              P    AUT Restinga/ Área Antrópica
 Wissadula hernandioides (L.Hér.) Garcke                                                0,6-2        NP              D    AUT Restinga
 MELASTOMATACEAE
 Macairea radula (Bonpl.) DC.                                                          0,5-1,5        P              D    ANE   Restinga
@@ -1072,7 +1071,7 @@ ONAGRACEAE
 Ludwigia elegans (Cambess.) H.Hara            cruz-de-malta                          1            P             P    AUT Restinga/ Floresta Ombrófila Densa
 POACEAE
 Lasiacis ligulata Hitchc. & Chase                                                  2-3          NP              D    AUT Restinga/ Floresta Ombrófila
-                                                                                                                         Densa/ Área Antropica
+                                                                                                                         Densa/ Área Antrópica
 Parodiolyra micrantha (Kunth) Davidse &       taquari, taquara                    0,5-3         NP              D    AUT Restinga/ Floresta Ombrófila Densa
 Zuloaga
 ROSACEAE
@@ -1082,19 +1081,19 @@ Rubus rosifolius Sm. var. rosifolius          amora-vermelha, amora-silvestre   
 Rubus sellowii Cham. & Schltdl.                                                    1-2          NP              D    ZOO Floresta Ombrófila Densa
 RUBIACEAE
 Borreria latifolia (Aubl.) K.Schum.                                              0,5-1,5          P              P   AUT Restinga/ Floresta Ombrófila
-                                                                                                                         Densa/ Área Antropica
+                                                                                                                         Densa/ Área Antrópica
 Borreria ocymifolia (Roem. & Schult.)                                            0,5-0,7          P             D    AUT Floresta Ombrófila Densa
 Bacigalupo & E.L.Cabral
 Borreria verticillata (L.) G.Mey.             poaia, ipecacuanha                 0,12-0,4         P             D    AUT Restinga/ Floresta Ombrófila
-                                                                                                                         Densa/ Área Antropica
+                                                                                                                         Densa/ Área Antrópica
 *    Faramea monantha Müll.Arg.                                                   0,5-1         NP              D    ZOO Floresta Ombrófila Densa
 Galianthe brasiliensis (Spreng.) E.L.Cabral                                       0,5-1         P               P    AUT Restinga/ Floresta Ombrófila Densa
 & Bacigalupo
 VERBENACEAE
 Lantana undulata Schrank                                                          0,5-2           P             D    ZOO Restinga/ Floresta Ombrófila
-                                                                                                                         Densa/ Área Antropica
+                                                                                                                         Densa/ Área Antrópica
 Stachytarpheta cayennensis (Rich.) Vahl       rincão                             0,3-0,8          P             D    ZOO Restinga/ Floresta Ombrófila
-                                                                                                                         Densa/ Área Antropica
+                                                                                                                         Densa/ Área Antrópica
 #                                                                                                               E R VA S •
 
 
@@ -1131,9 +1130,9 @@ Commelina erecta L.                       erva-de-santa-luzia            0,3-0,5
 Dichorisandra pubescens Mart. ex Schult                                   0,5-1         NP              D   ZOO Floresta Ombrófila Densa
 & Schult.f.
 Dichorisandra thyrsiflora J.C.Mikan                                        1-2          NP              D   ZOO Restinga/ Floresta Ombrófila
-                                                                                                                Densa/ Área Antropica
+                                                                                                                Densa/ Área Antrópica
 FABACEAE
-Aeschynomene elegans Schltdl. & Cham.                                    0,1-0,3          P             D    AUT Restinga/ Área Antropica
+Aeschynomene elegans Schltdl. & Cham.                                    0,1-0,3          P             D    AUT Restinga/ Área Antrópica
 Chamaecrista nictitans (L.) Moench                                        0,3-1           P             P    AUT Restinga/ Floresta Ombrófila
                                                                                                                  Densa/ Área Antrópica
 GESNERIACEAE
@@ -1165,7 +1164,7 @@ MELASTOMATACEAE
 Braumgratz
 OCHNACEAE
 Sauvagesia erecta L.                                                               0,1-0,3        NP              D    AUT Restinga/ Floresta Ombrófila
-                                                                                                                           Densa/ Área Antropica
+                                                                                                                           Densa/ Área Antrópica
 ORCHIDACEAE
 Aspidogyne argentea (Vell.) Garay                                                  0,1-0,25       NP              D    ANE Floresta Ombrófila Densa
 Cyclopogon iguapensis Schltr.                                                       0,2-0,6       NP              D    ANE Floresta Ombrófila Densa
@@ -1180,20 +1179,20 @@ Liparis nervosa (Thumb.) Lindl.                                                 
 Mesadenella cuspidata (Lindl.) Garay                                               0,2-0,4        NP              D    ANE Floresta Ombrófila Densa
 Prescottia oligantha (Sw.) Lindl.                                                  0,2-0,4        NP              D    ANE Restinga/ Floresta Ombrófila Densa
 Precottia stachyodes (Sw.) Lindl.                                                   0,4-1         NP              D    ANE Restinga/ Floresta Ombrófila Densa
-Sacoila lanceolata (Aubl.) Garay                                                   0,3-0,6        NP              D    ANE Restinga/ Área Antropica
+Sacoila lanceolata (Aubl.) Garay                                                   0,3-0,6        NP              D    ANE Restinga/ Área Antrópica
 PHYTOLACCACEAE
 Rivina humilis L.                                                                   0,5-1         NP              D   ZOO Floresta Ombrófila Densa
 POACEAE
-Acroceras zizanioides (Kunth) Dandy                                                   0,5-1   NP                  D   AUT Restinga/ Área Antropica
-Andropogon leucostachyus Kunth              capim-membeca                           0,25-1,05 P                   P   ANE Restinga/ Área Antropica
+Acroceras zizanioides (Kunth) Dandy                                                   0,5-1   NP                  D   AUT Restinga/ Área Antrópica
+Andropogon leucostachyus Kunth              capim-membeca                           0,25-1,05 P                   P   ANE Restinga/ Área Antrópica
 Cenchrus echinatus L.                       carrapicho, bosta-de-baiano, carrapicho- 0,1-0,7  P                   D   ZOO Floresta Ombrófila Densa/ Área
                                             -amoroso roseta                                                               Antropica
 Cenchrus tribuloides L.                     carrapicho-de-praia, carrapicho          0,1-0,8 NP                   D   ZOO Restinga
-Chloris elata Desv.                                                                  0,7-1,2  P                   D   AUT Restinga/ Área Antropica
+Chloris elata Desv.                                                                  0,7-1,2  P                   D   AUT Restinga/ Área Antrópica
 Chloris orthonoton Döll                     capim-azul, grama-azul,grama-azul-de- 0,20-0,55 P                     D   AUT Floresta Ombrófila Densa/ Área
                                             -taubaté                                                                      Antropica
-Chloris pycnothrix Trin.                                                            0,13-0,40 P                   D   AUT Restinga/ Área Antropica
-Cortaderia selloana (Schult. & Schult.f.)   capim-dos-pampas                           2--3   P                   P   ANE Restinga/ Área Antropica
+Chloris pycnothrix Trin.                                                            0,13-0,40 P                   D   AUT Restinga/ Área Antrópica
+Cortaderia selloana (Schult. & Schult.f.)   capim-dos-pampas                           2--3   P                   P   ANE Restinga/ Área Antrópica
 Asch. & Graebn.
 Cryptochloa capillata (Trin.) Soderstr.                                            0,5-1,5 NP                     D    AUT Restinga/ Floresta Ombrófila Densa
 Dichanthelium hebotes (Trin.) Zuloaga                                              0,4-0,8 NP                     D    AUT Restinga
@@ -1210,14 +1209,14 @@ C.A. Clark
 
 
 Digitaria ciliaris (Retz.) Koeler         milhã, campim-colchão, pé-de-galinha,    0,2-0,9         P             D   AUT Restinga/ Floresta Ombrófila
-                                          capim-da-roça                                                                   Densa/ Área Antropica
+                                          capim-da-roça                                                                   Densa/ Área Antrópica
 Digitaria connivens (Trin.) Henrard                                               0,18-0,39 P                    D   AUT Restinga
-Eragrostis bahiensis Schrad. ex Schult.                                           0,3-0,78 P                     D   AUT Restinga/ Área Antropica
+Eragrostis bahiensis Schrad. ex Schult.                                           0,3-0,78 P                     D   AUT Restinga/ Área Antrópica
 Eragrostis cataclasta Nicora                                                      0,2-0,49 P                     D   AUT Restinga
 Eragrostis leucosticta Nees ex Döll                                               0,21-0,63 P                    D   AUT Restinga
 * Eragrostis neesii Trin.                                                          0,3-0,4  P                    D   AUT Restinga
 Eriochloa punctata (L.) Desv. ex Ham.                                              0,4-1,2 NP                    D   AUT Restinga/ Floresta Ombrófila
-                                                                                                                          Densa/ Área Antropica
+                                                                                                                          Densa/ Área Antrópica
 Homolepis glutinosa (Sw.) Zuloaga & So-                                             0,6-2        NP              D   AUT/ Restinga/ Floresta Ombrófila Densa
 derstr.                                                                                                              ZOO
 * Hymenachne donacifolia (Raddi) Chase                                               1-2          P              D   AUT Campo Alagado
@@ -1732,7 +1731,7 @@ Thelypteris opposita (Vahl) Ching                                          0/15-
 
 
 ALISMATACEAE
-Echinodorus grandiflorus (Cham. & Schltr.) chapéu-de-couro                     0,5-1            P               P   AUT/ Restinga / Floresta Ombrófila Densa
+Echinodorus grandiflorus (Cham. & Schltr.)     chapéu-de-couro                 0,5-1            P               P   AUT/ Restinga / Floresta Ombrófila Densa
 Micheli                                                                                                             HIDR
 ARACEAE
 * Wolffia arrhiza (L.) Horker ex                                                                P               P   AUT/ Lago
@@ -1832,7 +1831,7 @@ Xyris macrocephala Vahl                                                         
 
 
 ACANTHACEAE
-Avicennia germinans (L.) L.                                                             3-10           NP             D   AUT Manquezal
+Avicennia germinans (L.) L.                                                             3-10           NP             D   AUT Manguezal
 Avicennia schaueriana Stapf & Leechm. ex   mangue-amarelo, mangre-branco                3-7             P             P   AUT Manguezal
 Moldenke
 ANACARDIACEAE
@@ -2628,7 +2627,7 @@ SAPOTACEAE
 Pouteria beaurepairei (Glaziou & Raunkaier)   batatá                                 4-6           NP             D    ZOO Restinga, Floresta Ombrófila Densa
 Baehni
 SIMAROUBACEAE
-* Simaba insignis A. St.-Hil. & Tul.                                                 0,4-5         NP             D    ZOO Restiga
+* Simaba insignis A. St.-Hil. & Tul.                                                 0,4-5         NP             D    ZOO Restinga
 SOLANACEAE
 Acnistus arborescens (L.) Schltdl.            fruta-do-sabiá, marianeira             1-5            P             P    ZOO Floresta Ombrófila Densa
 Aureliana fasciculata (Vell.) Sendtn.         jurubebinha-de-pelo                     6            NP             D    ZOO Restinga, Floresta Ombrófila Densa
@@ -2824,7 +2823,7 @@ Cybianthus brasiliensis (Mez) G.Agostini     tapororoca-rosa                    
 (Cybianthus peruvianus (A. DC.) Miq.)
 * Myrsine vilosissima Mart.                                                           1,5-3         NP              D    ZOO Floresta Ombrófila Densa
 RHAMNACEAE
-* Scutia arenicola (Casar.) Reissek                                                    2-4          NP              D    AUT Restinga, Mangue
+* Scutia arenicola (Casar.) Reissek                                                    2-4          NP              D    AUT Restinga, Manguezal
 RHIZOPHORACEAE
 Rhizophora mangle L.                         mangue-vermelho                          2,5-4           P             P   HIDR Manguezal
 ROSACEAE
@@ -3001,23 +3000,23 @@ APIACEAE
 ARACEAE
 Asterostigma lividum (Lodd.) Engl.                                           0,4-1        NP              D    ZOO Floresta Ombrófila Densa
 ASTERACEAE
-Achyrocline satureioides (Lam.) DC.         macela                           0,4-2         P              D    ANE     Restinga/ Área Antropica
-Elephantopus mollis Kunth                                                   0,5-1,5        P              D    ANE     Restinga/ Área Antropica
-Emilia fosbergii Nicolson                                                   0,3-0,6        P              D    ANE     Restinga/ Área Antropica
+Achyrocline satureioides (Lam.) DC.         macela                           0,4-2         P              D    ANE     Restinga/ Área Antrópica
+Elephantopus mollis Kunth                                                   0,5-1,5        P              D    ANE     Restinga/ Área Antrópica
+Emilia fosbergii Nicolson                                                   0,3-0,6        P              D    ANE     Restinga/ Área Antrópica
 Erechtites hieracifolius (L.) Raf. ex DC.                                    0,3-2         P              D    ANE     Restinga/ Área Antrópica
-Orthopappus angustifolius (Sw.) Gleason                                     0,2-0,8       NP              D    ANE     Restinga/ Área Antropica
+Orthopappus angustifolius (Sw.) Gleason                                     0,2-0,8       NP              D    ANE     Restinga/ Área Antrópica
 Begonia luxurians Scheidw.                                                    1-3         NP              D    ANE     Restinga/ Floresta Ombrófila Densa
 BROMELIACEAE
 Bromelia antiacantha Bertol.                gravatá                           1-2         NP              D    ZOO Restinga
 Nidularium minutum Mez                                                        0,3         NP              D    ANE Floresta Ombrófila Densa
 Quesnelia testudo Lindm.                                                    0,4-0,5       NP              D    ANE Restinga/ Floresta Ombrófila Densa
 COMMELINACEAE
-Commelina erecta L.                         erva-de-santa-luzia             0,3-0,5       NP              D    ZOO Restinga/ Área Antropica
+Commelina erecta L.                         erva-de-santa-luzia             0,3-0,5       NP              D    ZOO Restinga/ Área Antrópica
 Dichorisandra pubescens Mart. ex Schult                                      0,5-1        NP              D    ZOO Floresta Ombrófila Densa
 & Schult.f.
 Dichorisandra thyrsiflora J.C.Mikan                                          1-2          NP              D    ZOO Restinga/ Floresta Ombrófila Densa
 FABACEAE
-Aeschynomene elegans Schltdl. & Cham.                                       0,1-0,3         P             D    AUT Restinga/ Área Antropica
+Aeschynomene elegans Schltdl. & Cham.                                       0,1-0,3         P             D    AUT Restinga/ Área Antrópica
 Chamaecrista nictitans (L.) Moench                                           0,3-1          P             P    AUT Restinga/ Floresta Ombrófila Densa/
                                                                                                                    Área Antrópica
 GESNERIACEAE
@@ -3050,7 +3049,7 @@ MELASTOMATACEAE
 * Bertolonia leuzeana (Bonpl.)DC.                                               0,3           NP             D    AUT Floresta Ombrófila Densa
 OCHNACEAE
 Sauvagesia erecta L.                                                           0,1-0,3        NP             D    AUT Restinga/ Floresta Ombrófila Densa/
-                                                                                                                      Área Antropica
+                                                                                                                      Área Antrópica
 ORCHIDACEAE
 Aspidogyne argentea (Vell.) Garay                                             0,1-0,25        NP             D    ANE Floresta Ombrófila Densa
 Cyclopogon iguapensis Schltr.                                                 0,2-0,6         NP             D    ANE Floresta Ombrófila Densa
@@ -3065,20 +3064,20 @@ Liparis nervosa (Thumb.) Lindl.                                                0
 Mesadenella cuspidata (Lindl.) Garay                                           0,2-0,4        NP             D    ANE Floresta Ombrófila Densa
 Prescottia oligantha (Sw.) Lindl.                                              0,2-0,4        NP             D    ANE Restinga/ Floresta Ombrófila Densa
 Precottia stachyodes (Sw.) Lindl.                                               0,4-1         NP             D    ANE Restinga/ Floresta Ombrófila Densa
-Sacoila lanceolata (Aubl.) Garay                                               0,3-0,6        NP             D    ANE Restinga/ Área Antropica
+Sacoila lanceolata (Aubl.) Garay                                               0,3-0,6        NP             D    ANE Restinga/ Área Antrópica
 PHYTOLACCACEAE
 Rivina humilis L.                                                              0,5-1          NP             D    ZOO Floresta Ombrófila Densa
 POACEAE
-Acroceras zizanioides (Kunth) Dandy                                              0,5-1   NP                  D    AUT Restinga/ Área Antropica
+Acroceras zizanioides (Kunth) Dandy                                              0,5-1   NP                  D    AUT Restinga/ Área Antrópica
 Andropogon arenarius Hack.                                                       0,5-1    P                  P    ANE Restinga
-Andropogon leucostachyus Kunth           capim-membeca                         0,25-1,05 P                   P    ANE Restinga/ Área Antropica
-Axonopus aureus P.Beauv.                                                        0,3-0,7   P                  D    AUT Restinga/ Área Antropica
-Axonopus capillaris (Lam.) Chase                                                0,25-0,4 P                   D    AUT Restinga/ Área Antropica
+Andropogon leucostachyus Kunth           capim-membeca                         0,25-1,05 P                   P    ANE Restinga/ Área Antrópica
+Axonopus aureus P.Beauv.                                                        0,3-0,7   P                  D    AUT Restinga/ Área Antrópica
+Axonopus capillaris (Lam.) Chase                                                0,25-0,4 P                   D    AUT Restinga/ Área Antrópica
 Cenchrus echinatus L.                    carrapicho, carrapicho-amoroso,capim- 0,1-0,7    P                  D    ZOO Restinga/ Floresta Ombrófila Densa/
-                                         -roseta                                                                      Área Antropica
+                                         -roseta                                                                      Área Antrópica
 Cenchrus tribuloides L.                  carrapicho-de-praia, carrapicho-das-   0,1-0,8 NP                   D    ZOO Restinga
                                          -roças
-Chloris elata Desv.                                                             0,7-1,2   P                  D    AUT Restinga/ Área Antropica
+Chloris elata Desv.                                                             0,7-1,2   P                  D    AUT Restinga/ Área Antrópica
 #                                                                                                                          E R VA S •
 
 
@@ -3091,49 +3090,49 @@ Chloris elata Desv.                                                             
 
 Chloris orthonoton Döll                     capim-azul, grama-azul,grama-azul-de- 0,20-0,55          P             D    AUT Floresta Ombrófila Densa/ Área
                                             -taubaté                                                                        Antropica
-Chloris pycnothrix Trin.                                                          0,13-0,40          P             D    AUT Restinga/ Área Antropica
-Cortaderia selloana (Schult. & Schult.f.)   capim-dos-pampas                         2--3            P             P    ANE Restinga/ Área Antropica
+Chloris pycnothrix Trin.                                                          0,13-0,40          P             D    AUT Restinga/ Área Antrópica
+Cortaderia selloana (Schult. & Schult.f.)   capim-dos-pampas                         2--3            P             P    ANE Restinga/ Área Antrópica
 Asch. & Graebn.
 Cryptochloa capillata (Trin.) Soderstr.                                              0,5-1,5 NP                    D    AUT Restinga/ Floresta Ombrófila Densa
-Cynodon maritimus Kunth                                                             0,05-0,25 P                    D    AUT Restinga/ Área Antropica
+Cynodon maritimus Kunth                                                             0,05-0,25 P                    D    AUT Restinga/ Área Antrópica
 * Diandrolyra tatianae Soderstr. &                                                     0,2    NP                   D    AUT Restinga/ Floresta Ombrófila Densa
 Zuloaga
 Dichanthelium hebotes (Trin.) Zuloaga                                                0,4-0,8 NP                    D    AUT Restinga
 Dichanthelium sabulorum (Lam.) Gould &                                              0,12-0,55 NP                   D    AUT Restinga/ Floresta Ombrófila Densa
 C.A. Clark
 Digitaria ciliaris (Retz.) Koeler           milhã, campim-colchão, pé-de-galinha,    0,2-0,9         P             D   AUT Restinga/ Floresta Ombrófila Densa/
-                                            capim-da-roça                                                                   Área Antropica
+                                            capim-da-roça                                                                   Área Antrópica
 Echinolaena inflexa (Poir.) Chase           capim-flexinha, capim-flor               0,4-0,8  P                    P   AUT Restinga
-Eragrostis bahiensis Schrad. ex Schult.                                             0,3-0,78 P                     D   AUT Restinga/ Área Antropica
+Eragrostis bahiensis Schrad. ex Schult.                                             0,3-0,78 P                     D   AUT Restinga/ Área Antrópica
 Eragrostis cataclasta Nicora                                                        0,2-0,49 P                     D   AUT Restinga
-Eragrostis leucosticta Nees ex Döll                                                 0,21-0,63 P                    D   AUT Restinga/ Área Antropica
+Eragrostis leucosticta Nees ex Döll                                                 0,21-0,63 P                    D   AUT Restinga/ Área Antrópica
 Eragrostis polytricha Nees                                                          0,2-0,75 P                     D   AUT Restinga
 Eragrostis rufescens Schrad. ex Schult.                                             0,3-0,61 P                     D   AUT Restinga
 Eriochloa punctata (L.) Desv. ex Ham.                                                0,4-1,2 NP                    D   AUT Restinga/ Floresta Ombrófila Densa/
-                                                                                                                            Área Antropica
+                                                                                                                            Área Antrópica
 Gymnopogon spicatus (Spreng.) Kuntze                                                0,35-0,8        P              D   AUT Restinga
 Homolepis glutinosa (Sw.) Zuloaga &                                                  0,6-2         NP              D   AUT/ Restinga/ Floresta Ombrófila Densa
 Soderstr.                                                                                                              ZOO
 Ichnanthus leiocarpus (Spreng.) Kunth                                                0,4-1,04      NP              D   AUT Restinga
 Ichnanthus pallens (Sw.) Munro ex Benth.                                               0,4-1       NP              D   AUT Restinga
-Imperata brasiliensis Trin.                 sapé, capim-sapé                        0,33-0,95       P              P   ANE Restinga/ Área Antropica
-Imperata contracta (Kunth) Hitchc.                                                    1-1,45       P               P   ANE Restinga/ Área Antropica
-Imperata tenuis Hack.                                                                0,8-1,6        P              P   ANE Restinga/ Área Antropica
+Imperata brasiliensis Trin.                 sapé, capim-sapé                        0,33-0,95       P              P   ANE Restinga/ Área Antrópica
+Imperata contracta (Kunth) Hitchc.                                                    1-1,45       P               P   ANE Restinga/ Área Antrópica
+Imperata tenuis Hack.                                                                0,8-1,6        P              P   ANE Restinga/ Área Antrópica
 Ischaemum minus J.Presl                                                             0,28-0,56       P              D   AUT Restinga/ Floresta Ombrófila Densa
 Olyra fasciculata Trin.                                                              1,5-2,5       NP              D   AUT Floresta Ombrófila Densa
 Olyra glaberrima Raddi                                                               0,5-1,5       NP              D   AUT Restinga/ Floresta Ombrófila Densa
-Panicum rudgei Roem. & Schult.              capim-de-espinho, capim-do-roçado,       0,2-0,9       NP              D   AUT Restinga/ Área Antropica
+Panicum rudgei Roem. & Schult.              capim-de-espinho, capim-do-roçado,       0,2-0,9       NP              D   AUT Restinga/ Área Antrópica
                                             capim-mirião
-Paspalum arenarium Schrad.                                                          0,16-0,52 P                    D    AUT Restinga/ Área Antropica
+Paspalum arenarium Schrad.                                                          0,16-0,52 P                    D    AUT Restinga/ Área Antrópica
 Paspalum decumbens Sw.                                                              0,42-0,45 NP                   D    AUT Restinga/ Floresta Ombrófila Densa/
-                                                                                                                            Área Antropica
-Paspalum densum Poir.                                                                   1     NP                   D    AUT Restinga/ Área Antropica
-Paspalum distichum L.                                                                0,3-0,8   P                   D    AUT Restinga/ Área Antropica
+                                                                                                                            Área Antrópica
+Paspalum densum Poir.                                                                   1     NP                   D    AUT Restinga/ Área Antrópica
+Paspalum distichum L.                                                                0,3-0,8   P                   D    AUT Restinga/ Área Antrópica
 * Paspalum glaucescens Hack.                                                         0,67-1    P                   D    AUT Restinga
 Paspalum hyalinum Nees ex Trin.                                                     0,26-0,58 P                    D    AUT Restinga
-Paspalum mandiocanum Trin.                                                          0,18-0,85 NP                   D    AUT Restinga/ Área Antropica
-Paspalum nutans Lam.                                                                0,3-0,66 NP                    D    AUT Restinga/ Área Antropica
-Paspalum plicatulum Michx.                                                           0,4-1,1   P                   D    AUT Restinga/ Área Antropica
+Paspalum mandiocanum Trin.                                                          0,18-0,85 NP                   D    AUT Restinga/ Área Antrópica
+Paspalum nutans Lam.                                                                0,3-0,66 NP                    D    AUT Restinga/ Área Antrópica
+Paspalum plicatulum Michx.                                                           0,4-1,1   P                   D    AUT Restinga/ Área Antrópica
 #                                                                                                                E R VA S •
 
 
@@ -3144,21 +3143,21 @@ Paspalum plicatulum Michx.                                                      
 
 
 
-Paspalum pumilum Nees                                                            0,15-0,41 NP                   D    AUT Restinga/ Área Antropica
-Paspalum vaginatum Sw.                                                            0,2-0,4 NP                    D    AUT Restinga/ Área Antropica
+Paspalum pumilum Nees                                                            0,15-0,41 NP                   D    AUT Restinga/ Área Antrópica
+Paspalum vaginatum Sw.                                                            0,2-0,4 NP                    D    AUT Restinga/ Área Antrópica
 Pseudechinolaena polystachya (Kunth)                                             0,15-0,4 NP                    D    AUT Restinga
 Stapf
-* Reitzia smithii Swallen                                                        0,25-0,3        NP             D    AUT Restinga/ Área Antropica
+* Reitzia smithii Swallen                                                        0,25-0,3        NP             D    AUT Restinga/ Área Antrópica
 Setaria vulpiseta (Lam.) Roem. & Schult.                                         0,4-0,7         NP             D    AUT Floresta Ombrófila Densa/ Área
                                                                                                                          Antropica
-Sporobolus indicus (L.) R.Br.                                                    0,2-1,2           P            P    AUT Restinga/ Área Antropica
+Sporobolus indicus (L.) R.Br.                                                    0,2-1,2           P            P    AUT Restinga/ Área Antrópica
 Sporobolus virginicus (L.) Kunth                                                   0,65            P            P    AUT Manguezal
 Stenotaphrum secundatum (Walter) Kuntze    grama-se-jardim, grama-inglesa         0,3-0,4          P            P    AUT Restinga
-Trachypogon vestitus Andersson                                                   0,73-1,8          P            D    AUT Restinga/ Área Antropica
+Trachypogon vestitus Andersson                                                   0,73-1,8          P            D    AUT Restinga/ Área Antrópica
 POLYGALACEAE
 Polygala cuspidata DC.                                                           0,1-0,4         P              D    AUT Restinga
 Polygala cyparissias A.St.-Hil. & Moq.                                           0,3-0,5         P              P    AUT Restinga
-Polygala paniculata L.                                                           0,2-0,5         NP             D    AUT Restinga/ Área Antropica
+Polygala paniculata L.                                                           0,2-0,5         NP             D    AUT Restinga/ Área Antrópica
 RUBIACEAE
 Coccocypselum condalia Pers.               piririca                               0,2-0,4        NP             D    ZOO     Floresta Ombrófila Densa
 Coccocypselum geophiloides Wawra           anil, piririca                         0,1-0,4        NP             D    ZOO     Floresta Ombrófila Densa
@@ -3205,7 +3204,7 @@ ARISTOLOCHIACEAE
 ASTERACEAE
 Baccharis anomala DC.                                                                                  P              P    ANE Floresta Ombrófila Densa
 Mikania cordifolia (L.f.) Willd.             cipó-cabeludo,erva-de-cobra                              NP              D    AUT Restinga/ Floresta Ombrófila Densa/
-                                                                                                                               Área Antropica
+                                                                                                                               Área Antrópica
 Mikania rufescens Sch.Bip. ex Baker                                                                   NP              D    AUT Restinga
 BIGNONIACEAE
 * Adenocalymma ubatubense Assis &                                                                     NP              D    AUT Floresta Ombrófila Densa
@@ -3220,7 +3219,7 @@ Bignonia binata Thunb.                                                          
                                                                                                                                Antropica
 Cuspidaria floribunda (DC.) A.H.Gentry                                                                NP              D    AUT Floresta Ombrófila Densa
 Fridericia chica (Bonpl.) L.G.Lohmann      cajuru, carajiru, chica, cipó-cruz, piranga                NP              D    AUT Restinga/ Floresta Ombrófila Densa/
-                                                                                                                               Área Antropica
+                                                                                                                               Área Antrópica
 Lundia obliqua Sond.                                                                                  NP              D    AUT Floresta Ombrófila Densa
 Pyrostegia venusta (Ker Gawl.) Miers       cipó-de-são-joão                                           NP              D    AUT Restinga/ Floresta Ombrófila Densa
 CACTACEAE
@@ -3238,28 +3237,28 @@ Pereskia aculeata Mill.                    ora-pro-nobis, azedinha, espinho-de-a
 
 
 CELASTRACEAE
-Pristimera celastroides (Kunth) A.C.Sm.                                                            NP             D    ZOO Restinga/ Área Antropica
+Pristimera celastroides (Kunth) A.C.Sm.                                                            NP             D    ZOO Restinga/ Área Antrópica
 * Salacia mosenii A.C.Sm.                                                                          NP             D    ZOO Restinga
 * Tontelea martiana (Miers) A.C.Sm.                                                                NP             D    ZOO Floresta Ombrófila Densa
 CONVOLVULACEAE
 Ipomoea bonariensis Hook.                                                                          NP                  AUT     Floresta Ombrófila Densa
-Ipomoea cairica (L.) Sweet                   campainha, corda-de-viola                             P              P    AUT     Restinga/ Área Antropica
-Ipomoea indica (Burm.) Merr.                 campainha, corda-de-viola                              P             D    AUT     Restinga/ Área Antropica
+Ipomoea cairica (L.) Sweet                   campainha, corda-de-viola                             P              P    AUT     Restinga/ Área Antrópica
+Ipomoea indica (Burm.) Merr.                 campainha, corda-de-viola                              P             D    AUT     Restinga/ Área Antrópica
 Ipomoea indivisa (Vell.) Hallier f.          jetirana, corriola                                     P             P    AUT     Restinga/ Floresta Ombrófila Densa
-Ipomoea philomega (Vell.) House              campainha                                             NP             P    AUT     Restinga/ Área Antropica
+Ipomoea philomega (Vell.) House              campainha                                             NP             P    AUT     Restinga/ Área Antrópica
 DIOSCOREACEAE
 Dioscorea altissima Lam.                     cará-de-espinho, cipó-jacaré, inhame-                 NP             D    AUT Restinga
                                              -de-espinho
-Dioscorea mollis Kunth                       dente-de-gato                                         NP             D    AUT Restinga/ Área Antropica
+Dioscorea mollis Kunth                       dente-de-gato                                         NP             D    AUT Restinga/ Área Antrópica
 EUPHORBIACEAE
 Dalechampia meridionalis Müll.Arg.                                                                 NP             D    AUT Floresta Ombrófila Densa
 Dalechampia triphylla Lam.                                                                         NP             D    AUT Floresta Ombrófila Densa
 FABACEAE
-Calopogonium mucunoides Desv.                                                                      P              P    AUT Restinga/ Área Antropica
+Calopogonium mucunoides Desv.                                                                      P              P    AUT Restinga/ Área Antrópica
 Clitoria falcata Lam.                                                                              NP             D    AUT Restinga
 Machaerium debile (Vell.) Stellfeld          pau-sangue                                             P             D    AUT Floresta Ombrófila Densa
 LOGANIACEAE
-Strychnos trinervis (Vell.) Mart.                                                                  NP             D    ZOO Restinga/ Área Antropica
+Strychnos trinervis (Vell.) Mart.                                                                  NP             D    ZOO Restinga/ Área Antrópica
 MALPIGHIACEAE
 Heteropterys intermedia (A.Juss.) Griseb.    murici                                                NP             D    ANE Floresta Ombrófila Densa
 MARCGRAVIACEAE
@@ -3300,16 +3299,16 @@ SAPINDACEAE
 Paullinia carpopoda Cambess.                                                            NP              D    ZOO Floresta Ombrófila Densa
 Paullinia seminuda Radlk.             cipó-cururu, timbó                                NP              D    ZOO Floresta Ombrófila Densa
 Serjania caracasana (Jacq.) Willd.    cipó-leiteiro, timbó                              NP              D    AUT Restinga/ Floresta Ombrófila Densa/
-                                                                                                                     Área Antropica
+                                                                                                                     Área Antrópica
 Serjania communis Cambess.            cipó-timbó-mirim, timbó                           NP              D    AUT Restinga/ Floresta Ombrófila Densa/
-                                                                                                                 Área Antropica
+                                                                                                                 Área Antrópica
 *    Urvillea glabra Cambess.                                                           NP              D    AUT Restinga
 Urvillea ulmacea Kunth                balãozinho, chumbinho                             NP              D    AUT Floresta Ombrófila Densa
 VIOLACEAE
 Anchietea pyrifolia (Mart.) G.Don     cipó-do-mato, cipó-suma, piriguaia                NP              D    ANE Restinga/ Floresta Ombrófila Densa
 VITACEAE
 Cissus erosa Rich.                                                                      NP              D    ZOO Restinga/ Floresta Ombrófila Densa/
-                                                                                                                 Área Antropica
+                                                                                                                 Área Antrópica
 Cissus paulliniifolia Vell.                                                             NP              D    ZOO Restinga/ Floresta Ombrófila Densa
 Cissus sulcicaulis (Baker) Planch.                                                      NP              D    ZOO Floresta Ombrófila Densa/ Área
                                                                                                                  Antropica
@@ -3638,7 +3637,7 @@ Thelypteris opposita (Vahl) Ching                                          0/15-
 
 ALISMATACEAE
 Echinodorus grandiflorus (Cham. & Schltr.) chapéu-de-couro                    0,5-1            P             P   AUT/ Restinga/ Floresta Ombrófila Densa/
-Micheli                                                                                                          HIDR Área Antropica
+Micheli                                                                                                          HIDR Área Antrópica
 BEGONIACEAE
 Begonia cucullata Willd.                                                      0,2-1          NP             D    ANE Floresta Ombrófila Densa/ Área
                                                                                                                      Antropica
@@ -3665,7 +3664,7 @@ Utricularia amethystina Salzm. ex A.St.-Hil.                                 0,0
 LINDERNIACEAE
 Lindernia rotundifolia (L.) Alston                                           0,1-0,2         NP             D    AUT Restinga/ Floresta Ombrófila Densa
 Torenia thouarsii (Cham. & Schltdl.) Kuntze                                  0,1-0,4         NP             D    AUT Restinga/ Floresta Ombrófila Densa/
-                                                                                                                     Área Antropica
+                                                                                                                     Área Antrópica
 MELASTOMATACEAE
 Pterolepis glomerata (Rottb.) Miq.                                           0,4-0,6           P            D    AUT Restinga
 MENYANTHACEAE
@@ -3676,12 +3675,12 @@ Nymphaea gardneriana Planch.                                                 0,2
                                                                                                                  HIDR
 ONAGRACEAE
 Ludwigia hyssopifolia (G.Don) Exell                                            1-2             P             P   AUT/    Restinga/ Floresta Ombrófila Densa/
-                                                                                                                 HIDR    Área Antropica
+                                                                                                                 HIDR    Área Antrópica
 Ludwigia leptocarpa (Nutt.) H.Hara                                            0,5-2            P             P   AUT/    Restinga/ Floresta Ombrófila Densa/
-                                                                                                                 HIDR    Área Antropica
+                                                                                                                 HIDR    Área Antrópica
 PLANTAGINACEAE
 Bacopa monnieri (L.) Pennell                                                 0,05-0,2          P             P   AUT/ Restinga/ Floresta Ombrófila Densa/
-                                                                                                                 HIDR Área Antropica
+                                                                                                                 HIDR Área Antrópica
 #                                AQUÁTICAS E PALUDOSAS•
 
 
@@ -3695,7 +3694,7 @@ Bacopa monnieri (L.) Pennell                                                 0,0
 Bacopa monnierioides (Cham.) B.L.Rob.                                         0,1-0 ,3          P             P   AUT/ Restinga/ Floresta Ombrófila Densa
                                                                                                                   HIDR
 Scoparia dulcis L.                      vassoura-de-botão                     0 ,1-0,6          P             P   AUT Restinga/ Floresta Ombrófila Densa/
-                                                                                                                       Área Antropica
+                                                                                                                       Área Antrópica
 Spartina ciliata Brongn.                                                         1,2            P            P    ANE Restinga
 Spartina densiflora Brongn.                                                     0,8-1           P            P    ANE Restinga
 Steinchisma laxum (Sw.) Zuloaga                                               0,15-1,15         P            D    AUT Restinga
@@ -3714,14 +3713,14 @@ Pontederia sagittata C.Presl.                                                   
 Pontederia subovata (Seub.) Lowden                                             0,2-0,4          P             P   AUT/    Restinga
                                                                                                                   HIDR
 RUBIACEAE
-Oldenlandia salzmannii (DC.) Benth. &                                         0,02-0,1          P             P   AUT Restinga/ Área Antropica
+Oldenlandia salzmannii (DC.) Benth. &                                         0,02-0,1          P             P   AUT Restinga/ Área Antrópica
 Hook.f. ex B.D.Jacks.
 TYPHACEAE
 Typha domingensis Pers.                 taboa                                   1-2             P             P   ANE Restinga/ Floresta Ombrófila Densa/
-                                                                                                                      Área Antropica
+                                                                                                                      Área Antrópica
 XYRIDACEAE
 Xyris jupicai Rich.                                                            0,3-0,9          P             P   AUT Restinga
-Xyris macrocephala Vahl                                                        0,5-1,2          P             P   AUT Restinga/ Área Antropica
+Xyris macrocephala Vahl                                                        0,5-1,2          P             P   AUT Restinga/ Área Antrópica
 
 
 
@@ -3916,7 +3915,7 @@ Tabebuia obtusifolia (Cham.) Bureau          ipê, pau-dárco                   
                                                                                                                             Mata Ciliar/ Cerrado
 Sparattosperma leucanthum (Vell.) K.         ipê-branco, ipê-branco-do-mato-grosso, 6-25              P            D    ANE Floresta Ombrófila Densa
 Schum.                                       carimã, caroba-branca
-* Zeyheria tuberculosa (Vell.) Bureau ex     ipê-branco, buxo-de-boi, culhões-de-   2,5-20            P            D    ANE Floresta Estacional Semideecidua
+* Zeyheria tuberculosa (Vell.) Bureau ex     ipê-branco, buxo-de-boi, culhões-de-   2,5-20            P            D    ANE Floresta Estacional Semidecidua
 Verl.                                        -bode
 BIXACEAE
 Bixa ollerana L.                             urucum, colorau, açafroa                 6-11            P            D    ZOO Floresta Ombrófila Densa/ Floresta
@@ -4104,7 +4103,7 @@ Croton celtidifolius Baill.                  marmeleiro, pau-de-sangue          
                                                                                                                                Estacional Semidecidua
 Croton macrobothrys Baill.                   pau-sangue                                   5-20           P             P   AUT Floresta Ombrófila Densa
 Croton salutaris Casar.                      caixeta                                      5-12           P             P   AUT Floresta Ombrófila Densa
-3   Croton urucurana Baill.                  sangra-d’água                               7-14           P              P   AUT Floresta Ombrófila Densa/ Mata ciliar
+3   Croton urucurana Baill.                  sangra-d’água                               7-14           P              P   AUT Floresta Ombrófila Densa/ Mata Ciliar
 Joannesia princeps Vell.                     fruta-de-cotia, cutieira, fruta-de-arara,   12-20          NP             P   AUT Floresta Ombrófila Densa/ Floresta
                                              purga-dos-paulistas                                                               Estacional Semidecidua
 Maprounea guianensis Aubl.                   bonifácio                                   4-12           NP             D   ZOO Floresta Ombrófila Densa
@@ -5108,7 +5107,7 @@ Amaioua intermedia Mart. ex Schult. &        marmelada, guruguva-verdadeira     
 Schult.f.
 Bathysa australis (A.St.-Hil.) K.Schum.      sutuparana, pau-de-colher, quina-de-          8          NP              D    AUT Floresta Ombrófila Densa
                                              -santa-catarina
-Bathysa gymnocarpa K.Schum.                  guamirim, guapeba-branca                      7          NP              D   AUT Floresta Ombrófila Densa/ Mata Cilia
+Bathysa gymnocarpa K.Schum.                  guamirim, guapeba-branca                      7          NP              D   AUT Floresta Ombrófila Densa/ Mata Ciliar
 Bathysa stipulata (Vell.) C.Presl            quina-da-serra, autuparana                   12          NP              D   ANE Floresta Ombrófila Densa/ Floresta
                                                                                                                               Altomontana
 Chomelia pedunculosa Benth.                                                                8          NP              D   ZOO Floresta Ombrófila Densa/ Floresta
@@ -5312,7 +5311,7 @@ Pouteria gardneri (Mart. & Miq.) Baehni   sapotinha, leiteiro-de-folha-miuda    
 Pouteria gardneriana (A.DC.) Radlk.       aguaí-guaçu, mata-olho                       10            P             D   ZOO Floresta Estacional Semidecidua/
                                                                                                                            Mata Ciliar/ Cerrado
 *   Pouteria glomerata (Miq.) Radlk.      abiorana, abiorana-do-igapó, abiurana        12-15        NP              D   ZOO Floresta Ombrófila Densa/ Floresta
-                                                                                                                           Estacional Semidecidua/ Mata Cilia
+                                                                                                                           Estacional Semidecidua/ Mata Ciliar
 Pouteria torta (Mart.) Radlk.             abil, abiu, guapeva, abiu-piloso            8-14         NP              D   ZOO Floresta Ombrófila Densa
 Pouteria venosa (Mart.) Baehni            bapeba-pêssego                              12-25        NP              D   ZOO Floresta Ombrófila Densa
 Pradosia lactescens (Vell.)Radlk.         marmixa, pau-de-remo                        12-20        NP              D   ZOO Floresta Ombrófila Densa/ Floresta
@@ -5359,19 +5358,16 @@ Styrax pohlii A. DC.                      benjoeiro, árvore-de-bálsamo        
 
 
 SYMPLOCACEAE
-* Symplocos atlantica Aranha              azeitoninha-das-nuvens              3-7,5         NP              D    ZOO Floresta Ombrófila Densa/ Campo de
-                                                                                                                     Altitude
+* Symplocos atlantica Aranha              azeitoninha-das-nuvens              3-7,5         NP              D    ZOO Floresta Ombrófila Densa/ Campo de Altitude
 Symplocos celastrinea Mart.               mate-falso, jabãozinho              3-12          NP              D    ZOO Floresta Ombrófila Densa/ Floresta
                                                                                                                      Altomontana/ Floresta Estacional
                                                                                                                      Semidecidua/ Mata Ciliar
 Symplocos estrellensis Casar.             canela-conserva                     8-10          NP              D    ZOO Floresta Ombrófila Densa/ Floresta
                                                                                                                      Altomontana/ Floresta Estacional
                                                                                                                      Semidecidua/ Mata Ciliar
-*   Symplocos itatiaiae Wawra                                                  3-5          NP              D    ZOO Floresta Ombrófila Densa/ Campo de
-                                                                                                                     Altitude
+*   Symplocos itatiaiae Wawra                                                  3-5          NP              D    ZOO Floresta Ombrófila Densa/ Campo de Altitude
 Symplocos pubescens Klotzsch ex Benth. pau-de-cinza, fruta-de-jacu              20          NP              D    ZOO Floresta Ombrófila Densa/ Floresta
-                                                                                                                     Estacional Semidecidua/ Mata Ciliar/
-                                                                                                                     Área Antrópica
+                                                                                                                     Estacional Semidecidua/ Mata Ciliar/Área Antrópica
 Symplocos revoluta Casar.                 congonha                              20          NP              D    ZOO Floresta Ombrófila Densa/ Floresta
                                                                                                                      Altomontana/ Floresta Estacional
                                                                                                                      Semidecidua/ Mata Ciliar
@@ -5501,7 +5497,7 @@ Actinostemon concolor (Spreng.) Müll. Arg.   laranjeira-do-mato                
 Croton vulnerarius Baill.                                                             3-5          P               D    AUT Floresta Ombrófila Densa
 Gymnanthes klotzschiana (Müll.Arg.) Müll. branquilho                                  3-6          NP              D    AUT Floresta Ombrófila Densa/ Floresta
 Arg.                                                                                                                        Estacional Semidecidua
-Mabea fistulifera Mart.                   canudo-de-pito, canudeiro                   4-8             P            P    AUT Floresta estacional semidecidua
+Mabea fistulifera Mart.                   canudo-de-pito, canudeiro                   4-8             P            P    AUT Floresta Estacional Semidecidua
 Sebastiania brasiliensis Spreng.          branquilho                                  4-5             P            D    AUT Floresta Ombrófila Densa/ Floresta
                                                                                                                             Altomontana
 FABACEAE
@@ -6121,7 +6117,7 @@ Leandra hirtella Cogn.                                                          
                                                                                                                       Semidecidua/ Mata Ciliar/ Cerrado
 *   Leandra involucrata DC.              quaresminha                               1          NP              D   ZOO Floresta Ombrófila Densa/ Cerrado
 *   Leandra itatiaiae (Wawra) Cogn.                                             0,2-0,5       NP              D   ZOO Floresta Ombrófila Densa/ Campo de
-                                                                                                                      Altitude
+ Altitude
 Leandra lacunosa Cogn.                   pixirica-de-barranco                      4          NP              D   ZOO Floresta Ombrófila Densa/ Floresta
                                                                                                                       Estacional Semidecidua/ Cerrado
 *   Leandra lancifolia Cogn.                                                    0,5-3         NP              D   ZOO Floresta Ombrófila Densa/ Cerrado
@@ -6150,19 +6146,19 @@ Leandra quinquedentata (DC.) Cogn.       pixirica-de-barranco                   
 Leandra regnellii (Triana) Cogn.         pixirica                                  0,5-4          P             D   ZOO   Floresta Altomontana/ Floresta Esta-
                                                                                                                           cional Semidecidua/ Mata Ciliar
 Leandra riedeliana (O.Berg ex Triana)                                              1-2          NP              D   ZOO   Floresta Ombrófila Densa/ Campo de
-Cogn.                                                                                                                     Altitude
+Cogn Altitude
 Leandra sericea DC.                      pixirica-de-barranco                        3          NP              D   ZOO   Floresta Ombrófila Densa/ Floresta
                                                                                                                           Altomontana/ Floresta Estacional
                                                                                                                           Semidecidua/ Mata Ciliar
 Leandra strigilliflora (Naudin) Cogn.    pixirica                                  1-3          NP              D   ZOO   Floresta Ombrófila Densa/ Floresta
                                                                                                                           Altomontana
 Leandra tristis Cogn.                                                                           NP              D   ZOO   Floresta Ombrófila Densa
-Leandra umbellata DC.                                                              1,5-2        NP              D   ZOO   Floresta Ombrófila Densa Floresta
+Leandra umbellata DC.                                                              1,5-2        NP              D   ZOO   Floresta Ombrófila Densa/ Floresta
                                                                                                                           Estacional Semidecidua/ Cerrado
 Leandra variabilis Raddi                 pixirica-de-barranco                      1-5          NP              D   ZOO   Floresta Ombrófila Densa/ Floresta
                                                                                                                           Altomontana/ Mata Ciliar/ Cerrado
 Leandra viridiflava Brade                                                                       NP              D   ZOO   Floresta Ombrófila Densa
-Leandra xantholasia (DC.) Cogn.          pixirica                                  1-3           P              D   ZOO   Floresta Ombrófila Densa Floresta
+Leandra xantholasia (DC.) Cogn.          pixirica                                  1-3           P              D   ZOO   Floresta Ombrófila Densa/ Floresta
                                                                                                                           Estacional Semidecidua/ Mata Ciliar/
                                                                                                                           Cerrado
 Miconia albicans (Sw.) Triana            jacatirão, lacre-branco, pixirica         2,5            P             D   ZOO   Floresta Ombrófila Densa/ Floresta
@@ -6179,7 +6175,7 @@ Miconia corallina Spring                 jacatira-de-folha-larga                
                                                                                                                           Cerrado
 Miconia discolor DC.                                                                 3          NP              D   ZOO   Floresta Estacional Semidecidua/
                                                                                                                           Mata Ciliar/ Cerrado
-Miconia elegans Cogn.                    pixirica, cabuçu-tinteiro                   4          NP              D   ZOO   Floresta Ombrófila Densa Floresta
+Miconia elegans Cogn.                    pixirica, cabuçu-tinteiro                   4          NP              D   ZOO   Floresta Ombrófila Densa/ Floresta
                                                                                                                           Estacional Semidecidua/ Mata Ciliar/
                                                                                                                           Cerrado
 Miconia fallax DC.                       guamirim-do-cerrado                         2          NP              D   ZOO   Cerrado
@@ -6261,11 +6257,10 @@ O. Berg                                                                         
 Myrcia eriocalyx DC.                                                                     0,7-4        NP              D   ZOO Floresta Ombrófila Densa/ Cerrado/
                                                                                                                               Campo Rupestre
 Myrcia eriopus DC.                                                                       2-8          NP              D   ZOO Floresta Ombrófila Densa/ Campo de
-                                                                                                                              Altitude/ Cerrado/ Campo Rupestre
+         Altitude/ Cerrado/ Campo Rupestre
 *    Myrcia flagellaris (D.Legrand) Sobral                                               1-5          NP              D   ZOO Floresta Ombrófila Densa
 *    Myrcia lasiantha DC.                                                                1-5          NP              D   ZOO Campo Rupestre/ Cerrado
-*    Myrcia montana Cambess.                                                           0,7-2,5        NP              D   ZOO Floresta Ombrófila Densa/ Campo
-                                                                                                                              de Altitude/ Campo Rupestre
+*    Myrcia montana Cambess.                                                           0,7-2,5        NP              D   ZOO Floresta Ombrófila Densa/ Campo de Altitude/ Campo Rupestre
 *    Myrcia oligantha O.Berg.                                                            2-7          NP              D   ZOO Floresta Ombrófila Densa/ Floresta
                                                                                                                               Altomontana
 Myrcia splendens (Sw.) DC.                      coração-tinto                            2-5          NP              D   ZOO Floresta Ombrófila Densa
@@ -6376,7 +6371,7 @@ Aulonemia fimbriatifolia L. G.Clark                                             
 Chusquea attenuata (Döll) L.G.Clark                                                       1,5-4        NP              D    AUT Floresta Ombrófila Densa/ Mata Ciliar
 * Chusquea erecta L.G.Clark                                                              1,5-2,5       NP              D    AUT Campo de Altitude
 * Chusquea heterophylla Nees                                                               1-3         NP              D    AUT Floresta Ombrófila Densa/ Campo de
-                                                                                                                                Altitude
+           Altitude
 Chusquea juergensii Hack.                                                                 2-4          NP              D    AUT Mata Ciliar
 Chusquea leptophylla Nees                                                                 3-5          NP              D    AUT Floresta Altomontana/ Mata Ciliar
 Chusquea longispiculata L.G.Clark                                                         2-6          NP              D    AUT Floresta Ombrófila Densa
@@ -6754,7 +6749,7 @@ Varronia polycephala Lam.                                                       
                                                                                                                            Estacional Semidecidua/ Mata Ciliar/
                                                                                                                            Cerrado
 CAMPANULACEAE
-Siphocampylus betulifolius (Cham.) G.Don coral-da-serra                               1,5          NP              D    AUT Floresta Ombrófila Densa/ F loresta
+Siphocampylus betulifolius (Cham.) G.Don coral-da-serra                               1,5          NP              D    AUT Floresta Ombrófila Densa/ Floresta
                                                                                                                             Altomontana
 CONVOLVULACEAE
 * Evolvulus stellariifolius Ooststr.                                                  0,4          NP              D    AUT Floresta Ombrófila Densa/ Floresta
@@ -6833,11 +6828,9 @@ Wissadula hernandioides (L.Hér.) Garcke                                        
 Wissadula parviflora (A.St.-Hil.) R.E.Fr.                                      1-1,5            P             P   AUT Floresta Ombrófila Densa
 MELASTOMATACEAE
 * Behuria parvifolia Cogn.                                                     1-1,5         NP              D    AUT Floresta Ombrófila Densa/ Campo de
-                                                                                                                      Altitude
-*    Chaetostoma glaziovii Cogn.            vassourinha                        0,3-0,6       NP              D    AUT Cerrado/ Campo de Altitude/ Campo
-                                                                                                                      de Altitude
-*    Lavoisiera serrulata Cogn.                                                 0,5          NP              D    AUT Floresta Ombrófila Densa/ Campo
-                                                                                                                      Rupestre
+ Altitude
+*    Chaetostoma glaziovii Cogn.            vassourinha                        0,3-0,6       NP              D    AUT Cerrado/ Campo de Altitude/ Campo de Altitude
+*    Lavoisiera serrulata Cogn.                                                 0,5          NP              D    AUT Floresta Ombrófila Densa/ Campo Rupestre
 Leandra calvescens (Triana) Cogn.                                               1-1,5        NP              D    AUT Floresta Ombrófila Densa
 Leandra coriacea Cogn.                                                         0,5-1,5       NP              D    AUT Campo Rupestre
 Leandra erostrata (DC.) Cogn.                                                   0,4-1         P              D    ZOO Floresta Ombrófila Densa/ Cerrado
@@ -7038,7 +7031,7 @@ APIACEAE
 * Eryngium koehneanum Urb.                                                               0,7-1         NP              D    AUT Campo de Altitude
 * Eryngium scirpinum Cham.                                                              0,85-1         NP              D    AUT Campo de Altitude
 * Hydrocotyle exigua (Urb.) Malme                                                        0,05          NP              D    AUT Floresta Ombrófila Densa/ Campo de
-                                                                                                                                Altitude
+           Altitude
 APOCYNACEAE
 * Asclepias aequicornu E.Fourn.                                                           0,2          NP              D    AUT Cerrado
 ARACEAE
@@ -7208,18 +7201,15 @@ Epidendrum secundum Jacq.                                       0,4-1         NP
 Govenia utriculata (Sw.) Lindl.                                0,5-1,2        NP              D    ANE   Floresta Ombrófila Densa/ Floresta
                                                                                                          Estacional Semidecidua/ Cerrado
 *   Habenaria achalensis Kraenzl.                              0,3-0,5        NP              D    ANE   Cerrado/ Campo de Altitude
-*   Hbenaria hydrophila Barb.Rodr.                               0,5          NP              D    ANE   Cerrado/ Campo Rupestre/ Campo
-                                                                                                         de Altitude
+*   Hbenaria hydrophila Barb.Rodr.                               0,5          NP              D    ANE   Cerrado/ Campo Rupestre/ Campo de Altitude
 *  Habenaria leucosantha Barb.Rodr.                            0,2-0,3        NP              D    ANE   Campo de Altitude/ Cerrado
-Habenaria parviflora Lindl.                                    0,2-0,4        NP              D    ANE   Floresta Ombrófila Densa/ Mata
-                                                                                                         Ciliar/ Cerrado
+Habenaria parviflora Lindl.                                    0,2-0,4        NP              D    ANE   Floresta Ombrófila Densa/ Mata Ciliar/ Cerrado
 Habenaria paulistana J.N.A. Batista &                           0,5-1         NP              D    ANE   Floresta Estacional Semidecidua
 Bianchetti
 Habenaria pleiophylla Hoehne & Schltr.                         0,5-1,3        NP              D    ANE Restinga/ Floresta Ombrófila Densa
 * Habenaria regnellii Cogn.                                      0,2          NP              D    ANE Floresta Ombrófila Densa/ Cerrado/
                                                                                                        Campo de Altitude
-Habenaria repens Nutt.                                         0,3-0,5        NP              D    ANE Floresta Ombrófila Densa/ Mata
-                                                                                                       Ciliar/ Cerrado
+Habenaria repens Nutt.                                         0,3-0,5        NP              D    ANE Floresta Ombrófila Densa/ Mata Ciliar/ Cerrado
 *   Habenaria schwackei Barb.Rodr.                               0,3          NP              D    ANE Cerrado
 *   Habenaria trifida Kunth                                    0,3-0,6        NP              D    ANE Campo de Altitude/ Cerrado/ Campo
                                                                                                        Rupestre/ Área Antrópica
@@ -7488,7 +7478,7 @@ Loudetiopsis chrysothrix (Nees) Conert                                          
 * Mesosetum ferrugineum (Trin.) Chase                                            0,3-0,7        P              D    AUT   Cerrado
 Mnesithea aurita (Steud.) de Koning &                                             0,8-2        NP              D    AUT   Cerrado
 Sosef
-Morronea trichidiachnis (Döll) Zulogaga &                                       0,69-0,9       NP              D    AUT Floresta Ombrofila Densa
+Morronea trichidiachnis (Döll) Zulogaga &                                       0,69-0,9       NP              D    AUT Floresta Ombrófila Densa
 Scataglini
 * Nassella sellowiana (Nees ex Trin. &                                              1             P            D    AUT Floresta Altomontana
 Rupr.) Peñail.
@@ -7553,10 +7543,10 @@ Paspalum distichum L.                                                       0,3-
 * Paspalum erianthum Nees ex Trin.                                           0,39-          P              D    AUT Cerrado
                                                                              0,56
 Paspalum eucomum Nees ex Trin.                                              0,7-0,8          P             D    AUT Cerrado
-* Paspalum exaltatum J.Presl            macega-brava                         1-2,5           P             D    AUT Cerrado/ Campo Alagado/ Campo
-                                                                                                                    de Altitude
-*   Paspalum falcatum Nees ex Steud.    capim-rasteiro-do-brejo, capim-      0,65-           P             D    AUT Cerrado/ Campo Alagado/ Campo
-                                        gengibre                              0,85                                  de Altitude
+* Paspalum exaltatum J.Presl            macega-brava                         1-2,5           P             D    AUT Cerrado/ Campo Alagado/ Campo de Altitude
+
+*   Paspalum falcatum Nees ex Steud.    capim-rasteiro-do-brejo, capim-      0,65-           P             D    AUT Cerrado/ Campo Alagado/ Campo de Altitude
+                                        gengibre                              0,85
 Paspalum flaccidum Nees                                                     0,26-0,6         P             D    AUT Cerrado
 Paspalum gardnerianum Nees                                                  0,45-1           P             D    AUT Floresta Altomontana/ Cerrado
 Paspalum geminiflorum Steud.                                                  0,9            P             D    AUT Cerrado
@@ -7676,8 +7666,7 @@ Asemeia hebeclada (DC.) J.F.B.Pastore &                                 0,3-1   
 J.R.Abbott
 Asemeia monninoides (Kunth) J.F.B.Pastore                               0,3-1         NP              D    AUT Floresta Estacional Semidecidua/
 & J.R.Abbott                                                                                                   Cerrado
-Polygala brasiliensis L.                                               0,15-0,3       NP              D    AUT Cerrado/ Campo Rupestre/ Campo
-                                                                                                               de Altitude/ Área Antrópica
+Polygala brasiliensis L.                                               0,15-0,3       NP              D    AUT Cerrado/ Campo Rupestre/ Campo de Altitude/ Área Antrópica
 Polygala cuspidata DC.                                                  0,1-0,4        P              D    AUT Mata Ciliar/ Cerrado
 Polygala galioides Poir.                                               0,02-0,1       NP              D    AUT Floresta Estacional Semidecidua/
                                                                                                                Cerrado/ Campo Rupestre/ Área
@@ -7979,7 +7968,7 @@ Merremia macrocalyx (Ruiz & Pav.) O’Donell batatarana, jetirana               
 
 
 *   Operculina macrocarpa (L.) Urb.          amaro-leite, batata-de-purga                         NP              D    AUT Mata Ciliar/ Cerrado/ Campo de
-                                                                                                                           Altitude/ Campo Rupestre
+     Altitude/ Campo Rupestre
 CUCURBITACEAE
 Melothria campestris (Naudin) H.Schaef. & melancia-do-campo, melancia-de-tatu                     NP              D   ZOO Cerrado
 S.S. Renner
@@ -8859,7 +8848,7 @@ Chodat                                                                          
 ARACEAE
 Philodendron brasiliense Engl.              banana-do-brejo, banana-do-chacá   0,5-1,2       NP              D   ZOO Floresta Estacional Semidecidua/
                                                                                                                       Lago/ Brejo
-Pistia stratiotes L.                        alface-d’água                      0,1-0,3         P             P   AUT/ Rio - Cachoeira/ Lago
+Pistia stratiotes L.                        alface-d’água                      0,1-0,3         P             P   AUT/ Rio-Cachoeira/ Lago
                                                                                                                  HIDR
 *    Wolffia arrhiza (L.) Horker ex Wimm.                                                      P             P   AUT/ Lago
                                                                                                                  HIDR
@@ -9025,11 +9014,11 @@ Panicum gouinii E.Fourn.                    grama-portuguesa                0,4-
                                                                                                                     Brejo
 *   Paspalum falcatum Nees ex Steud.        capim-rasteiro-do-brejo          0,65-         NP              D    AUT Floresta Altomontana/ Lago/ Brejo
                                                                              0,85
-Paspalum intermedium Munro ex Morong capim-milhã, capim-de-batataes           1,5          NP              D    AUT Floresta Altomontana/ Brejo
+Paspalum intermedium Munro ex Morong        capim-milhã, capim-de-batataes    1,5          NP              D    AUT Floresta Altomontana/ Brejo
 & Britton
-Paspalum repens P.J.Bergius                                                   1-2          NP               P   AUT Cerrado/ Lago/ Brejo/ Área Antropica
+Paspalum repens P.J.Bergius                                                   1-2          NP               P   AUT Cerrado/ Lago/ Brejo/ Área Antrópica
 * Reimarochloa acuta (Flüggé) Hitchc.                                                      NP               P   AUT Cerrado/ Campo Alagado
-Steinchisma laxum (Sw.) Zuloaga                                              0,15-         NP               P   AUT Cerrado/ Brejo/ Área Antropica
+Steinchisma laxum (Sw.) Zuloaga                                              0,15-         NP               P   AUT Cerrado/ Brejo/ Área Antrópica
                                                                              1,15
 * Steinchisma spathellosum (Döll)                                             0,5          NP              D    AUT Brejo
 Renvoize
@@ -9329,7 +9318,7 @@ Tabebuia insignis (Miq.) Sandwith            ipê-branco-do-brejo, ipê-branco-d
                                              cerrado                                                                        Mata Ciliar/ Floresta Estacional
                                                                                                                             Decidua/ Cerrado
 Tabebuia roseoalba (Ridl.) Sandwith          ipê-branco                                7-16         NP              D   ANE Floresta Estacional Decidua
-* Zeyheria tuberculosa (Vell.) Bureau ex     ipê-branco, buxo-de-boi, culhões-de-     2,5-20         P              D   ANE Floresta Estacional Semideecidua
+* Zeyheria tuberculosa (Vell.) Bureau ex     ipê-branco, buxo-de-boi, culhões-de-     2,5-20         P              D   ANE Floresta Estacional Semidecidua
 Verl.                                        bode
 BORAGINACEAE
 Cordia americana (L.) Gottschling &          guaiuvira, guajuvira                      30           NP              D   ANE Floresta Estacional Semidecidua/
@@ -9353,7 +9342,7 @@ Protium spruceanum (Benth.) Engl.            almecegueira-do-mato-grosso,       
                                              almecegueira-do-brejo                                                          Mata Ciliar
 Protium widgrenii Engl.                      almecega, almecegueira, elemi            5-20          NP              D   ZOO Floresta Estacional Semidecidua
 CACTACEAE
-Cereus hildmannianus K.Schum.                mandacaru                                3-10           P              D   ZOO Floresta Altomontanal
+Cereus hildmannianus K.Schum.                mandacaru                                3-10           P              D   ZOO Floresta Altomontana
 Pereskia aculeata Mill.                      azedinha, espinho-preto, ora-pro-nobis   3-7           NP              D   ZOO Floresta Estacional Semidecidua/
                                                                                                                             Mata Ciliar/ Floresta Estacional
                                                                                                                             Decidua
@@ -9967,7 +9956,7 @@ Eugenia cuprea (O.Berg) Nied.            guamirim, cambuí                      
                                                                                                                          Ciliar
 Eugenia dodonaeifolia Cambess.           eugenia                                   3-17         NP              D    ZOO Floresta Estacional Semidecidua/ Mata
                                                                                                                          Ciliar
-Eugenia dysenterica (Mart.) DC.          cagaita                                    4-8         NP              D    ZOO Cerrrado
+Eugenia dysenterica (Mart.) DC.          cagaita                                    4-8         NP              D    ZOO Cerrado
 Eugenia excelsa O.Berg                   guamirim, cambuí                           13          NP              D    ZOO Floresta Estacional Semidecidua
 Eugenia florida DC.                      pitanga-preta                              5-9         NP              D    ZOO Floresta Estacional Semidecidua/
                                                                                                                          Mata Ciliar/ Mata Paludosa/ Floresta
@@ -10037,7 +10026,7 @@ O.Berg                                                                          
 N.Silveira
 Pimenta pseudocaryophyllus (Gomes)        louro-cravo, cataia                        4-17         NP              D   ZOO Mata Ciliar
 Landrum
-Plinia cauliflora (Mart.) Kausel                                                     3-20         NP              D   ZOO Floresta Altomontana Ciliar/ Floresta
+Plinia cauliflora (Mart.) Kausel                                                     3-20         NP              D   ZOO Floresta Altomontana / Mata Ciliar/ Floresta
                                                                                                                           Estacional Decidua
 Plinia rivularis (Cambess.) Rotman        cambucá-peixoto, piúna, jaboticabarana     6-11         NP              D   ZOO Floresta Estacional Semidecidua
 * Psidium sartorianum (O.Berg)            goiabinha                                 2,5-30        NP              D   ZOO Floresta Estacional Semidecidua/
@@ -10247,7 +10236,7 @@ Zanthoxylum rhoifolium Lam.                  mamica-de-cadela, mamica-de-porca, 
 
 
 Zanthoxylum riedelianum Engl.                   mamica-de-porca, mamica-de-cadela,         8-20          NP              D   ZOO Floresta Estacional Semidecidua/ Mata
-                                                tembetari                                                                        Paludosa/ FCerrado
+                                                tembetari                                                                        Paludosa/ Cerrado
 Zanthoxylum tingoassuiba A.St.-Hil.             laranjinha-do-mato                          12             P             D   ZOO Floresta Estacional Semidecidua
 SALICACEAE
 Casearia arborea (Rich.) Urb.                   caseária                                   1,5-12        NP              D   ZOO Cerrado
@@ -10357,7 +10346,6 @@ Symplocos uniflora (Pohl) Benth.          congonha-falsa                        
 
 
                                                                                                                                                                  REGIÃO CENTRO
-                                                                                                                                                                         NORTE
 
 
 
@@ -10661,7 +10649,7 @@ Chromolaena squalida (DC.) R.M.King &                                           
 H.Rob.                                                                                                                    Ciliar
 Dasyphyllum brasiliense (Spreng.) Cabrera                                           1-4          NP              D    ANE Floresta Estacional Semidecidua/
                                                                                                                           Floresta Estacional Decidua/ Cerrado
-* Disynaphia ericoides (DC.) R.M.King                                               0,6             P             P   ANE Cerrado/ Área Antropica
+* Disynaphia ericoides (DC.) R.M.King                                               0,6             P             P   ANE Cerrado/ Área Antrópica
 & H.Rob.
 * Jungia floribunda Less.                                                           1-2             P             P   ANE Mata Ciliar/ Cerrado
 * Lessingianthus asteriflorus (Mart. ex                                             0,4             P             P   ANE Cerrado
@@ -10756,7 +10744,7 @@ Erythroxylum buxus Peyr.                   cocão                               
 Erythroxylum daphnites Mart.               pimenta-de-nambu, camboatá-vermelho 2-4                 NP              D    ZOO Floresta Estacional Semidecidua/ Mata
                                                                                                                             Ciliar/ Cerrado
 Erythroxylum pelleterianum A. St.-Hil.     cocão                                      1-6          NP              D    ZOO Cerrado
-Erythroxylum suberosum A. St.-Hil.         fruta-de-pomba-do-campo                     4           NP              D     NP Cerrado
+Erythroxylum suberosum A. St.-Hil.         fruta-de-pomba-do-campo                     4           NP              D    ZOO Cerrado
 Erythroxylum subracemosum Turcz.                                                     1,5-3         NP              D    ZOO Mata Ciliar/ Cerrado
 Erythroxylum tortuosum Mart.               mercurinho, mercúrio                      0,3-4         NP              D    ZOO Cerrado
 ESCALLONIACEAE
@@ -11074,12 +11062,12 @@ Justicia carnea Lindl.                      jacobínia                          
 Ruellia elegans Poir.                                                            0,5-1,8        NP              D    AUT Floresta Ombrófila Densa/ Floresta
                                                                                                                          Estacional Semidecídua/ Mata Ciliar
 Ruellia brevifolia (Pohl) C.Ezcurra                                               0,4-1         NP              D    AUT Floresta Estacional Semidecidua/
-                                                                                                                         Cerrado Floresta Ciliar
+                                                                                                                         Cerrado/ Mata Ciliar
 AMARANTHACEAE
 Alternanthera brasiliana (L.) Kuntze var.   branquinha-tricomada                 0,5-1,5        NP              D    AUT Floresta Ombrófila Densa/ Mata Ciliar/
-brasiliana                                                                                                               Cerrado/ Área Antropica
+brasiliana                                                                                                               Cerrado/ Área Antrópica
 Alternanthera regelii (Seub.) Schinz                                               0,4          NP              D    AUT Cerrado
-* Alternanthera reineckii Briq.                                                    0,3          NP              D    AUT Cerrado/ Mata Ciliar/ Área Antropica
+* Alternanthera reineckii Briq.                                                    0,3          NP              D    AUT Cerrado/ Mata Ciliar/ Área Antrópica
 Hebanthe eriantha (Poir.) Pedersen          picão-de-tropeiro, solidonia           1-2          NP              D    ANE Floresta Ombrófila Densa/ Floresta
                                                                                                                          Estacional Semidecidua
 Hebanthe spicata Mart.                                                             1-2          NP              D    ANE Floresta Ombrófila Densa/ Floresta
@@ -11107,7 +11095,7 @@ Allagoptera campestris (Mart.) Kuntze       buri, imburi                        
 * Butia microspadix Burret                                                        0,8-1         NP              D    ZOO   Cerrado
 Syagrus loefgrenii Glassman                 acumã-mirim, acumã-rasteiro           0,7-1         NP              D    ZOO   Cerrado
 ASTERACEAE
-Ambrosia polystachya DC.                    artemisia-brava, losna-do-campo        1-2            P             P    ANE   Cerrado/ Área Antropica
+Ambrosia polystachya DC.                    artemisia-brava, losna-do-campo        1-2            P             P    ANE   Cerrado/ Área Antrópica
 * Aspilia floribunda (Gardner) Baker                                             0,35-2,5         P             P    ANE   Cerrado/ Mata Ciliar
 Baccharis aphylla (Vell.) DC.                                                    0,4-0 ,6         P             P    ANE   Cerrado
 Baccharis brevifolia DC.                                                         0,3-1,5          P             D    ANE   Cerrado
@@ -11132,13 +11120,13 @@ Calea triantha (Vell.) Pruski                                                   
 * Campuloclinium parvulum (Glaz.) R.M.                                                  0,2            P            P    ANE Cerrado
 King & H.Rob.
 Centratherum punctatum Cass.                                                          0,2-0,5          P             P   ANE Floresta Estacional Semidecidua/
-                                                                                                                             Cerrado/ Área Antropica
+                                                                                                                             Cerrado/ Área Antrópica
 * Chromolaena arrayana (Gardner)                                                       1,3             P             P   ANE Cerrado
 R.M.King & H.Rob.
 Mikania officinalis Mart.                                                              0,5-1           P             P   ANE Cerrado
 Mikania sessilifolia DC.                                                              0,4-1,5          P             P   ANE Mata Ciliar/ Cerrado/ Área Antrópica
 Pluchea sagittalis (Lam.) Cabrera           macela, lucera                             0,5-1           P             P   ANE Cerrado/ Área Antrópica
-Pterocaulon alopecuroides (Lam.) DC.                                                   0,5-1           P             P   ANE Cerrado/ Áreas Antrópica
+Pterocaulon alopecuroides (Lam.) DC.                                                   0,5-1           P             P   ANE Cerrado/ Área Antrópica
 Pterocaulon angustifolium DC.                                                         0,3-0,6          P             P   ANE Cerrado
 Raulinoreitzia crenulata (Spreng.) R.M.King                                           1,5-2,5          P             P   ANE Floresta Ombrófila Densa/ Floresta
 & H.Rob.                                                                                                                     Estacional Semidecidua/ Cerrado
@@ -11206,14 +11194,14 @@ Cuphea micrantha Kunth                                                          
 Diplusodon villosissimus Pohl                                                        0,4-1        NP              D    AUT   Cerrado
 * Lafoensia nummularifolia A.St.-Hil. Dedaleira-branca                               1,5-2        NP              D    AUT   Cerrado
 MALPIGHIACEAE
-* Tetrapterys microphylla (A.Juss.) Nied.                                           0,4-1,5       NP              D    AUT Cerado
+* Tetrapterys microphylla (A.Juss.) Nied.                                           0,4-1,5       NP              D    AUT Cerrado
 MALVACEAE
 * Byttneria oblongata Pohl                                                          0,6-2         NP              D    AUT Cerrado/ Floresta Estacional
                                                                                                                            Semidecidua/ Floresta Ombrófila
                                                                                                                            Densa
 *   Byttneria scabra L.                     jequeri                                  0,3-2        NP              D    AUT Cerrado
 Corchorus hirtus L.                                                                 0,1-0,6       NP              D    AUT Floresta Ombrófila Densa/ Mata
-                                                                                                                           Ciliar/ Cerrado/ Área Antropica
+                                                                                                                           Ciliar/ Cerrado/ Área Antrópica
 *   Gaya guerkeana K.Schum.                                                         0,5-1,5       NP              D    AUT Cerrado/ Floresta Estacional
                                                                                                                            Semidecidua/ Área Antrópica
 Pavonia garckeana Gürke                                                             0,5-1,5       P               P    AUT Mata Ciliar/ Cerrado/ Área Antrópica
@@ -11243,7 +11231,7 @@ MELASTOMATACEAE
 * Leandra erostrata (DC.) Cogn.                                            0,4-1          P              D    ZOO   Floresta Ombrófila Densa/ Cerrado
 Leandra xanthocoma (Naudin) Cogn.         pixirica                        0,3-1,5        P               D    ZOO   Floresta Ombrófila Densa/ Floresta
                                                                                                                     Estacional Semidecidua/ Cerrado/
-                                                                                                                    Área Antropica
+                                                                                                                    Área Antrópica
 Macairea radula (Bonpl.) DC.                                              0,5-1,5         P              D    ANE Mata Ciliar/ Cerrado
 * Microlicia myrtoidea Cham.                                              0,5-1,3         P              P    ANE Cerrado
 Ossaea amygdaloides (DC.) Triana                                            1-2          NP              D    ZOO Floresta Ombrófila Densa/ Mata Ciliar/
@@ -11262,7 +11250,7 @@ Tibouchina gracilis (Bonpl.) Cogn.                                         0,3-1
                                                                                                                   Estacional Semidecidua/ Mata Ciliar/
                                                                                                                   Cerrado
 Tibouchina herincquiana Cogn.                                             0,15-0,9        P              D    ANE Cerrado
-Tibouchina sebastianopolitana Cogn.                                        0,5-1,5       NP              D    ANE Mata Paludosa/ Área Antropica
+Tibouchina sebastianopolitana Cogn.                                        0,5-1,5       NP              D    ANE Mata Paludosa/ Área Antrópica
 Tibouchina ursina (Cham.) Cogn.                                             0,5-1         P              D    ANE Cerrado
 * Tibouchina versicolor (Lindl.) Cogn.                                    0,05-0,4       NP              D    ANE Floresta Ombrófila Densa
 MENISPERMACEAE
@@ -11293,7 +11281,7 @@ Lasiacis divaricata (L.) Hitchc.                                            1-2 
 
 Lasiacis ligulata Hitchc. & Chase                                               2-3          NP              D    AUT Floresta Ombrófila Densa/ Floresta
                                                                                                                       Estacional Semidecidua/ Mata Ciliar/
-                                                                                                                      Cerrado/ Área Antropica
+                                                                                                                      Cerrado/ Área Antrópica
 Lasiacis sorghoidea (Desv. ex Ham.) Hitchc.                                     1-3          NP              D    AUT Floresta Ombrófila Densa/ Floresta
 & Chase                                                                                                               Estacional Semidecidua/ Mata Ciliar
 Parodiolyra micrantha (Kunth) Davidse & taquari, taquara                       0,5-3         NP              D    AUT Floresta Ombrófila Densa/ Floresta
@@ -11303,17 +11291,17 @@ Rubus brasiliensis Mart.                                                       0
                                                                                                                       Estacional Semidecidua
 RUBIACEAE
 Borreria argentea Cham.                                                       0,15-0,5       NP              D    AUT Cerrado
-Borreria capitata (Ruiz & Pav.) DC.                                             0,5-1        NP              D    AUT Cerrado/ Área Antropica
+Borreria capitata (Ruiz & Pav.) DC.                                             0,5-1        NP              D    AUT Cerrado/ Área Antrópica
 Borreria latifolia (Aubl.) K.Schum.                                            0,5-1,5        P              P    AUT Floresta Ombrófila Densa/ Floresta
                                                                                                                       Altomontana/ Floresta Estacional
                                                                                                                       Semidecidua/ Mata Ciliar/ Cerrado/
-                                                                                                                       Área Antropica
+                                                                                                                       Área Antrópica
 Borreria paranaensis E.L.Cabral &                                             0,5-0,6        NP              D    AUT Floresta Estacional Semidecidua
 Bacigalupo
 Borreria poaya (A.St.-Hil.) DC.               poaia-do-campo                  0,15-0,4       NP              D    AUT Cerrado
 Borreria verticillata (L.) G.Mey.             poaia, ipecacuanha              0,12-0,4       P               D    AUT Floresta Ombrófila Densa/ Floresta
                                                                                                                       Estacional Semidecidua/ Mata Ciliar/
-                                                                                                                      Cerrado/ Área Antropica
+                                                                                                                      Cerrado/ Área Antrópica
 Cordiera obtusa (K.Schum.) Kuntze                                              0,5-1         NP              D    ZOO Cerrado
 Galianthe brasiliensis (Spreng.) E.L.Cabral                                    0,5-1          P              P    AUT Floresta Ombrófila Densa/ Floresta
 & Bacigalupo                                                                                                          Altomontana/ Floresta Estacional
@@ -11325,7 +11313,7 @@ Lantana hypoleuca Briq.                                                       0,
 Stachytarpheta cayennensis (Rich.) Vahl       rincão                          0,3-0,8           P            D    ZOO Floresta Ombrófila Densa/ Floresta
                                                                                                                       Altomontana/ Floresta Estacional
                                                                                                                       Semidecidua/ Mata Ciliar/ Cerrado/
-                                                                                                                       Área Antropica
+                                                                                                                       Área Antrópica
 VIOLACEAE
 Pombalia bigibbosa (A.St.-Hil.) Paula-Souza                                    0,5-2                         D    AUT Floresta Estacional Semidecidua/ Mata
                                                                                                                       Ciliar
@@ -11361,8 +11349,7 @@ ARACEAE
                                                                                                                  Ombrófila Densa
 *    Taccarum peregrinum (Schott) Engl.                                   0,3-0,6        NP              D   ZOO Floresta Estacional Semidecidua/
                                                                                                                  Floresta Estacional Decidua
-*    Xanthosoma blandum Schott                                             0,4           NP              D   ZOO Floresta Ombrófila Densa/ Área
-                                                                                                                 Antrópica
+*    Xanthosoma blandum Schott                                             0,4           NP              D   ZOO Floresta Ombrófila Densa/ Área Antrópica
 *    Xanthosoma syngoniifolium Rusby                                       0,7           NP              D   ZOO Floresta Estacional Semidecidua/
                                                                                                                  Floresta Estacional Decidua/ Floresta
                                                                                                                  Ombrófila Densa/ Mata Ciliar/ Cerrado
@@ -11376,7 +11363,7 @@ Chaptalia integerrima (Vell.) Burkart                                     0,2-0,
 Chaptalia nutans (L.) Pol.                                                0,2-0,3        NP              D   ANE Floresta Estacional Semidecidua/
                                                                                                                  Floresta Estacional Decidua/ Cerrado/
                                                                                                                  Área Antrópica
-Elephantopus mollis Kunth                                                 0,5-1,5          P             D   ANE Cerrado/ Área Antropica
+Elephantopus mollis Kunth                                                 0,5-1,5          P             D   ANE Cerrado/ Área Antrópica
 Emilia fosbergii Nicolson                                                 0,3-0,6          P             D   ANE Floresta Estacional Semidecidua/
                                                                                                                  Cerrado/ Área Antrópica
 Erechtites hieracifolius (L.) Raf. ex DC.                                 0,3-2            P             D   ANE Floresta Estacional Semidecidua/ Mata
@@ -11477,8 +11464,7 @@ Buchnera ternifolia Kunth                                                       
 POACEAE
 * Acroceras excavatum (Henrard)                                                           1-2          NP              D    AUT Floresta Estacional Semidecidua
 Zuloaga & Morrone
-Acroceras zizanioides (Kunth) Dandy                                                      0,5-1         NP              D    AUT Floresta Estacional Semidecidua/ Área
-                                                                                                                                Antrópica
+Acroceras zizanioides (Kunth) Dandy                                                      0,5-1         NP              D    AUT Floresta Estacional Semidecidua/ Área Antrópica
 Agenium villosum (Nees) Pilg.                                                            0,38-           P             D    AUT Cerrado
                                                                                          0,97
 Andropogon bicornis L.                          rabo-de-burro, rabo-de-boi, barba-de-   0,6-1,8          P             P   ANE Cerrado/ Área Antrópica
@@ -11525,7 +11511,7 @@ Chloris orthonoton Döll                   capim-azul, grama-azul,grama-azul-de-
                                           taubaté                                      0,55
 Chloris pycnothrix Trin.                                                               0,13-            P            D    AUT Cerrado/ Área Antrópica
                                                                                        0,40
-Cortaderia selloana (Schult. & Schult.f.)     capim-dos-pampas                         2--3             P             P   ANE Floresta AltoMontana/ Área Antrópica
+Cortaderia selloana (Schult. & Schult.f.)     capim-dos-pampas                         2--3             P             P   ANE Floresta Altomontana/ Área Antrópica
 Asch. & Graebn.
 * Ctenium cirrhosum (Nees) Kunth                                                       0,7-1            P            D    AUT Cerrado
 Ctenium polystachyum Balansa                                                          0,8-1,5           P            D    AUT Cerrado
@@ -11561,8 +11547,7 @@ Eriochloa punctata (L.) Desv. ex Ham.                                           
 
 
 
-Eustachys distichophylla (Lag.) Nees                                            0,8-1,4          P             D    AUT Floresta Altomontana/ Cerrado/ Área
-                                                                                                                        Antrópica
+Eustachys distichophylla (Lag.) Nees                                            0,8-1,4          P             D    AUT Floresta Altomontana/ Cerrado/ Área Antrópica
 Eustachys retusa (Lag.) Kunth                                                    0,30-           P             D    AUT Cerrado/ Área Antrópica
                                                                                   0,70
 Gymnopogon foliosus (Willd.) Nees                                                0,10-           P             D    AUT Cerrado/ Área Antrópica
@@ -11572,8 +11557,8 @@ Homolepis glutinosa (Sw.) Zuloaga &                                             
 Soderstr.                                                                                                          ZOO
 * Homolepis villaricensis (Mez) Zuloaga                                         0,15-0,4         P             D   AUT Cerrado
 & Soderstr.
-* Hymenachne condensata (Bertol.)                                                  1             P             D    AUT Campo Alagado/ Mata Ciliar/ Área
-Chase                                                                                                                   Antrópica
+* Hymenachne condensata (Bertol.)                                                  1             P             D    AUT Campo Alagado/ Mata Ciliar/ Área Antrópica
+Chase
 * Hymenachne pernambucensis                                                        1             P             D    AUT Mata Ciliar/ Mata Paludosa
 (Spreng.) Zuloaga
 Hyparrhenia bracteata (Humb. & Bonpl. ex                                         1-1,2           P             D   ANE Floresta Altomontana/ Mata Ciliar/
@@ -11590,8 +11575,8 @@ Swallen                                                                         
 Ichnanthus tenuis (J.Presl & C.Presl) Hitchc.                                   0,3-0,4        NP              D   AUT Floresta Estacional Semidecidua/ Mata
 & Chase                                                                                                                Ciliar/ Floresta Estacional Decidua/
                                                                                                                        Cerrado
-Imperata brasiliensis Trin.                     sapé, capim-sapé                 0,33-           P             P   ANE Floresta Altomontana/ Cerrado/ Área
-                                                                                 0,95                                  Antrópica
+Imperata brasiliensis Trin.                     sapé, capim-sapé                 0,33-           P             P   ANE Floresta Altomontana/ Cerrado/ Área Antrópica
+                                                                                 0,95
 Leptochloa virgata (L.) P.Beauv.                                                 0,5-1           P             D   AUT Floresta Estacional Semidecidua/
                                                                                                                        Cerrado/ Área Antrópica
 Loudetiopsis chrysothrix (Nees) Conert                                          0,5-0,8         P              D   AUT Cerrado
@@ -11639,22 +11624,19 @@ Flüggé
 & C.N.Bastos
 Paspalum conjugatum P.J.Bergius         capim-gordo                          0,2-0,8           P            D    AUT Floresta Estacional Semidecidua/ Mata
                                                                                                                      Ciliar/ Cerrado/ Área Antrópica
-*   Paspalum compressifolium Swallen                                          0,38-            P            D    AUT Campo Alagado/ Cerrado/ Área
-                                                                              0,57                                   Antrópica
+*   Paspalum compressifolium Swallen                                          0,38-            P            D    AUT Campo Alagado/ Cerrado/ Área Antrópica
+                                                                              0,57
 Paspalum conspersum Schrad.            capim-milhã, milhã-branco, capim-      0,8-1         NP              D    AUT Cerrado
                                        batataes
 *   Paspalum erianthum Nees ex Trin.                                          0,39-            P            D    AUT Cerrado
                                                                               0,56
 Paspalum eucomum Nees ex Trin.                                               0,7-0,8           P            D    AUT Cerrado
 Paspalum foliiforme S.Denham                                                  1-1,2            P            D    AUT Cerrado
-Paspalum gardnerianum Nees                                                   0,45-1            P            D    AUT Floresta Altomontana/ Cerrado/ Área
-                                                                                                                     Antrópica
+Paspalum gardnerianum Nees                                                   0,45-1            P            D    AUT Floresta Altomontana/ Cerrado/ Área Antrópica
 Paspalum guttatum Trin.                                                       0,35-            P            D    AUT Cerrado
                                                                               0,81
-*   Paspalum ionanthum Chase                                                   0,8             P            D    AUT Campo Alagado/ Cerrado/ Área
-                                                                                                                     Antrópica
-Paspalum maculosum Trin.                                                       0,9          NP              D    AUT Floresta Altomontana/ Cerrado/ Área
-                                                                                                                     Antrópica
+*   Paspalum ionanthum Chase                                                   0,8             P            D    AUT Campo Alagado/ Cerrado/ Área Antrópica
+Paspalum maculosum Trin.                                                       0,9          NP              D    AUT Floresta Altomontana/ Cerrado/ Área Antrópica
 * Paspalum macranthecium Parodi                                                0,5           P              D    AUT Cerrado/ Área Antrópica
 Paspalum malacophyllum Trin.                                                 0,6-1,5        NP              D    AUT Mata Ciliar/ Cerrado
 Paspalum mandiocanum Trin.                                                    0,18-         NP              D    AUT Floresta Estacional Semidecidua/ Mata
@@ -11676,8 +11658,8 @@ Paspalum polyphyllum Nees                                                    0,3
 
 
 
-* Paspalum stellatum Humb. & Bonpl.                                                  0,85            P             D   AUT Campo Alagado/ Cerrado/ Área
-ex Flüggé                                                                                                                   Antrópica
+* Paspalum stellatum Humb. & Bonpl.                                                  0,85            P             D   AUT Campo Alagado/ Cerrado/ Área Antrópica
+ex Flüggé
 Pharus lappulaceus Aubl.                                                             0,3-1         NP              D   AUT/ Floresta Estacional Semidecidua
                                                                                                                        ZOO
 *   Piptochaetium ruprechtianum Desv.                                                  0,8          P              D   AUT Cerrado
@@ -11686,8 +11668,8 @@ Stapf                                                                           
 Rugoloa polygonata (Schrad.) Zuloaga                                                0,26-0,9       NP              D   AUT Mata Ciliar/ Cerrado
 Saccharum asperum (Nees) Steud.             capim-rabo-de-boi                         0,67-         P              P   ANE Floresta Altomontana/ Cerrado
                                                                                       2,96
-Saccharum villosum Steud.                   capim-rabo-de-boi, capim-touceira,      0,83-4,5         P             P   ANE Floresta Altomontana/ Cerrado/ Área
-                                            capim-pororó-assú                                                              Antrópica
+Saccharum villosum Steud.                   capim-rabo-de-boi, capim-touceira,      0,83-4,5         P             P   ANE Floresta Altomontana/ Cerrado/ Área Antrópica
+                                            capim-pororó-assú
 Sacciolepis vilvoides (Trin.) Chase                                                 0,3-1,5        P               P   ANE Floresta Estacional Decidua
 Schizachyrium condensatum (Kunth) Nees                                              0,35-1,1        P              D   AUT Cerrado
 Setaria scandens Schrad.                                                               0,6          P              P   AUT Mata Ciliar/ Cerrado/ Área Antrópica
@@ -11700,9 +11682,8 @@ Sorghastrum minarum (Nees) Hitchc.                                              
 Sporobolus ciliatus J.Presl                                                         0,1-0,4          P             P    AUT Floresta Estacional Semidecidua/
                                                                                                                             Cerrado
 Sporobolus cubensis Hitchc.                                                         0,5-0,7          P             P    AUT Cerrado
-Sporobolus indicus (L.) R.Br.                                                       0,2-1,2          P             P    AUT Floresta Altomontana/ Cerrado/ Área
-                                                                                                                            Antrópica
-Sporobolus pseudairoides Parodi                                                     0,4-0,9          P             P    Aut Cerrado/Antrópica
+Sporobolus indicus (L.) R.Br.                                                       0,2-1,2          P             P    AUT Floresta Altomontana/ Cerrado/ Área Antrópica
+Sporobolus pseudairoides Parodi                                                     0,4-0,9          P             P    Aut Cerrado/Área Antrópica
 Steinchisma decipiens (Nees ex Trin.)                                                0,17-           P             D    AUT Cerrado
 W.V.Br.                                                                              0,73
 Tristachya leiostachya Nees                                                          1-2,1           P             D    AUT Cerrado
@@ -11784,8 +11765,7 @@ Mikania cordifolia (L.f.) Willd.               cipó-cabeludo,erva-de-cobra     
 Mikania micrantha Kunth                                                                                 NP              D    AUT Floresta Estacional Semidecidua/ Mata
                                                                                                                                  Ciliar/ Floresta Estacional Decidua/
                                                                                                                                  Cerrado/ Área Antrópica
-Mutisia coccinea A.St.-Hil.                    cambará, capitão-do-mato                                 NP              D    AUT Floresta Estacional Semidecidua/ Área
-                                                                                                                                 Antrópica
+Mutisia coccinea A.St.-Hil.                    cambará, capitão-do-mato                                 NP              D    AUT Floresta Estacional Semidecidua/ Área Antrópica
 BASELLACEAE
 Anredera cordifolia (Tem.) Steenis                                                                      NP              D   ZOO Floresta Estacional Semidecidua
 BIGNONIACEAE
@@ -11872,12 +11852,10 @@ CACTACEAE
 Pereskia aculeata Mill.                      ora-pro-nobis, azedinha, espinho-de-a-                NP                 D       ZOO Floresta Estacional Semidecidua/ Mata
                                              gulha                                                                                Ciliar
 CELASTRACEAE
-Pristimera celastroides (Kunth) A.C.Sm.                                                            NP                 D       ZOO Floresta Estacional Semidecidua/ Área
-                                                                                                                                  Antrópica
+Pristimera celastroides (Kunth) A.C.Sm.                                                            NP                 D       ZOO Floresta Estacional Semidecidua/ Área Antrópica
 CONVOLVULACEAE
 Ipomoea cairica (L.) Sweet                   campainha, corda-de-viola                             P                  P       AUT Mata Ciliar/ Cerrado/ Área Antrópica
-Ipomoea indica (Burm.) Merr.                 campainha, corda-de-viola, corriola                   P                  D       AUT Floresta Estacional Decidua/ Área
-                                                                                                                                  Antrópica
+Ipomoea indica (Burm.) Merr.                 campainha, corda-de-viola, corriola                   P                  D       AUT Floresta Estacional Decidua/ Área Antrópica
 Ipomoea saopaulista O’Donell                                                                       NP                 P       AUT Mata Ciliar/ Cerrado
 Jacquemontia velutina Choisy                                                                       NP                 D       AUT Mata Ciliar/ Cerrado
 Merremia macrocalyx (Ruiz & Pav.) O’Donell batatarana, jetirana                                    NP                 P       AUT Mata Ciliar/ Cerrado/ Área Antrópica
@@ -11888,7 +11866,7 @@ DIOSCOREACEAE
 Dioscorea grandiflora Mart. ex Griseb                                                              NP                 D       AUT Mata Ciliar/ Cerrado
 * Dioscorea multiflora Mart. ex Griseb.     inhame-de-espinho, japecanga                           NP                 D       AUT Cerrado
 FABACEAE
-* Ancistrotropis firmula (Mart. ex Benth.)                                                         NP                 D       AUT Cerrado/ Área Antropica
+* Ancistrotropis firmula (Mart. ex Benth.)                                                         NP                 D       AUT Cerrado/ Área Antrópica
 A.Delgado
 Calopogonium mucunoides Desv.                                                                      P                  P       AUT Floresta Estacional Semidecidua/ Mata
                                                                                                                                   Ciliar/ Floresta Estacional Decidua/
@@ -11946,8 +11924,7 @@ Paullinia carpopoda Cambess.                                                    
 Serjania caracasana (Jacq.) Willd.            cipó-leiteiro, timbó                              NP              D    AUT Floresta Estacional Semidecidua/
                                                                                                                          Cerrado/ Área Antrópica
 Serjania communis Cambess.                    cipó-timbó-mirim, timbó                           NP              D    AUT Floresta Altomontana/ Floresta
-                                                                                                                         Estacional Semidecidua/ Área
-                                                                                                                         Antrópica
+                                                                                                                         Estacional Semidecidua/ Área Antrópica
 Urvillea ulmacea Kunth                        balãozinho, chumbinho                             NP              D    AUT Floresta Estacional Semidecidua/
                                                                                                                          Cerrado
 SMILACACEAE
@@ -12118,8 +12095,7 @@ ASPLENIACEAE
 Asplenium claussenii Hieron.                                                  0,3-0,5        NP                 D   ANE Floresta Estacional Semidecidua
 BLECHNACEAE
 Blechnum brasiliense Desv.                                                     0,5-1         NP                 D   ANE Floresta Estacional Semidecidua/
-                                                                                                                        Floresta Estacional Decidua/ Área
-                                                                                                                        Antrópica
+                                                                                                                        Floresta Estacional Decidua/ Área Antrópica
 Blechnum occidentale L.                                                       0,3-0,5        NP                 D   ANE Floresta Estacional Semidecidua/ Mata
                                                                                                                         Ciliar/ Cerrado/ Área Antrópica
 Blechnum polypodioides Raddi                                                  0,2-0,4        NP                 D   ANE Mata Ciliar/ Área Antrópica
@@ -12137,8 +12113,7 @@ Cyathea dichromatolepis (Fée) Domin        samambaiaçu, samambaia-gigante     
 Cyathea microdonta (Desv.) Domin           samambaiaçu, samambaia-gigante         5          NP                 D   ANE Floresta Estacional Decidua
 Cyathea phalerata Mart.                    samambaiaçu, samambaia-gigante        10          NP                 D   ANE Floresta Estacional Decidua
 GLEICHENIACEAE
-Dicranopteris flexuosa (Schrad.) Underw.                                       1-1,6         NP                 D   ANE Floresta Altomontana/ Cerrado/ Área
-                                                                                                                        Antrópica
+Dicranopteris flexuosa (Schrad.) Underw.                                       1-1,6         NP                 D   ANE Floresta Altomontana/ Cerrado/ Área Antrópica
 Sticherus revolutus (Kunth) Ching          gleichenia                          0,5-1         NP                 D   ANE Floresta Altomontana/ Área Antrópica
 HYMENOPHYLACEAE
 Hymenophyllum polyanthos (Sw.)Sw.                                             0,1-0,35       NP                 D   ANE Mata Ciliar
@@ -12165,8 +12140,7 @@ Palhinhaea cernua (L.) Franco & Vasc.                                       0,3-
 LYGODIACEAE
 Lygodium venustum Sw.                        abre-caminho                                    NP                 D   ANE Floresta Estacional Semidecidua/
                                                                                                                         Mata Ciliar/ Floresta Estacional
-                                                                                                                        Demidecidua/ Cerrado/ Área
-                                                                                                                        Antrópica
+                                                                                                                        Demidecidua/ Cerrado/ Área Antrópica
 Lygodium volubile Sw.                        abre-caminho                                    NP                 D   ANE Floresta Estacional Semidecidua/ Mata
                                                                                                                         Ciliar/ Cerrado/ Área Antrópica
 OSMUNDACEAE
@@ -12216,7 +12190,7 @@ Thelypteris opposita (Vahl) Ching                                           0,15
 ALISMATACEAE
 Echinodorus grandiflorus (Cham. & Schltr.) chapéu-de-couro                    0,5-1                                      Floresta Estacional Semidecidua/ Mata
 Micheli                                                                                                                  Ciliar/ Mata Paludosa/ Lago/ Brejo/
-                                                                                                                         Área Antropica
+                                                                                                                         Área Antrópica
 Hydrocleys nymphoides (Willd.) Buchenau golfe, largatissa                    0,4-0,8           P               P   AUT/ Lago
                                                                                                                    HIDR
 Limnocharis flava (L.) Buchenau           golfe                              0,3-0,6           P               P   AUT/ Lago
@@ -12226,7 +12200,7 @@ Sagittaria rhombifolia Cham.                                                   0
 ARACEAE
 Philodendron brasiliense Engl.            banana-do-brejo, banana-do-chacá   0,5-1,2        NP                 D   ZOO Floresta Estacional Semidecidua/
                                                                                                                         Cerrado/ Brejo
-Pistia stratiotes L.                      alface-d’água                      0,1-0,3           P               P   AUT/ Rios e Cachoeiras/ Lago
+Pistia stratiotes L.                      alface-d’água                      0,1-0,3           P               P   AUT/ Rio-Cachoeira/ Lago
                                                                                                                    HIDR
 BEGONIACEAE
 Begonia cucullata Willd.                                                      0,2-1         NP                 D   ANE Floresta Estacional Semidecidua/ Mata
@@ -12252,13 +12226,12 @@ Schultesia gracilis Mart.                 rosinha                            0,2
 HALORAGACEAE
 Laurembergia tetrandra (Schott) Kanitz                                       0,05-0,3       NP                 D   AUT Lago/ Cerrado/ Brejo
 Myriophyllum aquaticum (Vell.) Verdc.     pinheirinho-d’água                  0,05-          P                 D   AUT/ Floresta Estacional Semidecidua/
-                                                                               0,15                                HIDR Mata Ciliar/ Mata Paludosa/ Rios
-                                                                                                                        e Cachoeiras/ Lago/ Brejo/ Área
-                                                                                                                        Antrópica
+                                                                               0,15                                HIDR Mata Ciliar/ Mata Paludosa/ Rio-Cachoeira
+                                                                                                                        Lago/ Brejo/ Área Antrópica
 HYDROCHARITACEAE
 Egeria najas Planch.                                                         0,10-0,5       NP                 D   AUT/ Lago/ Cerrado
                                                                                                                    HIDR
-Ottelia brasiliensis (Planch.) Walp.                                         0,2-0,4 NP                    D       AUT/ Lago/ Rios e Cachoeiras/ Cerrado
+Ottelia brasiliensis (Planch.) Walp.                                         0,2-0,4 NP                    D       AUT/ Lago/ Rio-Cachoeira/ Cerrado
                                                                                                                    HIDR
 #                               AQUÁTICAS E PALUDOSAS•
 
@@ -12285,36 +12258,35 @@ Torenia thouarsii (Cham. & Schltdl.) Kuntze                                   0,
 LYTHRACEAE
 * Cuphea arenarioides A.St.-Hil                                               0,1                NP                 D    AUT Cerrado/ Campo Alagado
 MAYACACEAE
-Mayaca fluviatilis Aubl.                    lodo, musgo-de-flor               0,05-0,2 NP                           D    AUT Rios e Cachoeiras/ Lago
-Mayaca sellowiana Kunth                     maiacá, musgo-de-flor             0,1-0,3 NP                            D    AUT Rios e Cachoeiras/ Brejo
+Mayaca fluviatilis Aubl.                    lodo, musgo-de-flor               0,05-0,2 NP                           D    AUT Rio-Cachoeira/ Lago
+Mayaca sellowiana Kunth                     maiacá, musgo-de-flor             0,1-0,3 NP                            D    AUT Rio-Cachoeira/ Brejo
 MELASTOMATACEAE
 Acisanthera variabilis (Naud.) Triana                                         0,2-0,8 P                             D    AUT Floresta Estacional Semidecidua/ Mata
                                                                                                                              Paludosa/ Cerrado/ Brejo
 Pterolepis repanda (DC.) Triana                                               0,2-0,5 P                             D    AUT Cerrado/ Brejo
 ONAGRACEAE
-Ludwigia hyssopifolia (G.Don) Exell                                           1-2                P                  P    AUT/   Mata Ciliar/ Lago/ Brejo/ Área
-                                                                                                                         HIDR   Antrópica
+Ludwigia hyssopifolia (G.Don) Exell                                           1-2                P                  P    AUT/   Mata Ciliar/ Lago/ Brejo/ Área Antrópica
+                                                                                                                         HIDR
 Ludwigia lagunae (Morong) H.Hara                                              1-3                P                  P    AUT/   Floresta Estacional Demidecidua /
                                                                                                                          HIDR   Lago/ Brejo/ Área Antrópica
-Ludwigia leptocarpa (Nutt.) H.Hara                                            0,5-2              P                  P    AUT/   Floresta Estacional Semiemidecidua /
+Ludwigia leptocarpa (Nutt.) H.Hara                                            0,5-2              P                  P    AUT/   Floresta Estacional Semidecidua /
                                                                                                                          HIDR   Mata Ciliar/ Mata Paludosa/ Cerrado/
                                                                                                                                 Lago/ Brejo/ Área Antrópica
 PLANTAGINACEAE
-Bacopa monnieri (L.) Pennell                                                  0,05-0,2 P                            D    AUT Floresta Altomontana / Brejo/ Área
-                                                                                                                             Antrópica
+Bacopa monnieri (L.) Pennell                                                  0,05-0,2 P                            D    AUT Floresta Altomontana / Brejo/ Área Antrópica
 Bacopa monnierioides (Cham.) B.L.Rob.                                         0,1-0 ,3 P                            D    AUT Cerrado/ Brejo
 Bacopa salzmannii (Benth.) Wettst. ex                                         0,1-0,3 P                             P    AUT Floresta Altomontana / Cerrado /
 Edwall                                                                                                                       Brejo/ Área Antrópica
 Scoparia dulcis L.                         vassoura-de-botão                  0 ,1-0,6 P                            P    AUT Cerrado/ Brejo/ Área Antrópica
 POACEAE
-Panicum dichotomiflorum Michx.             grama-de-castela, capim-de-boi     0,5-1,4 P                             P    AUT Floresta Estacional Semiemidecidua /
+Panicum dichotomiflorum Michx.             grama-de-castela, capim-de-boi     0,5-1,4 P                             P    AUT Floresta Estacional Semidecidua /
                                                                                                                              Cerrado/ Lago/ Brejo
 Paspalum repens P.J.Bergius                                                   1-2                NP                 P    AUT Cerrado/ Lago/ Brejo/ Área Antrópica
 POLYGONACEAE
 Polygonum meisnerianum Cham.               erva-de-bicho                      0,2-0,5 NP                            D    AUT Cerrado/ Brejo/ Área Antrópica
 Polygonum punctatum Elliott                                                   0,3-0,6 P                             D    AUT Cerrado/ Área Antrópica
 PODOSTEMACEAE
-Crenias glazioviana (Warm.) C.D.K. Cook                                       0,1                NP                 D    AUT/ Rios e Cachoeiras
+Crenias glazioviana (Warm.) C.D.K. Cook                                       0,1                NP                 D    AUT/ Rio-Cachoeira
 & Rutish.                                                                                                                HIDR
 #                                AQUÁTICAS E PALUDOSAS•
 
@@ -12326,34 +12298,34 @@ Crenias glazioviana (Warm.) C.D.K. Cook                                       0,
 
 
 
-Crenias weddelliana (Tul.) C.D.K. Cook &                                           0,2            NP                 D    AUT/   Rios e Cachoeiras
+Crenias weddelliana (Tul.) C.D.K. Cook &                                           0,2            NP                 D    AUT/   Rio-Cachoeira
 Rutish.                                                                                                                   HIDR
-Mourera aspera (Bong.) Tul.                                                                       NP                 D    AUT/   Rios e Cachoeiras
+Mourera aspera (Bong.) Tul.                                                                       NP                 D    AUT/   Rio-Cachoeira
                                                                                                                           HIDR
-Podostemum comatum Hicken                                                          0,2-0,6 NP                        D    AUT/   Rios e Cachoeiras
+Podostemum comatum Hicken                                                          0,2-0,6 NP                        D    AUT/   Rio-Cachoeira
                                                                                                                           HIDR
-* Podostemum distichum (Cham.)                                                     0,1-0,15 NP                       D    AUT/   Rios e Cachoeiras
+* Podostemum distichum (Cham.)                                                     0,1-0,15 NP                       D    AUT/   Rio-Cachoeira
 Wedd.                                                                                                                     HIDR
-Tristicha trifaria (Bory ex Willd.) Spreng.                                                       NP                 D    AUT/   Rios e Cachoeiras
+Tristicha trifaria (Bory ex Willd.) Spreng.                                                       NP                 D    AUT/   Rio-Cachoeira
                                                                                                                           HIDR
-Wettsteiniola accorsii (Toledo)P. Royen                                            0,01           NP                 D    AUT/   Rios e Cachoeiras
+Wettsteiniola accorsii (Toledo)P. Royen                                            0,01           NP                 D    AUT/   Rio-Cachoeira
                                                                                                                           HIDR
 PONTEDERIACEAE
-Eichhornia azurea (Sw.) Kunth                 aguapé, orelha-de-veado, bico-de-pato 0,1-0,5 P                        P    AUT/ Floresta Estacional Semiemidecidua
-                                                                                                                          HIDR / Mata Ciliar/ Cerrado/ Rios e
-                                                                                                                               Cachoeiras/ Lago
-Eichhornia crassipes (Mart.) Solms            aguapé                               0,2-0,6 P                         P    AUT/ Floresta Estacional Semiemidecidua
-                                                                                                                          HIDR / Mata Ciliar/ Cerrado/ Rios e
-                                                                                                                               Cachoeiras/ Lago/ Área Antrópica
-*    Heteranthera reniformis Ruiz & Pav.                                           0,05-          P                  P    AUT/ Mata Paludosa/ Rios e Cachoeiras/
+Eichhornia azurea (Sw.) Kunth                 aguapé, orelha-de-veado, bico-de-pato 0,1-0,5 P                        P    AUT/ Floresta Estacional Semidecidua
+                                                                                                                          HIDR / Mata Ciliar/ Cerrado/ Rio-Cachoeira/
+                                                                                                                               Lago
+Eichhornia crassipes (Mart.) Solms            aguapé                               0,2-0,6 P                         P    AUT/ Floresta Estacional Semidecidua
+                                                                                                                          HIDR / Mata Ciliar/ Cerrado/ Rio-Cachoeira/
+                                                                                                                               Lago/ Área Antrópica
+*    Heteranthera reniformis Ruiz & Pav.                                           0,05-          P                  P    AUT/ Mata Paludosa/ Rio-Cachoeira/
                                                                                    0,15                                   HIDR Lago/ Brejo/ Área Antrópica
 *    Heteranthera zosterifolia Mart.                                               0,04-          NP                 D    AUT/ Mapa Paludosa
                                                                                    0,07                                   HIDR
 Pontederia cordata L.                         rainha-do-lago, dama-do-lago         0,2-1          P                  P    AUT/ Cerrado/ Lago
                                                                                                                           HIDR
 RUBIACEAE
-Oldenlandia salzmannii (DC.) Benth. &                                              0,02-0,1 P                        P    AUT Mata Ciliar/ Lago/ Brejo/ a Área
-Hook.f. ex B.D.Jacks.                                                                                                         Antrópica
+Oldenlandia salzmannii (DC.) Benth. &                                              0,02-0,1 P                        P    AUT Mata Ciliar/ Lago/ Brejo/ Área Antrópica
+Hook.f. ex B.D.Jacks.
 SOLANACEAE
 * Schwenckia curviflora Benth                                                      0,5            NP                 D    AUT Campo Alagado
 TYPHACEAE
@@ -12549,7 +12521,7 @@ Hymenaea courbaril L. var. stilbocarpa    jatobá, jatobá-miúdo, jatobá-da-ma
 Inga edulis Mart.                          ingá-de-metro                              6-25          NP              P    ZOO Floresta Estacional Semidecidua
 Inga laurina (Sw.) Willd.                  ingá-mirim, ingá-do-pantanal, ingá, ingá- 10-20          NP              P    ZOO Floresta Estacional Semidecidua
                                            verde, ingá-miúdo
-Leptolobium elegans Vogel                  amendoim-falso, perobinha-do-campo (-2) 6-16             NP              NP    NP   Cerrado
+Leptolobium elegans Vogel                  amendoim-falso, perobinha-do-campo (-2) 6-16             NP              D    ANE   Cerrado
 Machaerium acutifolium Vogel               bico-de-pato, jacarandá-do-campo            4-6          NP              D    ANE   Cerrado
 Machaerium hirtum (Vell.) Stellfeld        barreiro, jacarandá-de-espinho             6-12          NP              D    ANE   Floresta Estacional Semidecidua
 Machaerium nyctitans (Vell.) Benth.        bico-de-pato, jacarandá-bico-de-           8-25          NP              D    ANE   Floresta Estacional Semidecidua
@@ -12800,8 +12772,8 @@ Casearia mariquitensis Kunth                 cafezinho-do-mato, pau-de-espeto,  
                                              café-bravo                                                                     Cerrado/ Mata Ciliar
 Casearia rupestris Eichler                   espeteiro, guassatunga                   1,7-8           P            D    ZOO Floresta Estacional Semidecidua/
                                                                                                                             Cerrado/ Mata Ciliar
-3 Casearia sylvestris Sw.                    guaçatonga, erva-de-lagarto              6-20          P              D      P Floresta Estacional Semidecidua
-Prockia crucis P.Browne ex L.                cuiteleiro, marmeladinha                 1-10         NP              D     NP Floresta Estacional Semidecidua/
+3 Casearia sylvestris Sw.                    guaçatonga, erva-de-lagarto              6-20          P              D    ZOO Floresta Estacional Semidecidua
+Prockia crucis P.Browne ex L.                cuiteleiro, marmeladinha                 1-10         NP              D    ZOO Floresta Estacional Semidecidua/
                                                                                                                             Cerrado
 SAPINDACEAE
 Allophylus sericeus (Cambess.) Radlk.        fruta-de-faraó-do-cerrado                3-10         NP              D    ZOO Floresta Estacional Semidecidua/
@@ -13300,8 +13272,7 @@ Waltheria indica L.                                                             
 ORCHIDACEAE
 Epidendrum secundum Jacq.                                                             0,4-1         NP              D    ANE Floresta Estacional Semidecidua/
                                                                                                                              Mata Ciliar/ Cerrado/ Área Antrópica
-*    Habenaria trifida Kunth                                                         0,3-0,6        NP              D    ANE Cerrado/ Campo Alagado/ Área
-                                                                                                                             Antrópica
+*    Habenaria trifida Kunth                                                         0,3-0,6        NP              D    ANE Cerrado/ Campo Alagado/ Área Antrópica
 POACEAE
 * Andropogon hypogynus Hack.                                                         0,4-1,8          P             P    ANE Cerrado/ Campo Alagado
 Andropogon leucostachyus Kunth              capim-membeca                           0,25-1,05         P             P    ANE Cerrado/ Área Antrópica
@@ -13325,10 +13296,10 @@ Eragrostis rufescens Schrad. ex Schult.                                         
 Gymnopogon spicatus (Spreng.) Kuntze                                                 0,35-0,8        P               D   AUT    Cerrado
 Homolepis glutinosa (Sw.) Zuloaga &                                                   0,6-2         NP               D   AUT/   Mata Ciliar/ Cerrado
 Soderstr.                                                                                                                ZOO
-* Hymenachne condensata (Bertol.)                                                        1             P             D   AUT    Mata Ciliar/ Campo Alagado/ Área
-Chase                                                                                                                           Antrópica
-* Hymenachne donacifolia (Raddi)                                                       1-2             P             D   AUT    Mata Ciliar/ Campo Alagado/ Área
-Chase                                                                                                                           Antrópica
+* Hymenachne condensata (Bertol.)                                                        1             P             D   AUT    Mata Ciliar/ Campo Alagado/ Área Antrópica
+Chase
+* Hymenachne donacifolia (Raddi)                                                       1-2             P             D   AUT    Mata Ciliar/ Campo Alagado/ Área Antrópica
+Chase
 Ichnanthus calvescens (Nees ex Trin.) Döll                                           1,6-2,1        NP               D   AUT    Floresta Estacional Semidecidua/
                                                                                                                                 Mata Ciliar/ Cerrado
 Ichnanthus inconstans (Trin. ex Nees) Döll                                           1,4-1,6        NP               D   AUT    Floresta Estacional Semidecidua/
@@ -13350,8 +13321,8 @@ Olyra ciliatifolia Raddi                                                        
                                                                                                                              Mata Ciliar
 Olyra latifolia L.                           taquara, taquari-mole                    0,5-2         NP               D   AUT Floresta Estacional Semidecidua/
                                                                                                                              Mata Ciliar
-*    Paspalum compressifolium Swallen                                                 0,38-            P             D   AUT Cerrado/ Campo Alagado/ Área
-                                                                                      0,57                                   Antrópica
+*    Paspalum compressifolium Swallen                                                 0,38-            P             D   AUT Cerrado/ Campo Alagado/ Área Antrópica
+                                                                                      0,57
 *    Paspalum conspersum Schrad.             capim-milhã, milhã-branco, capim-        0,8-1         NP               D   AUT Cerrado
                                              batataes
 *   Paspalum macranthecium Parodi                                                    0,5            P                D   AUT Cerrado/ Área Antrópica
@@ -13630,16 +13601,16 @@ BEGONIACEAE
 Begonia cucullata Willd.                                                         0,2-1        NP               D   ANE Floresta Estacional Semidecidua/
                                                                                                                        Mata Ciliar/ Cerrado/ Brejo
 CERATOPHYLLACEAE
-Ceratophyllum demersum L.                                                        0,5-2        NP               D   AUT/ Cerrado/ Rios e Cachoeiras
+Ceratophyllum demersum L.                                                        0,5-2        NP               D   AUT/ Cerrado/ Rio-Cachoeira
                                                                                                                    HIDR
 ERIOCAULACEAE
 Syngonanthus caulescens (Poir.) Ruhland                                         0,2-0,4       NP               D   ANE Cerrado/ Lago/ Brejo
 HALORAGACEAE
 Myriophyllum aquaticum (Vell.) Verdc.          pinheirinho-d’água                0,05-           P             D   AUT/ Floresta Estacional Semidecidua/
-                                                                                 0,15                              HIDR Mata Ciliar/ Rios e Cachoeiras/ Lago/
+                                                                                 0,15                              HIDR Mata Ciliar/ Rio-Cachoeira/ Lago/
                                                                                                                         Brejo
 HYDROCHARITACEAE
-Apalanthe granatensis (Bonpl.) Planch.                                          0,3-0,4       NP               D   AUT/ Cerrado/ Rios e Cachoeiras/ Lago
+Apalanthe granatensis (Bonpl.) Planch.                                          0,3-0,4       NP               D   AUT/ Cerrado/ Rio-Cachoeira/ Lago
                                                                                                                    HIDR
 LENTIBULARIACEAE
 Utricularia amethystina Salzm. ex A.St.-Hil.                                   0,05-0,3       NP               D   ZOO Cerrado
@@ -13650,8 +13621,8 @@ Utricularia triloba Benj.                                                      0
 LINDERNIACEAE
 Torenia thouarsii (Cham. & Schltdl.) Kuntze                                     0,1-0,4       NP               D   AUT Cerrado/ Brejo
 MAYACACEAE
-Mayaca sellowiana Kunth                        maiacá, musgo-de-flor            0,1-0,3       NP               D   AUT Rios e Cachoeiras/ Brejo
-Mayaca sellowiana Kunth                        maiacá, musgo-de-flor            0,1-0,3       NP               D   AUT Rios e Cachoeiras/ Brejo
+Mayaca sellowiana Kunth                        maiacá, musgo-de-flor            0,1-0,3       NP               D   AUT Rio-Cachoeira/ Brejo
+Mayaca sellowiana Kunth                        maiacá, musgo-de-flor            0,1-0,3       NP               D   AUT Rio-Cachoeira/ Brejo
 MELASTOMATACEAE
 Pterolepis glomerata (Rottb.) Miq.                                              0,4-0,6          P             D   AUT Cerrado/ Brejo
 ONAGRACEAE
@@ -13685,18 +13656,14 @@ Polygonum meisnerianum Cham.          erva-de-bicho                           0,
 Polygonum punctatum Elliott                                                   0,3-0,6        P              D    AUT Cerrado
 PONTEDERIACEAE
 Eichhornia azurea (Sw.) Kunth         aguapé, orelha-de-veado, bico-de-pato   0,1-0,5         P             P   AUT/ Floresta Estacional Semidecidua/
-                                                                                                                HIDR Mata Ciliar/ Cerrado/ Rios e
-                                                                                                                     Cachoeiras/ Lago
+                                                                                                                HIDR Mata Ciliar/ Cerrado/ Rio-Cachoeira/Lago
 Pontederia cordata L.                 rainha-dos-lago, dama-dos-lago          0,2-1           P             P   AUT/ Cerrado/ Lago
                                                                                                                 HIDR
 SALVINIACEAE
-Salvinia auriculata Aubl.             salvinia                                 0,02           P             P   AUT/ Mata Ciliar/ Rios e Cachoeiras/ Lago
+Salvinia auriculata Aubl.             salvinia                                 0,02           P             P   AUT/ Mata Ciliar/ Rio-Cachoeira/ Lago
                                                                                                                 HIDR
 XYRIDACEAE
 Xyris jupicai Rich.                                                           0,3-0,9         P             P    AUT Brejo
-#      Lista de espécies indicadas para
-restauração Ecológica para diversas
-     regiões do Estado de São Paulo
 
 
 
@@ -13711,15 +13678,13 @@ restauração Ecológica para diversas
 
 
  ANACARDIACEAE
-Anacardium occidentale L.                       cajueiro, acaju, caju-manso, caju-da-praia   5-10            P             P   ZOO Floresta Estadual Semidecidua/ Cer-
-                                                                                                                                   rado
-Astronium graveolens Jacq.                      guaritá, guaritá-do-cerrado                  15-25         NP              D   ANE Floresta Estadual Semidecidua/ Mata
-                                                                                                                                   Ciliar
+Anacardium occidentale L.                       cajueiro, acaju, caju-manso, caju-da-praia   5-10            P             P   ZOO Floresta Estacional Semidecidua/ Cerrado
+Astronium graveolens Jacq.                      guaritá, guaritá-do-cerrado                  15-25         NP              D   ANE Floresta Estacional Semidecidua/ Mata Ciliar
 Lithrea molleoides (Vell.) Engl.                aroeira-brava, aroeira-do-cerrado,           6-12            P             D   ZOO Mata Paludosa/ Cerrado
                                                 aroeira-branca
 Schinus terebinthifolius Raddi                  aroeira-pimenteira, aroeira-mansa,           5-10            P             P   ZOO Mata Ciliar
                                                 aroeirinha, aroeira-pimenta
-Tapirira guianensis Aubl.                       peito-de-pomba, peito-de-pombo,              8-13          NP              D   ZOO Floresta Estadual Semidecidua/ Mata
+Tapirira guianensis Aubl.                       peito-de-pomba, peito-de-pombo,              8-13          NP              D   ZOO Floresta Estacional Semidecidua/ Mata
                                                 copiúva                                                                            Ciliar/ Mata Paludosa/ Cerrado
 ANNONACEAE
 Annona cacans Warm.                             araticum, araticum-cagão, fruta-do-          7-30            P             D   ZOO Mata Ciliar
@@ -14452,7 +14417,7 @@ Aloysia virgata (Ruiz & Pav.) A. Juss.        cambará-de-lixa, lixeira, lixa   
                                                                                                                             Ciliar/ Floresta Estacional Decidua/
                                                                                                                             Cerrado
 VOCHYSIACEAE
-Qualea cordata (Mart.) Spreng.                cinzeiro, pau-terra-da-mata               6           NP              D   AUT Floresta Altomontana/ F. Estacional
+Qualea cordata (Mart.) Spreng.                cinzeiro, pau-terra-da-mata               6           NP              D   AUT Floresta Altomontana/ Floresta Estacional
                                                                                                                             Semidecidua/ Mata Ciliar/ Cerrado
 Vochysia cinnamomea Pohl                      quina-doce                              4-7           NP              D   ANE Cerrado
 #                                                                                                                                                            REGIÃO SUDOESTE
@@ -14482,8 +14447,8 @@ Chromolaena squalida (DC.) R.M.King &                                           
 H.Rob.                                                                                                                  Cerrado/ Área Antrópica
 Dasyphyllum brasiliense (Spreng.) Cabrera                                         1-4          NP              D    ANE Floresta Estacional Semidecidua/
                                                                                                                         Cerrado
-Idiothamnus pseudorgyalis R.M.King &                                                3             P             P   ANE Floresta Estacional Semidecidua e
-H.Rob.                                                                                                                  Floresta Estacional Decidua.
+Idiothamnus pseudorgyalis R.M.King &                                                3             P             P   ANE Floresta Estacional Semidecidua /
+H.Rob.                                                                                                                  Floresta Estacional Decidua
 Moquiniastrum barrosoae (Cabrera) G.      gochnatia                              1-1,5            P             P   ANE Cerrado
 Sancho
 Vernonanthura westiniana (Less.) H.Rob.   assa-peixe                            0,7-1,6           P             P   ANE Floresta Estacional Semidecidua
@@ -14562,7 +14527,7 @@ MELASTOMATACEAE
 Clidemia hirta (L.) D.Don                 pixirica, meleca-de-cachorro           0,5-3            P             D   AUT Floresta Estacional Semidecidua/ Mata
                                                                                                                         Ciliar/ Cerrado
 Leandra amplexicaulis DC.                 pixirica                               0,7-3           P              D   ZOO Mata Ciliar
-Leandra aurea (Cham.) Cogn.               quaresma, pixirica-de-barranco         0,5-4          NP              D   ZOO Floresta Estacional Semidecidua Mata
+Leandra aurea (Cham.) Cogn.               quaresma, pixirica-de-barranco         0,5-4          NP              D   ZOO Floresta Estacional Semidecidua/ Mata
                                                                                                                         Ciliar/ Mata Paludosa/ Cerrado
 Leandra australis (Cham.) Cogn.           pixirica                               0,4-3          P/NP            D   ZOO Mata Ciliar/ Mata Paludosa
 #                                                                                                                                                         REGIÃO SUDOESTE
@@ -14677,8 +14642,7 @@ Cordiera myrciifolia (K.Schum.) C.H.Perss. marmelinho, marmelo-branco           
 & Delprete
 Faramea multiflora A.Rich. ex DC.                                                   1-5           NP              D   ZOO Mata Ciliar/ Cerrado
 Hamelia patens Jacq.                       erva-de-rato, gica                        6            NP              D   ZOO Floresta Estacional Semidecidua/ Mata
-                                                                                                                          Ciliar/ Mata Paludosa/ Cerrado/ Área
-                                                                                                                          Antrópica
+                                                                                                                          Ciliar/ Mata Paludosa/ Cerrado/ Área Antrópica
 Margaritopsis cephalantha (Müll.Arg.)       erva-de-rato                              2           NP              D   ZOO Floresta Estacional Semidecidua
 C.M.Taylor
 #                                                                                                                                                             REGIÃO SUDOESTE
@@ -14794,8 +14758,7 @@ Pavonia garckeana Gürke                                                        
 Peltaea polymorpha (A.St.-Hil.) Krapov. &                                     0,3-0,4          P            D    AUT Cerrado/ Área Antrópica
 Cristóbal
 Waltheria communis A.St.-Hil.                 douradinha-do-capo              0,3-0,5          P             P   AUT Cerrado
-Wissadula hernandioides (L.Hér.) Garcke                                       0,6-2         NP              D    AUT Floresta Estacional Semidecidua/ Área
-                                                                                                                     Antrópica
+Wissadula hernandioides (L.Hér.) Garcke                                       0,6-2         NP              D    AUT Floresta Estacional Semidecidua/ Área Antrópica
 MELASTOMATACEAE
 Leandra erostrata (DC.) Cogn.                                                  0,4-1           P            P    ZOO Cerrado
 Leandra xanthocoma (Naudin) Cogn.             pixirica                        0,3-1,5          P            D    ZOO Floresta Estacional Semidecidua/
@@ -14823,8 +14786,7 @@ Ludwigia elegans (Cambess.) H.Hara            cruz-de-malta                     
 POACEAE
 Lasiacis divaricata (L.) Hitchc.                                               1-2          NP              D    AUT Floresta Estacional Semidecidua
 Lasiacis ligulata Hitchc. & Chase                                              2-3          NP              D    AUT Floresta Estacional Semidecidua/ Mata
-                                                                                                                     Ciliar/ Mata Paludosa/ Cerrado/ Área
-                                                                                                                     Antrópica
+                                                                                                                     Ciliar/ Mata Paludosa/ Cerrado/ Área Antrópica
 Parodiolyra micrantha (Kunth) Davidse & taquari, taquara                      0,5-3         NP              D    AUT Floresta Estacional Semidecidua/ Mata
 Zuloaga                                                                                                              Ciliar
 RUBIACEAE
@@ -14932,8 +14894,8 @@ Eustachys distichophylla (Lag.) Nees                                            
 Gymnopogon spicatus (Spreng.) Kuntze                                                0,35-0,8        P              D    AUT    Cerrado
 Homolepis glutinosa (Sw.) Zuloaga &                                                   0,6-2        NP              D    AUT/   Mata Ciliar/ Cerrado
 Soderstr.                                                                                                               ZOO
-* Hymenachne donacifolia (Raddi)                                                       1-2            P            D    AUT Mata Ciliar/ Campo Alagado/ Área
-Chase                                                                                                                       Antrópica
+* Hymenachne donacifolia (Raddi)                                                       1-2            P            D    AUT Mata Ciliar/ Campo Alagado/ Área Antrópica
+Chase
 Hyparrhenia bracteata (Humb. & Bonpl. ex                                              1-1,2           P            D    ANE Mata Ciliar/ Cerrado
 Willd.) Stapf
 Ichnanthus inconstans (Trin. ex Nees) Döll                                           1,4-1,6       NP              D    AUT Floresta Estacional Semidecidua/
@@ -14964,8 +14926,7 @@ Panicum campestre Nees ex Trin.           colchão-pé-de-galinha               
                                                                                  0,98
 Panicum cervicatum Chase                                                        0,32-1           P             D    AUT Cerrado/ Área Antrópica
 Panicum olyroides Kunth                   capim-taquarinha                      0,36-1           P             D    AUT Cerrado/ Área Antrópica
-Panicum sellowii Nees                     bambusinho                            0,36-1           P             D    AUT Floresta Estacional Semidecidua/ Área
-                                                                                                                        Antrópica
+Panicum sellowii Nees                     bambusinho                            0,36-1           P             D    AUT Floresta Estacional Semidecidua/ Área Antrópica
 *   Paspalum arundinellum Mez                                                     1,5            P             D    AUT Cerrado/ Campo Alagado
 Paspalum conjugatum P.J.Bergius           capim-gordo                           0,2-0,8          P             D    AUT Floresta Estacional Semidecidua/
                                                                                                                         Mata Ciliar/ Cerrado/ Área Antrópica
@@ -15020,8 +14981,7 @@ Mikania cordifolia (L.f.) Willd.           cipó-cabeludo,erva-de-cobra         
                                                                                                                                Ciliar/ Cerrado/ Área Antrópica
 Mikania micrantha Kunth                                                                               NP              D    AUT Floresta Estacional Semidecidua/ Mata
                                                                                                                                Ciliar/ Cerrado/ Área Antrópica
-Mutisia coccinea A.St.-Hil.                cambará, capitão-do-mato                                   NP              D    AUT Floresta Estacional Semidecidua/ Área
-                                                                                                                               Antrópica
+Mutisia coccinea A.St.-Hil.                cambará, capitão-do-mato                                   NP              D    AUT Floresta Estacional Semidecidua/ Área Antrópica
 BIGNONIACEAE
 Adenocalymma bracteatum (Cham.) DC.                                                                   NP              D    AUT Floresta Estacional Semidecidua/ Mata
                                                                                                                                Ciliar/ Cerrado
@@ -15107,7 +15067,7 @@ Valeriana scandens L.                                                           
 VITACEAE
 Cissus campestris (Baker) Planch.                                                            NP              D    ZOO Cerrado
 Cissus erosa Rich.                                                                           NP              D    ZOO Floresta Estacional Semidecidua/ Mata
-                                                                                                                      Ciliar Cerrado/ Área Antrópica
+                                                                                                                      Ciliar/ Cerrado/ Área Antrópica
 #                                                                                                                                              REGIÃO SUDOESTE
                                                                                         E P Í F I TA S •
 
@@ -15146,8 +15106,7 @@ Anemia phyllitidis (L.) Sw.                  feto-pluma, pluma-de-cacho         
                                                                                                                        Ciliar/ Cerrado
 Anemia raddiana Link                                                            0,3-0,5          P             D   ANE Cerrado
 BLECHNACEAE
-Blechnum brasiliense Desv.                                                      0,5-1          NP              D   ANE Floresta Estacional Semidecidua/ Área
-                                                                                                                       Antrópica
+Blechnum brasiliense Desv.                                                      0,5-1          NP              D   ANE Floresta Estacional Semidecidua/ Área Antrópica
 CYATHEACEAE
 Cyathea atrovirens (Langsd. & Fisch.) Do- samabaiaçu, xaxim                        6           NP              D   ANE Floresta Estacional Semidecidua/ Mata
 min                                                                                                                    Ciliar
@@ -15218,10 +15177,10 @@ MELASTOMATACEAE
 Acisanthera variabilis (Naud.) Triana                                               0,2-0,8  P                   D    AUT Mata Paludosa
 Pterolepis repanda (DC.) Triana                                                     0,2-0,5  P                   D    AUT Cerrado/ Brejo
 PLANTAGINACEAE
-Bacopa salzmannii (Benth.) Wettst. ex Edwall                                        0,1-0,3  P                    P   AUT Cerrado/ Brejo/Antrópica
+Bacopa salzmannii (Benth.) Wettst. ex Edwall                                        0,1-0,3  P                    P   AUT Cerrado/ Brejo/Área Antrópica
 Scoparia dulcis L.                           vassoura-de-botão                      0 ,1-0,6 P                    P   AUT Cerrado/ Brejo/ Área Antrópica
 POACEAE
-Paspalum repens P.J.Bergius                                                            1-2   NP                  P    AUT Cerrado/ Lagoa/ Brejo/Antrópica
+Paspalum repens P.J.Bergius                                                            1-2   NP                  P    AUT Cerrado/ Lagoa/ Brejo/Área Antrópica
 Sacciolepis vilvoides (Trin.) Chase                                                 0,3-1,5  P                   P    ANE Cerrado/ Brejo
 Steinchisma laxum (Sw.) Zuloaga                                                    0,15-1,15 P                   D    AUT Cerrado/ Brejo
 POLYGONACEAE
@@ -15229,9 +15188,9 @@ Polygonum meisnerianum Cham.                 erva-de-bicho                      
 Polygonum punctatum Elliott                                                         0,3-0,6  P                   D    AUT Cerrado/ Área Antrópica
 PONTEDERIACEAE
 Eichhornia azurea (Sw.) Kunth                aguapé, orelha-de-veado, bico-de-pato 0,1-0,5   P                    P   AUT/ Floresta Estacional Semidecidua/ Mata
-                                                                                                                      HIDR Ciliar/ Cerrado/ Rios e Cachoeiras/
+                                                                                                                      HIDR Ciliar/ Cerrado/ Rio-Cachoeira/
                                                                                                                            Lagoa
-Heteranthera reniformis Ruiz & Pav.                                                0,05-            P             P   AUT/ Mata Paludisa/ Rios e Cachoeiras/
+Heteranthera reniformis Ruiz & Pav.                                                0,05-            P             P   AUT/ Mata Paludosa/ Rio-Cachoeira/
                                                                                    0,15                               HIDR Área Antrópica
 Pontederia cordata L.                     rainha-dos-lago, dama-dos-lago           0,2-1            P             P   AUT/ Cerrado/ Lagoa
                                                                                                                       HIDR
