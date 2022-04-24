@@ -73,56 +73,62 @@ export class Especies2019EspeciesInterpreter {
     return especie;
   }
 
-  // FIXME: débito, complexidade ciclomática do método está em 8
   private readNomePopularAndTamanho(
     listaEspeciesDoc: IterableString, especie: EspecieMetaData
   ): { especie: EspecieMetaData, isLineComplete: boolean } {
     const readVegetacaoTamanho = /^[ ]+(\d|\(-)[ \(\),\-\d\/]*\n?/;
     const nomePopularPattern = /^\s*([a-záãâêéíóôõúüç’\-,]+[ ]?)+[a-záãâêéíóôõúüç’\-,]\n?/;
-    const vegetacaoTamanho = listaEspeciesDoc.addCursor(readVegetacaoTamanho, this.ignoreAutoTrim);
 
-    if (vegetacaoTamanho) {
-      especie.tamanho = vegetacaoTamanho.trim();
-      if (vegetacaoTamanho.match(/\n$/)) {
-        return { especie, isLineComplete: true };
-      }
-    } else if (listaEspeciesDoc.spy(nomePopularPattern)) {
-
-      //  se o nome popular termina com quebra de linha,
-      //  então nada mais deve ser acrescentado nesta espécie
+    let wrapper = this.readTamanho(listaEspeciesDoc, especie);
+    if (!wrapper && listaEspeciesDoc.spy(nomePopularPattern)) {
       const nomePopular = listaEspeciesDoc.addCursor(nomePopularPattern, this.ignoreAutoTrim);
       especie.nomePopular = nomePopular.trim();
       if (nomePopular.match(/\n$/)) {
         return { especie, isLineComplete: true };
       }
 
-      let tamanho = listaEspeciesDoc.addCursor(readVegetacaoTamanho, this.ignoreAutoTrim);
-      if (tamanho) {
-        especie.tamanho = tamanho.trim();
+      wrapper = this.readTamanho(listaEspeciesDoc, especie);
+    }
 
-        if (tamanho.match(/\n$/)) {
-          return { especie, isLineComplete: true };
-        }
+    if (wrapper && wrapper.isLineComplete) {
+      return wrapper;
+    }
+
+    //  existem condições onde o tamanho está muito grudado ao nome popular
+    //  o código abaixo irá verificar se está é uma situação deste tipo
+    if (!wrapper && especie.nomePopular) {
+      //  FIXME: preciso reaproveitar a lógica de identificação de
+      //  informações de tamanho por regex para manter uma manutenção centralizada
+      const checkIfHasTamanhoInTheEnd = /(\d|\(-)[\(\),\-\d]$/;
+
+      //  verifica se existe a informação de tamanho
+      //  concatenada no final do nome popular
+      const hasTamanhoInTheEnd = especie.nomePopular.match(checkIfHasTamanhoInTheEnd);
+      if (hasTamanhoInTheEnd) {
+        const especieNomePopular = /.*[ ]/;
+        const especieTamanho = /[ ][^ ]*$/;
+        const tamanho = especie.nomePopular.replace(especieNomePopular, '');
+        especie.nomePopular = especie.nomePopular.replace(especieTamanho, '');
+        especie.tamanho = tamanho;
       }
+    }
 
-      //  existem condições onde o tamanho está muito grudado ao nome popular
-      //  o código abaixo irá verificar se está é uma situação deste tipo
-      if (!tamanho && especie.nomePopular) {
-        //  FIXME: preciso reaproveitar a lógica de identificação de
-        //  informações de tamanho por regex para manter uma manutenção centralizada
-        const checkIfHasTamanhoInTheEnd = /(\d|\(-)[\(\),\-\d]$/;
+    return wrapper ? wrapper : { isLineComplete: false, especie };
+  }
 
-        //  verifica se existe a informação de tamanho
-        //  concatenada no final do nome popular
-        const hasTamanhoInTheEnd = especie.nomePopular.match(checkIfHasTamanhoInTheEnd);
-        if (hasTamanhoInTheEnd) {
-          const especieNomePopular = /.*[ ]/;
-          const especieTamanho = /[ ][^ ]*$/;
-          tamanho = especie.nomePopular.replace(especieNomePopular, '');
-          especie.nomePopular = especie.nomePopular.replace(especieTamanho, '');
-          especie.tamanho = tamanho;
-        }
-      }
+  private readTamanho(
+    listaEspeciesDoc: IterableString, especie: EspecieMetaData
+  ): { especie: EspecieMetaData, isLineComplete: boolean } | null {
+    const readVegetacaoTamanho = /^[ ]+(\d|\(-)[ \(\),\-\d\/]*\n?/;
+    let tamanho = listaEspeciesDoc.addCursor(readVegetacaoTamanho, this.ignoreAutoTrim);
+    if (!tamanho) {
+      return null;
+    }
+
+    especie.tamanho = tamanho.trim();
+    if (tamanho.match(/\n$/)) {
+      especie.type = 'tail';
+      return { especie, isLineComplete: true };
     }
 
     return { especie, isLineComplete: false };
