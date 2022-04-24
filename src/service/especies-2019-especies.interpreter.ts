@@ -50,22 +50,21 @@ export class Especies2019EspeciesInterpreter {
     especie: EspecieMetaData, listaEspeciesDoc: IterableString
   ): EspecieMetaData {
     const classeSucessional = this.readClasseSucessional(listaEspeciesDoc);
-    const grupoFuncional = this.readGrupoFuncional(listaEspeciesDoc);
-    const sindromeDispersao = this.readSindromeDispersao(listaEspeciesDoc);
-    const bioma = this.readBioma(listaEspeciesDoc);
-
     if (classeSucessional) {
       especie.classeSucessional = classeSucessional;
     }
 
+    const grupoFuncional = this.readGrupoFuncional(listaEspeciesDoc);
     if (grupoFuncional) {
       especie.grupoFuncional = grupoFuncional;
     }
 
+    const sindromeDispersao = this.readSindromeDispersao(listaEspeciesDoc);
     if (sindromeDispersao) {
       especie.sindromeDispersao = sindromeDispersao;
     }
 
+    const bioma = this.readBioma(listaEspeciesDoc);
     if (bioma) {
       especie.bioma = bioma;
     }
@@ -76,7 +75,6 @@ export class Especies2019EspeciesInterpreter {
   private readNomePopularAndTamanho(
     listaEspeciesDoc: IterableString, especie: EspecieMetaData
   ): { especie: EspecieMetaData, isLineComplete: boolean } {
-    const readVegetacaoTamanho = /^[ ]+(\d|\(-)[ \(\),\-\d\/]*\n?/;
     const nomePopularPattern = /^\s*([a-záãâêéíóôõúüç’\-,]+[ ]?)+[a-záãâêéíóôõúüç’\-,]\n?/;
 
     let wrapper = this.readTamanho(listaEspeciesDoc, especie);
@@ -120,7 +118,7 @@ export class Especies2019EspeciesInterpreter {
     listaEspeciesDoc: IterableString, especie: EspecieMetaData
   ): { especie: EspecieMetaData, isLineComplete: boolean } | null {
     const readVegetacaoTamanho = /^[ ]+(\d|\(-)[ \(\),\-\d\/]*\n?/;
-    let tamanho = listaEspeciesDoc.addCursor(readVegetacaoTamanho, this.ignoreAutoTrim);
+    const tamanho = listaEspeciesDoc.addCursor(readVegetacaoTamanho, this.ignoreAutoTrim);
     if (!tamanho) {
       return null;
     }
@@ -179,12 +177,12 @@ export class Especies2019EspeciesInterpreter {
   }
 
   private readClasseSucessional(listaEspeciesDoc: IterableString): string {
-    const readClasseSucessional = /^\s*((P\/NP)|P|NP)/;
+    const readClasseSucessional = /^\s*((P\/NP)|P|NP)[ ]/;
     return listaEspeciesDoc.addCursor(readClasseSucessional);
   }
 
   private readGrupoFuncional(listaEspeciesDoc: IterableString): string {
-    const readGrupoFuncional = /^\s*(D|P)/;
+    const readGrupoFuncional = /^\s*(D|P)[ ]/;
     return listaEspeciesDoc.addCursor(readGrupoFuncional);
   }
 

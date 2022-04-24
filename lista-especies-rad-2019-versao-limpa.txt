@@ -4732,7 +4732,7 @@ Calyptranthes lucida Mart. ex DC.      guamirim, araçana                       
 Campomanesia eugenioides (Cambess.)                                              1-7           NP              D    ZOO Floresta Ombrófila Densa/ Cerrado
 D.Legrand ex Landrum
 Campomanesia guaviroba (DC.) Kiaersk. gabiroba, guabiroba                          20          NP              D    ZOO Floresta Ombrófila Densa/ Floresta
-                                                                                                                        Alt omontana/ Floresta Estacional
+                                                                                                                        Altomontana/ Floresta Estacional
                                                                                                                         Semidecidua/ Mata Ciliar
 Campomanesia guazumifolia (Cambess.)   sete-capotes, araçá-do-mato               6-10          NP              D    ZOO Floresta Ombrófila Densa/ Floresta
 O. Berg                                                                                                                 Altomontana
@@ -11683,7 +11683,7 @@ Sporobolus ciliatus J.Presl                                                     
                                                                                                                             Cerrado
 Sporobolus cubensis Hitchc.                                                         0,5-0,7          P             P    AUT Cerrado
 Sporobolus indicus (L.) R.Br.                                                       0,2-1,2          P             P    AUT Floresta Altomontana/ Cerrado/ Área Antrópica
-Sporobolus pseudairoides Parodi                                                     0,4-0,9          P             P    Aut Cerrado/Área Antrópica
+Sporobolus pseudairoides Parodi                                                     0,4-0,9          P             P    AUT Cerrado/Área Antrópica
 Steinchisma decipiens (Nees ex Trin.)                                                0,17-           P             D    AUT Cerrado
 W.V.Br.                                                                              0,73
 Tristachya leiostachya Nees                                                          1-2,1           P             D    AUT Cerrado
