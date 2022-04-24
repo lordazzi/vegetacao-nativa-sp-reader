@@ -4,13 +4,14 @@
 export class IterableString {
 
   private cursor = 0;
+  private readonly DEBUG_CHARS_PREVIEW = 100;
 
   constructor(
     private str: string
   ) { }
 
   get debugInfo(): string {
-    return String(this).substring(0, 100);
+    return String(this).substring(0, this.DEBUG_CHARS_PREVIEW);
   }
 
   get currenPosition(): number {

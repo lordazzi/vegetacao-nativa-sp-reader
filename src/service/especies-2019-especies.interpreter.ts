@@ -123,6 +123,19 @@ export class Especies2019EspeciesInterpreter {
       }
     }
 
+    //  se até aqui não se achou o nome popular, pode-ser que ele esteja junto do nome científico
+    if (especie.nome && !especie.nomePopular) {
+      const checkIfHasNomePopularInTheEnd = /[ ]([a-záãâêéíóôõúüç’\-,]+[ ]?)+[a-záãâêéíóôõúüç’\-,]$/;
+      const hasNomePopularInTheEnd = especie.nome.match(checkIfHasNomePopularInTheEnd);
+      const nomePopular = hasNomePopularInTheEnd && hasNomePopularInTheEnd[0].trim();
+
+      //  muitos nomes científicos terminam com 'ex' e pode ser confundido com um nome popular
+      if (nomePopular && nomePopular !== 'ex') {
+        especie.nome = especie.nome.replace(checkIfHasNomePopularInTheEnd, '');
+        especie.nomePopular = nomePopular;
+      }
+    }
+
     return wrapper ? wrapper : { isLineComplete: false, especie };
   }
 

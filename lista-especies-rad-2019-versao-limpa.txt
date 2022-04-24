@@ -37,7 +37,7 @@ Aspidosperma polyneuron Müll. Arg.         peroba-rosa                         
 Aspidosperma ramiflorum Müll. Arg.         guatambu, guatambu-amarelo                   10-30         NP              D    ANE Floresta Ombrófila Densa
 Aspidosperma tomentosum Mart.              peroba-do-campo, guatambu-do-                  1-6         NP              D    ANE Floresta Ombrófila Densa
                                            cerrado, pereiro-do-campo
-Malouetia cestroides (Nees ex Mart.) Müll. leiteira, pé-de-coelho                       5-30            P             D    ANE Restinga/ Floresta Ombrófila Densa
+Malouetia cestroides (Nees ex Mart.) Müll.  leiteira, pé-de-coelho                       5-30            P             D    ANE Restinga/ Floresta Ombrófila Densa
 Arg.
 Tabernaemontana catharinensis A.DC.        jasmim, jasmim-pipoca                        2-9             P             D    ZOO Floresta Ombrófila Densa
 Tabernaemontana hystrix Steud.             leiteiro, jasmim-do-campo, leiteiro-         2-15            P             D    ZOO Floresta Ombrófila Densa
@@ -74,10 +74,10 @@ Piptocarpha axillaris (Less.) Baker           vassourão-branco                 
 Piptocarpha macropoda (DC.) Baker             piptocarpa                                  5-10           P              P   ANE Floresta Ombrófila Densa
 Vernonanthura discolor (Spreng.) H.Rob. vassourão-preto                                    20            P              P   ANE Floresta Ombrófila Densa
 BIGNONIACEAE
-Handroanthus heptaphyllus (Vell.) Mattos ipê-roxo, ipê-roxo-sete-folhas, ipê-rosa,        10-20        NP              D    ANE Floresta Ombrófila Densa
+Handroanthus heptaphyllus (Vell.) Mattos      ipê-roxo, ipê-roxo-sete-folhas, ipê-rosa,   10-20        NP              D    ANE Floresta Ombrófila Densa
                                               ipê-roxo-anão, ipê-roxo-da-mata
-Handroanthus serratifolius (Vahl) S. Grose ipê-amarelo, ipê-amarelo-do-cerrado             8-20        NP              D    ANE Floresta Ombrófila Densa
-Handroanthus umbellatus (Sond.) Mattos ipê-amarelo-do-brejo, ipê-amarelo                  10-25        NP              D    ANE Floresta Ombrófila Densa
+Handroanthus serratifolius (Vahl) S. Grose    ipê-amarelo, ipê-amarelo-do-cerrado          8-20        NP              D    ANE Floresta Ombrófila Densa
+Handroanthus umbellatus (Sond.) Mattos        ipê-amarelo-do-brejo, ipê-amarelo           10-25        NP              D    ANE Floresta Ombrófila Densa
 Jacaranda macrantha Cham.                     carobão, caroba, carova, jacarandá-          8-15         P              D    ANE Restinga
                                               caroba
 Jacaranda micrantha Cham.                     caroba-miúda, jacarandá-carobão,            10-25          P             D    ANE Floresta Ombrófila Densa
@@ -533,9 +533,9 @@ Coccoloba warmingii Meisn.                     cauaçú, curata, caixão, cature
                                                vermelho
 Ruprechtia laxiflora Meisn.                    arco-de-peneira, marmeleiro              5-30            P             D    ZOO Floresta Ombrófila Densa
 PRIMULACEAE
-Geissanthus ambiguus (Mart.) G.Agostini  pau-de-charco                                  2,5-9         NP              D    ZOO Floresta Ombrófila Densa
-3 Myrsine coriacea (Sw.) R.Br. ex Roem. capororoca, pororoca, corotéia,                 1-20           P              D    ZOO Floresta Ombrófila Densa
-& Schult.                               capororoca-ferrugem
+Geissanthus ambiguus (Mart.) G.Agostini   pau-de-charco                                2,5-9         NP              D    ZOO Floresta Ombrófila Densa
+3 Myrsine coriacea (Sw.) R.Br. ex Roem.   capororoca, pororoca, corotéia,               1-20           P              D    ZOO Floresta Ombrófila Densa
+& Schult.                                 capororoca-ferrugem
 Myrsine gardneriana A.DC.                                                                1-20           P              P   ZOO Floresta Ombrófila Densa
 Myrsine guianensis (Aubl.) Kuntze              pororoca, capororoca-branca,             2,5-25          P              P   ZOO Restinga/ Floresta Ombrófila Densa
                                                capororoca-do-cerrado
@@ -766,7 +766,7 @@ Psychotria hastisepala Müll.Arg.            café-do-mato                      
 Psychotria laciniata Vell.                  café-do-mato, cafezinho-do-mato        5           NP              D   ZOO   Floresta Ombrófila Densa
 Psychotria leiocarpa Cham. & Schltdl.       grandiúva-de-anta                    1,5-3         NP              D   ZOO   Floresta Ombrófila Densa
 Psychotria nemorosa Gardner                 grandiúva-d’anta                       4           NP              D   ZOO   Floresta Ombrófila Densa
-Psychotria nuda (Cham. & Schltdl.) Wawra café-do-mato, cafezinho-do-mato           7           NP              D   ZOO   Floresta Ombrófila Densa
+Psychotria nuda (Cham. & Schltdl.) Wawra    café-do-mato, cafezinho-do-mato        7           NP              D   ZOO   Floresta Ombrófila Densa
 Psychotria patentinervia Müll.Arg.                                                 4           NP              D   ZOO   Floresta Ombrófila Densa
 Psychotria suterella Müll.Arg.              cafezinho-roxo-da-mata                 5           NP              D   ZOO   Floresta Ombrófila Densa
 RUTACEAE
@@ -1585,8 +1585,7 @@ Salpichlaena volubilis (Kaulf.) J.Sm.                                           
 CYATHEACEAE
 Alsophila setosa Kaulf.                     xaxim-de-espinho                     9           NP                 D   ANE Floresta Ombrófila Densa
 Alsophila sternbergii (Sternb.) D.S.Conant samambaiaçu, samambaia-gigante       15           NP                 D   ANE Floresta Ombrófila Densa
-Cyathea atrovirens (Langsd. & Fisch.)
-                                            samabaiaçu, xaxim                    6           NP                 D   ANE Floresta Ombrófila Densa
+Cyathea atrovirens (Langsd. & Fisch.)       samabaiaçu, xaxim                    6           NP                 D   ANE Floresta Ombrófila Densa
 Domin
 Cyathea corcovadensis (Raddi) Domin         samambaiaçu, samambaia-gigante       6           NP                 D   ANE   Floresta Ombrófila Densa
 Cyathea delgadii Sternb.                    samambaiaçu                          8           NP                 D   ANE   Floresta Ombrófila Densa
@@ -1843,7 +1842,7 @@ Aspidosperma parvifolium A. DC.            guatambu-oliva, guatambu-amarelo,    
 Aspidosperma ramiflorum Müll. Arg.         guatambu, guatambu-amarelo                   10-30          NP             D   ANE Floresta Ombrófila Densa
 Aspidosperma tomentosum Mart.              peroba-do-campo, guatambu-do-cerra-           1-6           NP             D   ANE Floresta Ombrófila Densa
                                            do, pereiro-do-campo
-Malouetia cestroides (Nees ex Mart.) Müll. leiteira, pé-de-coelho                       5-30              P           D   ANE Floresta Ombrófila Densa
+Malouetia cestroides (Nees ex Mart.) Müll.  leiteira, pé-de-coelho                       5-30              P           D   ANE Floresta Ombrófila Densa
 Arg.
 Tabernaemontana hystrix Steud.             leiteiro, jasmim-do-campo, leiteiro-ver-     2-15              P           D   ZOO Restinga
                                            melho, gancheira
@@ -1885,9 +1884,9 @@ Vernonanthura discolor (Spreng.) H.Rob. vassourão-preto                        
 BIGNONIACEAE
 Cybistax antisyphilitica (Mart.) Mart.        ipê-da-flor-verde, ipê-verde, caroba-da-    4-20         NP              D    ANE Restinga
                                               -flor-verde, caroba
-Handroanthus heptaphyllus (Vell.) Mattos ipê-roxo, ipê-roxo-sete-folhas, ipê-rosa         10-20        NP              D    ANE   Restinga, Floresta Ombrófila Densa
-Handroanthus serratifolius (Vahl) S. Grose ipê-amarelo, ipê-amarelo-do-cerrado             8-20        NP              D    ANE   Floresta Ombrófila Densa
-Handroanthus umbellatus (Sond.) Mattos ipê-amarelo-do-brejo, ipê-amarelo                  10-25        NP              D    ANE   Restinga, Floresta Ombrófila Densa
+Handroanthus heptaphyllus (Vell.) Mattos      ipê-roxo, ipê-roxo-sete-folhas, ipê-rosa    10-20        NP              D    ANE   Restinga, Floresta Ombrófila Densa
+Handroanthus serratifolius (Vahl) S. Grose    ipê-amarelo, ipê-amarelo-do-cerrado         8-20         NP              D    ANE   Floresta Ombrófila Densa
+Handroanthus umbellatus (Sond.) Mattos        ipê-amarelo-do-brejo, ipê-amarelo           10-25        NP              D    ANE   Restinga, Floresta Ombrófila Densa
 Handroanthus vellosoi (Toledo) Mattos         ipê-amarelo-casca-lisa, ipê-amarelo-liso    15-25        NP              D    ANE   Floresta Ombrófila Densa
 Jacaranda micrantha Cham.                     caroba-miúda, jacarandá-carobão, ca-        10-25         P              D    ANE   Floresta Ombrófila Densa
                                               roba
@@ -2360,8 +2359,8 @@ Merostachys ternata Nees                  taquara                               
 POLYGONACEAE
 Ruprechtia laxiflora Meisn.               arco-de-peneira, marmeleiro              5-30          NP             D    ANE Restinga, Floresta Ombrófila Densa
 PRIMULACEAE
-Geissanthus ambiguus (Mart.) G.Agostini       pau-de-charco                           2,5-9  NP                 D    ZOO Floresta Ombrófila Densa
-3    Myrsine coriacea (Sw.) R.Br. ex Roem. capororoca, pororoca, corotéia, caporo- 1-20       P                 D    ZOO Restinga, Floresta Ombrófila Densa
+Geissanthus ambiguus (Mart.) G.Agostini      pau-de-charco                            2,5-9  NP                 D    ZOO Floresta Ombrófila Densa
+3    Myrsine coriacea (Sw.) R.Br. ex Roem.   capororoca, pororoca, corotéia, caporo-  1-20       P                 D    ZOO Restinga, Floresta Ombrófila Densa
 & Schult.                                    roca-ferrugem
 Myrsine gardneriana A.DC.                                                              1-20   P                  P   ZOO Floresta Ombrófila Densa
 Myrsine guianensis (Aubl.) Kuntze            pororoca, capororoca-branca, capororo- 2,5-25    P                  P   ZOO Restinga, Floresta Ombrófila Densa
@@ -3619,7 +3618,7 @@ Thelypteris opposita (Vahl) Ching                                          0/15-
 
 
 ALISMATACEAE
-Echinodorus grandiflorus (Cham. & Schltr.) chapéu-de-couro                    0,5-1            P             P   AUT/ Restinga/ Floresta Ombrófila Densa/
+Echinodorus grandiflorus (Cham. & Schltr.)      chapéu-de-couro               0,5-1            P             P   AUT/ Restinga/ Floresta Ombrófila Densa/
 Micheli                                                                                                          HIDR Área Antrópica
 BEGONIACEAE
 Begonia cucullata Willd.                                                      0,2-1          NP             D    ANE Floresta Ombrófila Densa/ Área
@@ -3773,8 +3772,8 @@ Aspidosperma tomentosum Mart.       peroba-do-campo, guatambu-do-cerra-         
 
 
 
-Hancornia speciosa Gomes                   mangabeira                                      3-12          NP              D   ZOO Cerrado
-Malouetia cestroides (Nees ex Mart.) Müll. leiteira, pé-de-coelho                          5-30           P              D   ANE Restinga/ Floresta Ombrófila Densa
+Hancornia speciosa Gomes                        mangabeira                                 3-12          NP              D   ZOO Cerrado
+Malouetia cestroides (Nees ex Mart.) Müll.      leiteira, pé-de-coelho                     5-30           P              D   ANE Restinga/ Floresta Ombrófila Densa
 Arg.
 Tabernaemontana catharinensis A.DC.        jasmim, jasmim-pipoca                            2-9            P             D   ZOO Floresta Altomontana/ Floresta
                                                                                                                                  Estacional Semidecidua/ Mata Ciliar
@@ -3860,16 +3859,16 @@ Cybistax antisyphilitica (Mart.) Mart.     ipê-da-flor-verde, ipê-verde, carob
                                            -flor-verde, caroba
 Handroanthus albus (Cham.) Mattos          ipê-amarelo-da-serra, ipê-ouro, ipê-ama- 20-30          NP               D   ANE Floresta Ombrófila Densa
                                            relo, ipê-da-serra
-Handroanthus chrysotrichus (Mart.) ex DC. ipê-amarelo-da-mata, ipê-do-campo,         4-10          NP               D   ANE Floresta Ombrófila Densa
+Handroanthus chrysotrichus (Mart.) ex DC.  ipê-amarelo-da-mata, ipê-do-campo,         4-10          NP               D   ANE Floresta Ombrófila Densa
 Mattos                                     ipê-amarelo-cascudo, ipê-amarelo-pau-
                                            lista
-Handroanthus heptaphyllus (Vell.) Mattos ipê-roxo, ipê-roxo-sete-folhas, ipê-rosa, 10-20           NP               D   ANE Floresta Ombrófila Densa
+Handroanthus heptaphyllus (Vell.) Mattos   ipê-roxo, ipê-roxo-sete-folhas, ipê-rosa, 10-20           NP               D   ANE Floresta Ombrófila Densa
                                            ipê-roxo-da-mata
-Handroanthus impetiginosus (Mart. ex DC.) ipê-roxo, ipê-roxo-de-bola, ipê-rosa       8-12          NP               D   ANE Floresta Ombrófila Densa/ Floresta
+Handroanthus impetiginosus (Mart. ex DC.)  ipê-roxo, ipê-roxo-de-bola, ipê-rosa       8-12          NP               D   ANE Floresta Ombrófila Densa/ Floresta
 Mattos                                                                                                                      Altomontana
-Handroanthus ochraceus (Cham.) Mattos ipê-amarelo, ipê-amarelo-do-cerrado,           6-14           NP              D   ANE Floresta Ombrófila Densa
+Handroanthus ochraceus (Cham.) Mattos      ipê-amarelo, ipê-amarelo-do-cerrado,           6-14           NP              D   ANE Floresta Ombrófila Densa
                                            ipê-do-campo, ipê-amarelo-grande
-Handroanthus serratifolius (Vahl) S. Grose ipê-amarelo, ipê-amarelo-do-cerrado       8-20           NP              D   ANE Floresta Ombrófila Densa
+Handroanthus serratifolius (Vahl) S. Grose  ipê-amarelo, ipê-amarelo-do-cerrado       8-20           NP              D   ANE Floresta Ombrófila Densa
 Handroanthus umbellatus (Sond.) Mattos    ipê-amarelo-do-brejo, ipê-amarelo           10-25         NP              D   ANE Floresta Ombrófila Densa
 Handroanthus vellosoi (Toledo) Mattos     ipê-amarelo-casca-lisa, ipê-amarelo-liso,   15-25        NP               D   ANE Floresta Ombrófila Densa/ Floresta
                                           ipê-amarelo-da-mata, ipê-tabaco, ipê-                                             Estacional Semidecidua
@@ -5676,7 +5675,7 @@ Psychotria mapourioides DC.             apuruí                               2-
 Psychotria mima Standl.                                                       3           NP              D    ZOO Floresta Ombrófila Densa
 Psychotria nemorosa Gardner             grandiúva-d’anta                      4           NP              D    ZOO Floresta Ombrófila Densa/ Floresta
                                                                                                                    Altomontana
-Psychotria nuda (Cham. & Schltdl.) Wawra café-do-mato, cafezinho-do-mato       7          NP              D    ZOO Floresta Ombrófila Densa/ Floresta
+Psychotria nuda (Cham. & Schltdl.) Wawra    café-do-mato, cafezinho-do-mato   7          NP              D    ZOO Floresta Ombrófila Densa/ Floresta
                                                                                                                    Estacional Semidecidua
 Psychotria patentinervia Müll.Arg.                                             4          NP              D    ZOO Floresta Ombrófila Densa
 Psychotria subspathulata (Müll.Arg.)                                          2,5         NP              D    ZOO Floresta Ombrófila Densa/ Floresta
@@ -8814,7 +8813,7 @@ glandifera (A.R.Sm.) A.R.Sm.
 ACANTHACEAE
 Hygrophila costata Nees                                                        0,5-1,5       NP              D    AUT Lago
 ALISMATACEAE
-Echinodorus grandiflorus (Cham. & Schltr.) chapéu-de-couro                     0,5-1           P             P   AUT/ Floresta Ombrófila Densa/ Floresta
+Echinodorus grandiflorus (Cham. & Schltr.)   chapéu-de-couro                     0,5-1           P             P   AUT/ Floresta Ombrófila Densa/ Floresta
 Micheli                                                                                                          HIDR Estacional Semidecidua/ Mata Ciliar/
                                                                                                                       Lago/ Brejo
 Hydrocleys nymphoides (Willd.) Buchenau golfe, largatissa                      0,4-0,8         P             P   AUT/ Lago
@@ -9261,16 +9260,16 @@ Cybistax antisyphilitica (Mart.) Mart.     ipê-da-flor-verde, ipê-verde, carob
                                            flor-verde, caroba
 Handroanthus albus (Cham.) Mattos          ipê-amarelo-da-serra, ipê-ouro, ipê-          20-30         NP              D    ANE Floresta Estacional Semidecidua
                                            amarelo, ipê-da-serra
-Handroanthus chrysotrichus (Mart.) ex DC. ipê-amarelo-da-mata, ipê-do-campo,             4-10          NP              D    ANE Floresta Estacional Semidecidua/ Mata
+Handroanthus chrysotrichus (Mart.) ex DC.  ipê-amarelo-da-mata, ipê-do-campo,             4-10          NP              D    ANE Floresta Estacional Semidecidua/ Mata
 Mattos                                     ipê-amarelo-cascudo, ipê-amarelo-                                                    Paludosa
                                            paulista
-Handroanthus heptaphyllus (Vell.) Mattos ipê-roxo, ipê-roxo-sete-folhas, ipê-rosa,       10-20         NP              D    ANE Mata Ciliar
+Handroanthus heptaphyllus (Vell.) Mattos   ipê-roxo, ipê-roxo-sete-folhas, ipê-rosa,       10-20         NP              D    ANE Mata Ciliar
                                            ipê-roxo-anão, ipê-roxo-da-mata
-Handroanthus impetiginosus (Mart. ex DC.) ipê-roxo, ipê-roxo-de-bola, ipê-rosa           8-12          NP              D    ANE Floresta Estacional Semidecidua
+Handroanthus impetiginosus (Mart. ex DC.)  ipê-roxo, ipê-roxo-de-bola, ipê-rosa           8-12          NP              D    ANE Floresta Estacional Semidecidua
 Mattos
-Handroanthus ochraceus (Cham.) Mattos ipê-amarelo, ipê-amarelo-do-cerrado,               6-14          NP              D    ANE Cerrado
+Handroanthus ochraceus (Cham.) Mattos      ipê-amarelo, ipê-amarelo-do-cerrado,          6-14          NP              D    ANE Cerrado
                                            ipê-do-campo, ipê-amarelo-grande
-Handroanthus serratifolius (Vahl) S. Grose ipê-amarelo, ipê-amarelo-do-cerrado           8-20          NP              D    ANE Floresta Estacional Semidecidua/
+Handroanthus serratifolius (Vahl) S. Grose    ipê-amarelo, ipê-amarelo-do-cerrado        8-20          NP              D    ANE Floresta Estacional Semidecidua/
                                                                                                                                 Cerrado
 Handroanthus umbellatus (Sond.) Mattos     ipê-amarelo-do-brejo, ipê-amarelo             10-25         NP              D    ANE Floresta Estacional Semidecidua/ Mata
                                                                                                                                 Paludosa
@@ -11316,7 +11315,7 @@ Pombalia communis (A.St.-Hil.) Paula-Souza apanha-saia                         0
 ACANTHACEAE
 Hygrophila costata Nees                                                   0,5-1            P             D    AUT Mata Paludosa/ Campo Alagado
 ALISMATACEAE
-Echinodorus grandiflorus (Cham. & Schltr.) chapéu-de-couro                0,7-1          NP              D    AUT Mata Paludosa
+Echinodorus grandiflorus (Cham. & Schltr.)   chapéu-de-couro                0,7-1          NP              D    AUT Mata Paludosa
 Micheli
 ALSTROEMERIACEAE
 * Alstroemeria apertiflora Baker                                          0,5-1,5        NP              D    AUT Campo Alagado
@@ -12171,7 +12170,7 @@ Thelypteris opposita (Vahl) Ching                                           0,15
 
 
 ALISMATACEAE
-Echinodorus grandiflorus (Cham. & Schltr.) chapéu-de-couro                    0,5-1                                      Floresta Estacional Semidecidua/ Mata
+Echinodorus grandiflorus (Cham. & Schltr.)    chapéu-de-couro                 0,5-1                                      Floresta Estacional Semidecidua/ Mata
 Micheli                                                                                                                  Ciliar/ Mata Paludosa/ Lago/ Brejo/
                                                                                                                          Área Antrópica
 Hydrocleys nymphoides (Willd.) Buchenau golfe, largatissa                    0,4-0,8           P               P   AUT/ Lago
@@ -13578,7 +13577,7 @@ Thelypteris opposita (Vahl) Ching                             0 /15-0/       NP 
 ACANTHACEAE
 Hygrophila costata Nees                                                         0,5-1,5       NP               D   AUT Lago/ Brejo
 ALISMATACEAE
-Echinodorus grandiflorus (Cham. & Schltr.) chapéu-de-couro                       0,5-1           P             P   AUT/ Floresta Estacional Semidecidua/
+Echinodorus grandiflorus (Cham. & Schltr.)    chapéu-de-couro                    0,5-1           P             P   AUT/ Floresta Estacional Semidecidua/
 Micheli                                                                                                            HIDR Mata Ciliar/ Lago/ Brejo
 BEGONIACEAE
 Begonia cucullata Willd.                                                         0,2-1        NP               D   ANE Floresta Estacional Semidecidua/
@@ -13725,13 +13724,13 @@ Piptocarpha rotundifolia (Less.) Baker       candeia                            
 BIGNONIACEAE
 Cybistax antisyphilitica (Mart.) Mart.    ipê-da-flor-verde, ipê-verde, caroba-da-       4-20          NP              D   ANE Cerrado
                                           flor-verde, caroba
-Handroanthus heptaphyllus (Vell.) Mattos ipê-roxo, ipê-roxo-sete-folhas, ipê-rosa,       10-20         NP              D   ANE Cerrado
+Handroanthus heptaphyllus (Vell.) Mattos  ipê-roxo, ipê-roxo-sete-folhas, ipê-rosa,      10-20         NP              D   ANE Cerrado
                                           ipê-roxo-anão
-Handroanthus impetiginosus (Mart. ex DC.) ipê-roxo, ipê-roxo-de-bola, ipê-rosa           8-12          NP              D   ANE Floresta Estacional Semidecidua/ Mata
+Handroanthus impetiginosus (Mart. ex DC.)  ipê-roxo, ipê-roxo-de-bola, ipê-rosa           8-12          NP              D   ANE Floresta Estacional Semidecidua/ Mata
 Mattos                                                                                                                         Ciliar
-Handroanthus ochraceus (Cham.) Mattos ipê-amarelo, ipê-amarelo-do-cerrado,               6-14          NP              D   ANE Cerrado
+Handroanthus ochraceus (Cham.) Mattos     ipê-amarelo, ipê-amarelo-do-cerrado,           6-14          NP              D   ANE Cerrado
                                           ipê-do-campo
-Handroanthus umbellatus (Sond.) Mattos ipê-amarelo-do-brejo, ipê-amarelo                 10-25         NP              D   ANE Mata Paludosa
+Handroanthus umbellatus (Sond.) Mattos    ipê-amarelo-do-brejo, ipê-amarelo              10-25         NP              D   ANE Mata Paludosa
 Jacaranda micrantha Cham.                 caroba-miúda, jacarandá-carobão,               10-25         P               D   ANE Mata Ciliar/ Cerrado
                                           caroba
 Tabebuia aurea (Silva Manso) Benth. &     ipê-amarelo-craibeira, ipê-amarelo-do-         4-20          NP              D   ANE Cerrado
@@ -14684,7 +14683,7 @@ Urera baccifera (L.) Gaudich. ex Wedd.   urtiga                                 
 
 ACANTHACEAE
 Aphelandra longiflora (Lindl.) Profice                                                0,5-1         NP              D    AUT Floresta Estacional Semidecidua/ Mata
-                                                                                                                             ciliar
+                                                                                                                             Ciliar
 AMARANTHACEAE
 * Alternanthera lanceolata (Benth.) Schinz                                            0,4-2         NP              D   AUT Cerrado
 * Gomphrena elegans Mart.                                                             0,7-2         NP              D   ANE Cerrado
@@ -14798,7 +14797,7 @@ Dicliptera squarrosa Nees                                                     0,
 Hygrophila costata Nees                                                       0,5-1          P              D    AUT Mata Paludosa/ Campo Alagado
 Ruellia brevifolia (Pohl) C.Ezcurra                                           0,4-1         NP              D    AUT Floresta Estacional Semidecidua
 ALISMATACEAE
-Echinodorus grandiflorus (Cham. & Schltr.) chapéu-de-couro                    0,7-1         NP              D    AUT Mata Paludosa
+Echinodorus grandiflorus (Cham. & Schltr.)   chapéu-de-couro                  0,7-1         NP              D    AUT Mata Paludosa
 Micheli
 AMARYLLIDACEAE
 * Hippeastrum angustifolium Pax                                                0,5          NP              D    AUT Cerrado
@@ -15138,7 +15137,7 @@ Thelypteris opposita (Vahl) Ching                                               
 
 
 ALISMATACEAE
-Echinodorus grandiflorus (Cham. & Schltr.) chapéu-de-couro                         0,5-1            P             P   AUT/ Floresta Estacional Semidecidua/ Mata
+Echinodorus grandiflorus (Cham. & Schltr.)    chapéu-de-couro                     0,5-1            P             P   AUT/ Floresta Estacional Semidecidua/ Mata
 Micheli                                                                                                               HIDR Ciliar/ Mata Paludosa/ Cerrado/ Lago/
                                                                                                                            Brejo/ Área Antrópica
 Sagittaria rhombifolia Cham.                                                        0,5             P             P   AUT/ Lago/ Brejo
