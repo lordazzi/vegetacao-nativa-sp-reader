@@ -77,9 +77,9 @@ export class Especies2019EspeciesInterpreter {
   private readNomePopularAndTamanho(
     listaEspeciesDoc: IterableString, especie: EspecieMetaData
   ): { especie: EspecieMetaData, isLineComplete: boolean } {
-    const readVegetacaoTamanho = /^[ ]+(\d|\(-)[ \(\),\-\d\/]*/;
+    const readVegetacaoTamanho = /^[ ]+(\d|\(-)[ \(\),\-\d\/]*\n?/;
     const nomePopularPattern = /^\s*([a-záãâêéíóôõúüç’\-,]+[ ]?)+[a-záãâêéíóôõúüç’\-,]\n?/;
-    const vegetacaoTamanho = listaEspeciesDoc.addCursor(readVegetacaoTamanho);
+    const vegetacaoTamanho = listaEspeciesDoc.addCursor(readVegetacaoTamanho, this.ignoreAutoTrim);
 
     if (vegetacaoTamanho) {
       especie.tamanho = vegetacaoTamanho.trim();
@@ -96,9 +96,13 @@ export class Especies2019EspeciesInterpreter {
         return { especie, isLineComplete: true };
       }
 
-      let tamanho = listaEspeciesDoc.addCursor(readVegetacaoTamanho);
+      let tamanho = listaEspeciesDoc.addCursor(readVegetacaoTamanho, this.ignoreAutoTrim);
       if (tamanho) {
-        especie.tamanho = tamanho;
+        especie.tamanho = tamanho.trim();
+
+        if (tamanho.match(/\n$/)) {
+          return { especie, isLineComplete: true };
+        }
       }
 
       //  existem condições onde o tamanho está muito grudado ao nome popular

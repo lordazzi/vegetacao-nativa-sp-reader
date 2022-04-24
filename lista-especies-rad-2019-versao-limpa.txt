@@ -3647,7 +3647,7 @@ CERATOPHYLLACEAE
 Ceratophyllum demersum L.                                                     0,5-2          NP             D    AUT/ Restinga/ Floresta Ombrófila Densa
                                                                                                                  HIDR
 CYMODOCEACEAE
-Halodule wrightii Asch.                                                        0,2           NP             D    AUT/ Ambiente Marinho - 2
+Halodule wrightii Asch.                                                        0,2           NP             D    AUT/ Ambiente Marinho
                                                                                                                  HIDR
 HALORAGACEAE
 Laurembergia tetrandra (Schott) Kanitz                                        0,05-0,3 NP                   D    AUT Restinga
