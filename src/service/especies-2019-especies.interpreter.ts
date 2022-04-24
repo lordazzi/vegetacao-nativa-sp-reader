@@ -39,7 +39,7 @@ export class Especies2019EspeciesInterpreter {
     //  nome popular, portanto sua leitura é ignorada para que não seja confundido com o bioma
     if (!listaEspeciesDoc.spy(/^[ ]{100}/, this.ignoreAutoTrim)) {
       const result = this.readNomePopularAndTamanho(listaEspeciesDoc, especie);
-      this.defineAsHeadNomePopularAndTamanho(especie);
+      this.checkHeadByNomePopularAndTamanho(especie);
       if (result.isLineComplete) {
         this.defineAsHeadAndTail(especie, linhaEspecieUltimaInserida);
         return especie;
@@ -47,6 +47,7 @@ export class Especies2019EspeciesInterpreter {
     }
 
     this.readBasicEspecieAttribute(especie, listaEspeciesDoc);
+    this.checkHeadByBasicEspecieAttribute(especie);
     if (especie.type === 'tail') {
       this.defineAsHeadAndTail(especie, linhaEspecieUltimaInserida);
     }
@@ -77,7 +78,7 @@ export class Especies2019EspeciesInterpreter {
       especie.bioma = bioma;
     }
 
-    if (!especie.tamanho && !classeSucessional && !grupoFuncional && !sindromeDispersao) {
+    if (!classeSucessional && !grupoFuncional && !sindromeDispersao) {
       especie.type = 'tail';
     }
 
@@ -167,7 +168,7 @@ export class Especies2019EspeciesInterpreter {
     linhaEspecieTail.type = 'tail';
   }
 
-  private defineAsHeadNomePopularAndTamanho(especie: EspecieMetaData): void {
+  private checkHeadByNomePopularAndTamanho(especie: EspecieMetaData): void {
     const nomePopular = especie.nomePopular || '';
     const nomePopularThereIsMore = nomePopular.match(/[,-]$/);
 
@@ -175,6 +176,23 @@ export class Especies2019EspeciesInterpreter {
     const tamanhoThereIsMore = tamanho.match(/\-$/);
 
     if (nomePopularThereIsMore || tamanhoThereIsMore) {
+      especie.type = 'head';
+    }
+  }
+
+  private checkHeadByBasicEspecieAttribute(especie: EspecieMetaData): void {
+    const thereIsMore = /\/$/;
+    let hasMore = thereIsMore.test(especie.bioma || '');
+
+    if (!hasMore) {
+      hasMore = thereIsMore.test(especie.sindromeDispersao || '');
+    }
+
+    if (!hasMore) {
+      hasMore = thereIsMore.test(especie.classeSucessional || '');
+    }
+
+    if (hasMore) {
       especie.type = 'head';
     }
   }
