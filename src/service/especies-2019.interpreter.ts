@@ -6,6 +6,10 @@ import { FamiliaMetaData } from './especies-2019-metadata/familia.meta-data';
 import { RegiaoMetaData } from './especies-2019-metadata/regiao.meta-data';
 import { VegetacaoTipoMetaData } from './especies-2019-metadata/vegetacao-tipo.meta-data';
 
+/**
+ * 1. Responsável pela transformação literal do documento txt para um formato json,
+ * representando cada linha do documento em cada objeto
+ */
 export class Especies2019Interpreter {
 
   private readonly logger = getLogger();

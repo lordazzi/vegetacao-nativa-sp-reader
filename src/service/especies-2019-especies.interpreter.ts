@@ -32,16 +32,24 @@ export class Especies2019EspeciesInterpreter {
       }
 
     } else {
-      this.defineAsHeadOrTail(especie, linhaEspecieUltimaInserida);
+      this.defineAsHeadAndTail(especie, linhaEspecieUltimaInserida);
     }
 
-    const result = this.readNomePopularAndTamanho(listaEspeciesDoc, especie);
-    this.defineAsHeadUsingNomePopular(especie);
-    if (result.isLineComplete) {
-      return especie;
+    // se houverem 100 caracteres em branco e não houver nome cientifico, certamente não haverá
+    //  nome popular, portanto sua leitura é ignorada para que não seja confundido com o bioma
+    if (!listaEspeciesDoc.spy(/^[ ]{100}/, this.ignoreAutoTrim)) {
+      const result = this.readNomePopularAndTamanho(listaEspeciesDoc, especie);
+      this.defineAsHeadNomePopularAndTamanho(especie);
+      if (result.isLineComplete) {
+        this.defineAsHeadAndTail(especie, linhaEspecieUltimaInserida);
+        return especie;
+      }
     }
 
     this.readBasicEspecieAttribute(especie, listaEspeciesDoc);
+    if (especie.type === 'tail') {
+      this.defineAsHeadAndTail(especie, linhaEspecieUltimaInserida);
+    }
 
     return especie;
   }
@@ -67,6 +75,10 @@ export class Especies2019EspeciesInterpreter {
     const bioma = this.readBioma(listaEspeciesDoc);
     if (bioma) {
       especie.bioma = bioma;
+    }
+
+    if (!especie.tamanho && !classeSucessional && !grupoFuncional && !sindromeDispersao) {
+      especie.type = 'tail';
     }
 
     return especie;
@@ -132,7 +144,7 @@ export class Especies2019EspeciesInterpreter {
     return { especie, isLineComplete: false };
   }
 
-  private defineAsHeadOrTail(
+  private defineAsHeadAndTail(
     linhaEspecieTail: EspecieMetaData, linhaEspecieHead: EspecieMetaData | null
   ): void {
     if (linhaEspecieHead) {
@@ -142,11 +154,14 @@ export class Especies2019EspeciesInterpreter {
     linhaEspecieTail.type = 'tail';
   }
 
-  private defineAsHeadUsingNomePopular(especie: EspecieMetaData): void {
+  private defineAsHeadNomePopularAndTamanho(especie: EspecieMetaData): void {
     const nomePopular = especie.nomePopular || '';
-    const lastCharIsNotALetter = nomePopular.match(/[,-]$/);
+    const nomePopularThereIsMore = nomePopular.match(/[,-]$/);
 
-    if (lastCharIsNotALetter) {
+    const tamanho = especie.tamanho || '';
+    const tamanhoThereIsMore = tamanho.match(/\-$/);
+
+    if (nomePopularThereIsMore || tamanhoThereIsMore) {
       especie.type = 'head';
     }
   }
@@ -164,7 +179,7 @@ export class Especies2019EspeciesInterpreter {
     //
     if (!especie.nome) {
       especie.nome = listaEspeciesDoc.addCursor(this.readAllUntilBreakLine);
-      this.defineAsHeadOrTail(especie, linhaEspecieUltimaInserida);
+      this.defineAsHeadAndTail(especie, linhaEspecieUltimaInserida);
       if (especie.type !== 'full') {
         isLineComplete = true;
       }

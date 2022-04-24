@@ -555,16 +555,15 @@ K.S.Edwards
 Roupala montana Aubl.                          carvalho                                 0,5-8         NP              D    ANE Floresta Ombrófila Densa
 Roupala paulensis Sleumer                      carvalho-do-brasil                        30           NP              D    AUT Floresta Ombrófila Densa
 ROSACEAE
-Prunus myrtifolia (L.) Urb.                    pessegueiro-bravo, marmelo, coração-                                              Restinga/ Floresta Ombrófila Densa
-                                                                                        8-15          NP              D    ZOO
+Prunus myrtifolia (L.) Urb.                    pessegueiro-bravo, marmelo, coração-     8-15          NP              D    ZOO  Restinga/ Floresta Ombrófila Densa
                                                negro
 RUBIACEAE
 Alseis floribunda Schott                       quina-de-são-paulo                       2-10          NP              D    AUT Floresta Ombrófila Densa
-Amaioua intermedia Mart. ex Schult. &          marmelada, guruguva-verdadeira                                                  Restinga/ Floresta Ombrófila Densa
-                                                                                        3-20          NP              D    ZOO
+Amaioua intermedia Mart. ex Schult. &          marmelada, guruguva-verdadeira           3-20          NP              D    ZOO Restinga/ Floresta Ombrófila Densa
+
 Schult.f.
-Bathysa australis (A.St.-Hil.) K.Schum.        sutuparana, pau-de-colher, quina-de-                                              Floresta Ombrófila Densa
-                                                                                           8          NP              D    AUT
+Bathysa australis (A.St.-Hil.) K.Schum.        sutuparana, pau-de-colher, quina-de-        8          NP              D    AUT  Floresta Ombrófila Densa
+
                                                santa-catarina
 #                                                                                           ARBÓREAS•
 
@@ -580,8 +579,7 @@ Posoqueria acutifolia Mart.                baga-de-macaco, laranja-de-macaco    
 Posoqueria latifolia (Rudge) Schult.       laranja-de-macaco                               2-15         NP              D   ZOO    Restinga/ Floresta Ombrófila Densa
 Psychotria stachyoides Benth.              café-do-mato, cafezinho-do-mato                   7          NP              D   ZOO    Floresta Ombrófila Densa
 Psychotria vellosiana Benth.               café-do-mato, cafezinho-do-mato                  12          NP              D   ZOO    Restinga/ Floresta Ombrófila Densa
-Randia armata (Sw.) DC.                    laranja-de-macaco, limão-do-mato,                                                       Restinga/ Floresta Ombrófila Densa
-                                                                                           3-12         NP              D   ZOO
+Randia armata (Sw.) DC.                    laranja-de-macaco, limão-do-mato,               3-12         NP              D   ZOO    Restinga/ Floresta Ombrófila Densa
                                            limão-bravo
 Randia ferox (Cham. & Schltdl.) DC.        limoeiro-do-mato                                 12          NP              D   ZOO    Restinga/ Floresta Ombrófila Densa
 Rudgea gardenioides (Cham.) Müll. Arg. corticeira-da-mata                                   1-8         NP              D   ZOO    Floresta Ombrófila Densa
@@ -590,15 +588,13 @@ Rustia formosa (Cham. & Schltdl.) Klotzsch sobrasil, caapeba                    
 Tocoyena brasiliensis Mart.                genipapinho                                     12-20        NP              D   ZOO    Floresta Ombrófila Densa
 Tocoyena bullata (Vell.) Mart.             genipapo, bacochi                                10          P               D   ZOO    Restinga/ Floresta Ombrófila Densa
 RUTACEAE
-Esenbeckia febrifuga (A.St.-Hil.) A. Juss. mamoninha-do-mato                                                                       Floresta Ombrófila Densa
-                                                                                           1-11         NP              D    AUT
+Esenbeckia febrifuga (A.St.-Hil.) A. Juss. mamoninha-do-mato                               1-11         NP              D    AUT   Floresta Ombrófila Densa
 ex Mart.
 Esenbeckia grandiflora Mart.               guaxupita                                        4-7         NP              D   AUT    Restinga/ Floresta Ombrófila Densa
 Metrodorea nigra A.St.Hil.                 chupa-ferro, caputuna-preta                      4-8         NP              D   AUT    Floresta Ombrófila Densa
 Pilocarpus pauciflorus A.St.-Hil.          jaborandi, pau-jaborandi                          6          NP              D   ZOO    Restinga/ Floresta Ombrófila Densa
 Pilocarpus spicatus A.St.-Hil.             jaborandi                                        30          NP              D   ZOO    Restinga/ Floresta Ombrófila Densa
-Zanthoxylum rhoifolium Lam.                mamica-de-cadela, mamica-de-porca,                                                      Floresta Ombrófila Densa
-                                                                                           6-12         NP              D   ZOO
+Zanthoxylum rhoifolium Lam.                mamica-de-cadela, mamica-de-porca,              6-12         NP              D   ZOO    Floresta Ombrófila Densa
                                            laranjeira-brava
 Zanthoxylum tingoassuiba A.St.-Hil.        laranjinha-do-mato                               12            P             D   ZOO Restinga/ Floresta Ombrófila Densa
 SABIACEAE
@@ -653,8 +649,8 @@ STYRACACEAE
 Styrax acuminatus Pohl                    benjoeiro                                 6-14         NP              D    ZOO Floresta Ombrófila Densa
 SYMPLOCACEAE
 Symplocos celastrinea Mart.               mate-falso, jabãozinho                    3-12         NP              D    ZOO Floresta Ombrófila Densa
-Symplocos estrellensis Casar.             canela-conserva                           8-10         NP              D    ZOO Floresta Ombrófila Densa/ Áreas
-                                                                                                                          Antropicas
+Symplocos estrellensis Casar.             canela-conserva                           8-10         NP              D    ZOO Floresta Ombrófila Densa/ Área
+                                                                                                                          Antrópica
 THEACEAE
 Ternstroemia brasiliensis Cambess.                                                  3-8          NP              D    AUT Restinga/ Floresta Ombrófila Densa
 THYMELAEACEAE
@@ -665,7 +661,7 @@ Cecropia glaziovii Snethl.                embaúva-vermelha                     
 Cecropia pachystachya Trécul              embaúba, embaúba-branca                  2,5-12         P              D    ZOO Restinga/ Floresta Ombrófila Densa
 Coussapoa microcarpa (Schott) Rizzini     mata-pau, figueira-mata-pau              10-25         NP              D    ZOO Restinga
                                                                                     (-35)
-Pourouma guianensis Aubl.                 itararanga, tararana,                     4-22         NP              D    ZOO Floresta Ombrófila Densa
+Pourouma guianensis Aubl.                 itararanga, tararana                     4-22         NP              D    ZOO Floresta Ombrófila Densa
 Urera baccifera (L.) Gaudich. ex Wedd.    urtiga, urtigão                            20          NP              D    ZOO Floresta Ombrófila Densa
 VERBENACEAE
 Citharexylum solanaceum Cham.             pau-viola                                 5-15           P             D    ZOO Floresta Ombrófila Densa
@@ -789,8 +785,8 @@ Baehni
 
 
 SOLANACEAE
-Acnistus arborescens (L.) Schltdl.      fruta-do-sabiá, marianeira        1-5             P             P   ZOO Floresta Ombrófila Densa/ Áreas
-                                                                                                                Antropicas
+Acnistus arborescens (L.) Schltdl.      fruta-do-sabiá, marianeira        1-5             P             P   ZOO Floresta Ombrófila Densa/ Área
+                                                                                                                Antrópica
 Aureliana fasciculata (Vell.) Sendtn.   jurubebinha-de-pelo                 6          NP              D    ZOO Restinga/ Floresta Ombrófila Densa
 Cestrum axillare Vell.                  coerana, coerana-branca             5          NP              D    ZOO Restinga/ Floresta Ombrófila Densa
 Solanum rufescens Sendtn.               joá, jurubeba                       6          P               D    ZOO Floresta Ombrófila Densa
@@ -809,8 +805,8 @@ ARALIACEAE
 Dendropanax monogynus (Vell.) Seem.                                                    2-5          NP              D   ZOO Floresta Ombrófila Densa
 ASTERACEAE
 Baccharis dentata (Vell.) G.M.Barroso       alecrim-de-pasto, alecrim-de-cerrado        6             P             P    ANE Floresta Ombrófila Densa
-Baccharis montana DC.                       alecrim-do-mato                            2-4            P             P    ANE Floresta Ombrófila Densa/ Áreas
-                                                                                                                             Antropicas
+Baccharis montana DC.                       alecrim-do-mato                            2-4            P             P    ANE Floresta Ombrófila Densa/ Área
+                                                                                                                             Antrópica
 Baccharis semiserrata DC.                   alecrim, alecrim-do-mato                  1,5-4,5         P             P    ANE Floresta Ombrófila Densa
 Critoniopsis quinqueflora (Less.) H.Rob.    cambarazinho                                3-6           P             P    ANE Floresta Ombrófila Densa
 He terocondylus alatus (Vell.) R.M.King &   cambará-de-bicho                             3            P             P    ANE Floresta Ombrófila Densa
@@ -842,8 +838,8 @@ EUPHORBIACEAE
 * Croton sphaerogynus Baill.                croton                                     2-3          NP              D    AUT Restinga
 FABACEAE
 Dalbergia ecastaphyllum (L.) Taub.          marmelo-do-mangue                         1-3,5           P             D   ANE Restinga
-Inga vulpina Mart. ex Benth.                ingá, ingazeiro                             5             P             P   ZOO Floresta Ombrófila Densa/ Áreas
-                                                                                                                            Antropicas
+Inga vulpina Mart. ex Benth.                ingá, ingazeiro                             5             P             P   ZOO Floresta Ombrófila Densa/ Área
+                                                                                                                            Antrópica
 Mimosa bimucronata (DC.) Kuntze.            maricá, angico-preto, espinheira-de-ma-    4-8            P             P   AUT Restinga
                                             ricá, espinho-de-maricá
 Sesbania virgata (Cav.) Pers.               angiquinho-grande, sebania                 2-6            P             P    AUT Restinga
@@ -1047,7 +1043,7 @@ GOODENIACEAE
 Scaevola plumieri (L.) Vahl                mangue-da-praia                            0,3-1,2       NP              D    ZOO Restinga/ Floresta Ombrófila Densa
 LAMIACEAE
 Salvia splendens Sellow ex Roem. & Schult.                                            0,5-2         NP              D    AUT Floresta Ombrófila Densa/ Área
-                                                                                                                             Antropica
+                                                                                                                             Antrópica
 MALVACEAE
 Pavonia nemoralis A.St.-Hil.                                                          0,5-1,5       NP              D    AUT Floresta Ombrófila Densa
 Sidastrum paniculatum (L.) Fryxell          malva-roxa                                  1-2          P              P    AUT Restinga/ Área Antrópica
@@ -1077,7 +1073,7 @@ Zuloaga
 ROSACEAE
 Rubus brasiliensis Mart.                                                          0,5-2         NP              D    ZOO Floresta Ombrófila Densa
 Rubus rosifolius Sm. var. rosifolius          amora-vermelha, amora-silvestre     0,4-1         NP              D    ZOO Floresta Ombrófila Densa/ Área
-                                                                                                                         Antropica
+                                                                                                                         Antrópica
 Rubus sellowii Cham. & Schltdl.                                                    1-2          NP              D    ZOO Floresta Ombrófila Densa
 RUBIACEAE
 Borreria latifolia (Aubl.) K.Schum.                                              0,5-1,5          P              P   AUT Restinga/ Floresta Ombrófila
@@ -1169,10 +1165,10 @@ ORCHIDACEAE
 Aspidogyne argentea (Vell.) Garay                                                  0,1-0,25       NP              D    ANE Floresta Ombrófila Densa
 Cyclopogon iguapensis Schltr.                                                       0,2-0,6       NP              D    ANE Floresta Ombrófila Densa
 Epidendrum secundum Jacq.                                                            0,4-1        NP              D    ANE Floresta Ombrófila Densa/ Área
-                                                                                                                           Antropica
+                                                                                                                           Antrópica
 Govenia utriculata (Sw.) Lindl.                                                    0,5-1,2        NP              D    ANE Floresta Ombrófila Densa
 Habenaria parviflora Lindl.                                                        0,2-0,4        NP              D    ANE Floresta Ombrófila Densa/ Área
-                                                                                                                           Antropica
+                                                                                                                           Antrópica
 Habenaria pleiophylla Hoehne & Schltr.                                             0,5-1,3        NP              D    ANE Restinga/ Floresta Ombrófila Densa
 Habenaria repens Nutt.                                                             0,3-0,5        NP              D    ANE Restinga/ Floresta Ombrófila Densa
 Liparis nervosa (Thumb.) Lindl.                                                    0,2-0,5        NP              D    ANE Restinga/ Floresta Ombrófila Densa
@@ -1186,11 +1182,11 @@ POACEAE
 Acroceras zizanioides (Kunth) Dandy                                                   0,5-1   NP                  D   AUT Restinga/ Área Antrópica
 Andropogon leucostachyus Kunth              capim-membeca                           0,25-1,05 P                   P   ANE Restinga/ Área Antrópica
 Cenchrus echinatus L.                       carrapicho, bosta-de-baiano, carrapicho- 0,1-0,7  P                   D   ZOO Floresta Ombrófila Densa/ Área
-                                            -amoroso roseta                                                               Antropica
+                                            -amoroso roseta                                                               Antrópica
 Cenchrus tribuloides L.                     carrapicho-de-praia, carrapicho          0,1-0,8 NP                   D   ZOO Restinga
 Chloris elata Desv.                                                                  0,7-1,2  P                   D   AUT Restinga/ Área Antrópica
 Chloris orthonoton Döll                     capim-azul, grama-azul,grama-azul-de- 0,20-0,55 P                     D   AUT Floresta Ombrófila Densa/ Área
-                                            -taubaté                                                                      Antropica
+                                            -taubaté                                                                      Antrópica
 Chloris pycnothrix Trin.                                                            0,13-0,40 P                   D   AUT Restinga/ Área Antrópica
 Cortaderia selloana (Schult. & Schult.f.)   capim-dos-pampas                           2--3   P                   P   ANE Restinga/ Área Antrópica
 Asch. & Graebn.
@@ -1536,9 +1532,9 @@ Pabstiella hians (Lindl.) Luer                                 0,02-0,1       NP
 Pabstiella podoglossa (Hoehne) Luer                            0,05-0,1       NP              D    ANE Floresta Ombrófila Densa
 Pabstiella pterophora (Cogn.) Chiron                           0,1-0,2        NP              D    ANE Floresta Ombrófila Densa
 Phymatidium delicatulum Lindl.                                 0,05-0,1       NP              D    ANE Floresta Ombrófila Densa / Área
-                                                                                                       Antropica
+                                                                                                       Antrópica
 Phymatidium hysteranthum Barb.Rodr.                            0,05-0,1       NP              D    ANE Floresta Ombrófila Densa / Área
-                                                                                                       Antropica
+                                                                                                       Antrópica
 Platystele oxyglossa (Schltr.) Garay                            0,02-         NP              D    ANE Floresta Ombrófila Densa
                                                                  0,05
 Polystachya micrantha Schltr.                                  0,3-0,7        NP              D    ANE   Floresta Ombrófila Densa
@@ -1568,8 +1564,7 @@ PIPERACEAE
 
 
 ANEMIACEAE
-Anemia ferruginea Humb. & Bonpl. ex
-                                                                              0,1-0,5        NP                 D   ANE Floresta Ombrófila Densa
+Anemia ferruginea Humb. & Bonpl. ex                                          0,1-0,5        NP                 D   ANE Floresta Ombrófila Densa
 Kunth
 Anemia phyllitidis (L.) Sw.                 feto-pluma, pluma-de-cacho        0,3-0,8        NP                 D   ANE Floresta Ombrófila Densa
 Anemia raddiana Link                                                          0,3-0,5        P                  D   ANE Floresta Ombrófila Densa
@@ -1623,8 +1618,7 @@ Dicranopteris flexuosa (Schrad.) Underw.                                     1-1
 
 Dicranopteris nervosa (Kaulf.) Maxon                                     0,4-1          NP                 D    ANE Floresta Ombrófila Densa
 HYMENOPHYLACEAE
-Abrodictyum rigidum (Sw.) Ebihara & Du-
-                                                                         0,2-0,35 NP                       D    ANE Floresta Ombrófila Densa
+Abrodictyum rigidum (Sw.) Ebihara & Du-                                  0,2-0,35 NP                       D    ANE Floresta Ombrófila Densa
 buisson
 Hymenophyllum asplenioides (Sw.) Sw.                                     0,1-0,25 NP                       D    ANE   Floresta Ombrófila Densa
 Hymenophyllum caudiculatum Mart.                                         0,1-0,3 NP                        D    ANE   Floresta Ombrófila Densa
@@ -1638,8 +1632,7 @@ Lindsaea divaricata Klotzsch                                             0,2-0,5
 Lindsaea stricta (Sw.) Dryand.                                           0,3-0,5 NP                        D    ANE Floresta Ombrófila Densa
 LYCOPODIACEAE
 Lycopodiella alopecuroides (L.) Cranfill                                 0,3-0,5 P                         D    ANE Restinga
-Palhinhaea camporum (B. Ollg. & P.G.
-                                                                         0,3-1          P                  D    ANE Restinga / Floresta Ombrófila Densa
+Palhinhaea camporum (B. Ollg. & P.G.                                     0,3-1          P                  D    ANE Restinga / Floresta Ombrófila Densa
 Windisch) Holub
 Palhinhaea cernua (L.) Franco & Vasc.                                    0,3-1          NP                 D    ANE Restinga
 LYGODIACEAE
@@ -1650,23 +1643,18 @@ Osmunda regalis L.                                                       0,4-1  
 POLYPODIACEAE
 Cochlidium punctatum (Raddi) L.E.Bishop                                  0,05-0,15 NP                      D    ANE Floresta Ombrófila Densa
 Cochlidium serrulatum (Sw.) L.E.Bishop                                   0,05-0,15 NP                      D    ANE Floresta Ombrófila Densa
-Microgramma crispata (Fée) R.M.Tryon &
-                                                                         0,05-0,15 NP                      D    ANE Floresta Ombrófila Densa
+Microgramma crispata (Fée) R.M.Tryon &                                   0,05-0,15 NP                      D    ANE Floresta Ombrófila Densa
 A.F.Tryon
-Microgramma geminata (Schrad.) R.M.
-                                                                         0,1-0,2 NP                        D    ANE Restinga / Floresta Ombrófila Densa
+Microgramma geminata (Schrad.) R.M.                                      0,1-0,2 NP                        D    ANE Restinga / Floresta Ombrófila Densa
 Tryon & A.F.Tryon
 Microgramma percussa (Cav.) de la Sota                                   0,1-0,3 NP                        D    ANE Floresta Ombrófila Densa
-Microgramma squamulosa (Kaulf.) de la
-                                                                         0,05-0,15 NP                      D    ANE Floresta Ombrófila Densa
+Microgramma squamulosa (Kaulf.) de la                                    0,05-0,15 NP                      D    ANE Floresta Ombrófila Densa
 Sota
 Microgramma tecta (Kaulf.) Alston                                        0,05-0,1 NP                       D    ANE Floresta Ombrófila Densa
-Microgramma vacciniifolia (Langsd. &
-                                                                         0,03-0,1 NP                       D    ANE Floresta Ombrófila Densa
+Microgramma vacciniifolia (Langsd. &                                     0,03-0,1 NP                       D    ANE Floresta Ombrófila Densa
 Fisch.) Copel.
 Pecluma filicula (Kaulf.) M.G. Price                                     0,1-0,2 NP                        D    ANE Floresta Ombrófila Densa
-Pecluma pilosa (A.M.Evans) M.Kessler &
-                                                                         0,3-0,5 NP                        D    ANE Floresta Ombrófila Densa
+Pecluma pilosa (A.M.Evans) M.Kessler &                                   0,3-0,5 NP                        D    ANE Floresta Ombrófila Densa
 A.R.Sm.
 Pecluma recurvata (Kaulf.) M.G.Price                                     0,4-0,5 NP                        D    ANE Floresta Ombrófila Densa
 Pleopeltis astrolepis (Liebm.) E.Fourn.                                  0,1-0,2 NP                        D    ANE Floresta Ombrófila Densa
@@ -1681,33 +1669,28 @@ Pleopeltis hirsutissima (Raddi) de la Sota                               0,3-0,6
 
 
 
-Pleopeltis lepidopteris (Langsd. & Fisch.)
-                                                                           0,4-0,7 P                     D    ANE Restinga / Floresta Ombrófila Densa
+Pleopeltis lepidopteris (Langsd. & Fisch.)                                 0,4-0,7 P                     D    ANE Restinga / Floresta Ombrófila Densa
 dela Sota
 Pleopeltis macrocarpa (Bory ex Willd.) Kaulf.                              0,05-0,15 NP                  D    ANE Floresta Ombrófila Densa
 Pleopeltis pleopeltidis (Fée) de la Sota                                   0,1-0,3 NP                    D    ANE Floresta Ombrófila Densa
 Pleopeltis pleopeltifolia (Raddi) Alston                                   0,1-0,3 NP                    D    ANE Floresta Ombrófila Densa
-Serpocaulon catharinae (Langsd. & Fiasch.)
-                                                                           0,2-0,4 NP                    D    ANE Floresta Ombrófila Densa
+Serpocaulon catharinae (Langsd. & Fiasch.)                                0,2-0,4 NP                    D    ANE Floresta Ombrófila Densa
 A.R.Sm.
 Serpocaulon fraxinifolium (Jacq.) A.R.Sm.                                  0,4-1          NP             D    ANE Floresta Ombrófila Densa
-Serpocaulon latipes (Langsd. & Fisch.)
-                                                                           0,4-0,7 NP                    D    ANE Floresta Ombrófila Densa
+Serpocaulon latipes (Langsd. & Fisch.)                                     0,4-0,7 NP                    D    ANE Floresta Ombrófila Densa
 A.R.Sm.
 PTERIDACEAE
 Adiantum abscissum Schrad.                                                 0,4-1   NP                    D    ANE Floresta Ombrófila Densa
 Adiantum raddianum C.Presl.                   avenca                       0,3-0,5 NP                    D    ANE Floresta Ombrófila Densa
 Adiantum tetraphyllum Willd.                                               0,4-0,8 NP                    D    ANE Floresta Ombrófila Densa
-Doryopteris concolor (Langsd. & Fiasch.)
-                                                                           0,15-0,25 NP                  D    ANE Floresta Ombrófila Densa
+Doryopteris concolor (Langsd. & Fiasch.)                                   0,15-0,25 NP                  D    ANE Floresta Ombrófila Densa
 Kuhn
 Dryopteris lomariacea Klotzsch                                             0,4-0,6        NP             D    ANE      Floresta Ombrófila Densa
 Jamesonia biardii (Fée) Christenh.                                         0,4-0,8        NP             D    ANE      Floresta Ombrófila Densa
 Pityrogramma calomelanos (L.) Link                                         0,4-0,7        NP             D    ANE      Restinga / Floresta Ombrófila Densa
 Pityrogramma trifoliata (L.) R.M.Tryon                                     0,4-1          NP             D    ANE      Floresta Ombrófila Densa
 Pteris splendens Kaulf.                                                    0,5-1          NP             D    ANE      Floresta Ombrófila Densa
-Tryonia myriophylla (Sw.) Schuettp., J.Prado
-                                                                           0,3-0,5 NP                    D    ANE Floresta Ombrófila Densa
+Tryonia myriophylla (Sw.) Schuettp., J.Prado                               0,3-0,5 NP                    D    ANE Floresta Ombrófila Densa
 & A.T.Cochran
 Vittaria graminifolia Kaulf.                                               0,05-0,15 NP                  D    ANE Floresta Ombrófila Densa
 Vittaria lineata (L.) Sm.                                                  0,1-0,4 NP                    D    ANE Floresta Ombrófila Densa
@@ -3037,7 +3020,7 @@ Sisyrinchium micranthum Cav.                                                0,3-
 
 LOASACEAE
 * Aosa parviflora (Schrad. ex DC.)                                              0,3           NP             D    AUT Floresta Ombrófila Densa/ Área
-Weigend                                                                                                               Antropica
+Weigend                                                                                                               Antrópica
 MALVACEAE
 Sida linifolia Cav.                      malva-lingua-de-tucano                0,4-1            P            D    AUT Restinga
 Waltheria indica L.                                                            0,5-1            P            P    AUT Restinga/ Floresta Ombrófila Densa
@@ -3054,10 +3037,10 @@ ORCHIDACEAE
 Aspidogyne argentea (Vell.) Garay                                             0,1-0,25        NP             D    ANE Floresta Ombrófila Densa
 Cyclopogon iguapensis Schltr.                                                 0,2-0,6         NP             D    ANE Floresta Ombrófila Densa
 Epidendrum secundum Jacq.                                                      0,4-1          NP             D    ANE Floresta Ombrófila Densa/ Área
-                                                                                                                      Antropica
+                                                                                                                      Antrópica
 Govenia utriculata (Sw.) Lindl.                                                0,5-1,2        NP             D    ANE Floresta Ombrófila Densa
 Habenaria parviflora Lindl.                                                    0,2-0,4        NP             D    ANE Floresta Ombrófila Densa/ Área
-                                                                                                                      Antropica
+                                                                                                                      Antrópica
 Habenaria pleiophylla Hoehne & Schltr.                                         0,5-1,3        NP             D    ANE Floresta Ombrófila Densa
 Habenaria repens Nutt.                                                         0,3-0,5        NP             D    ANE Restinga/ Floresta Ombrófila Densa
 Liparis nervosa (Thumb.) Lindl.                                                0,2-0,5        NP             D    ANE Restinga/ Floresta Ombrófila Densa
@@ -3089,7 +3072,7 @@ Chloris elata Desv.                                                             
 
 
 Chloris orthonoton Döll                     capim-azul, grama-azul,grama-azul-de- 0,20-0,55          P             D    AUT Floresta Ombrófila Densa/ Área
-                                            -taubaté                                                                        Antropica
+                                            -taubaté                                                                        Antrópica
 Chloris pycnothrix Trin.                                                          0,13-0,40          P             D    AUT Restinga/ Área Antrópica
 Cortaderia selloana (Schult. & Schult.f.)   capim-dos-pampas                         2--3            P             P    ANE Restinga/ Área Antrópica
 Asch. & Graebn.
@@ -3149,7 +3132,7 @@ Pseudechinolaena polystachya (Kunth)                                            
 Stapf
 * Reitzia smithii Swallen                                                        0,25-0,3        NP             D    AUT Restinga/ Área Antrópica
 Setaria vulpiseta (Lam.) Roem. & Schult.                                         0,4-0,7         NP             D    AUT Floresta Ombrófila Densa/ Área
-                                                                                                                         Antropica
+                                                                                                                         Antrópica
 Sporobolus indicus (L.) R.Br.                                                    0,2-1,2           P            P    AUT Restinga/ Área Antrópica
 Sporobolus virginicus (L.) Kunth                                                   0,65            P            P    AUT Manguezal
 Stenotaphrum secundatum (Walter) Kuntze    grama-se-jardim, grama-inglesa         0,3-0,4          P            P    AUT Restinga
@@ -3166,7 +3149,7 @@ Coccocypselum lanceolatum (Ruiz & Pav.)    anil, erva-de-corocochó             
 Pers.
 SOLANACEAE
 Solanum americanum Mill.                   maria-pretinha, erva-moura            0,3-0,8           P            D    ZOO Floresta Ombrófila Densa/ Área
-                                                                                                                         Antropica
+                                                                                                                         Antrópica
 URTICACEAE
 Pilea pubescens Liebm.                                                           0,3-0,5         NP             D    AUT Restinga/ Floresta Ombrófila Densa
 ZINGIBERACEAE
@@ -3212,11 +3195,11 @@ Semir
 Amphilophium elongatum (Vahl)                                                                         NP              D    AUT Floresta Ombrófila Densa
 L.G.Lohmann
 Amphilophium paniculatum (L.) Kunth                                                                   NP              D    AUT Floresta Ombrófila Densa/ Área
-                                                                                                                               Antropica
+                                                                                                                               Antrópica
 Anemopaegma chamberlaynii (Sims)                                                                      NP              D    AUT Floresta Ombrófila Densa/ Área
-Bureau & K.Schum.                                                                                                              Antropica
+Bureau & K.Schum.                                                                                                              Antrópica
 Bignonia binata Thunb.                                                                                NP              D    AUT Floresta Ombrófila Densa/ Área
-                                                                                                                               Antropica
+                                                                                                                               Antrópica
 Cuspidaria floribunda (DC.) A.H.Gentry                                                                NP              D    AUT Floresta Ombrófila Densa
 Fridericia chica (Bonpl.) L.G.Lohmann      cajuru, carajiru, chica, cipó-cruz, piranga                NP              D    AUT Restinga/ Floresta Ombrófila Densa/
                                                                                                                                Área Antrópica
@@ -3289,7 +3272,7 @@ Passiflora edulis Sims                                                          
 
 
 *   Passiflora ischnoclada Harms                                                        NP              D    ZOO Floresta Ombrófila Densa/ Área
-                                                                                                                 Antropica
+                                                                                                                 Antrópica
 PHYTOLACCACEAE
 Microtea scabrida Urb.                                                                  NP              D    ZOO Floresta Ombrófila Densa
 RUBIACEAE
@@ -3311,7 +3294,7 @@ Cissus erosa Rich.                                                              
                                                                                                                  Área Antrópica
 Cissus paulliniifolia Vell.                                                             NP              D    ZOO Restinga/ Floresta Ombrófila Densa
 Cissus sulcicaulis (Baker) Planch.                                                      NP              D    ZOO Floresta Ombrófila Densa/ Área
-                                                                                                                 Antropica
+                                                                                                                 Antrópica
 Cissus tinctoria Mart.                                                                  NP              D    ZOO Floresta Ombrófila Densa
 #                                                                                                        E P Í F I TA S •
 
@@ -3640,7 +3623,7 @@ Echinodorus grandiflorus (Cham. & Schltr.) chapéu-de-couro                    0
 Micheli                                                                                                          HIDR Área Antrópica
 BEGONIACEAE
 Begonia cucullata Willd.                                                      0,2-1          NP             D    ANE Floresta Ombrófila Densa/ Área
-                                                                                                                     Antropica
+                                                                                                                     Antrópica
 CAMPANULACEAE
 Lobelia exaltata Pohl                                                          1-2             P             P   AUT Floresta Ombrófila Densa
 CERATOPHYLLACEAE
@@ -3700,9 +3683,9 @@ Spartina densiflora Brongn.                                                     
 Steinchisma laxum (Sw.) Zuloaga                                               0,15-1,15         P            D    AUT Restinga
 POLYGONACEAE
 Polygonum ferrugineum Wedd.                                                     0,5-1           P            D    AUT Floresta Ombrófila Densa/ Área
-                                                                                                                      Antropica
+                                                                                                                      Antrópica
 Polygonum punctatum Elliott                                                    0,3-0,6          P            D    AUT Floresta Ombrófila Densa/ Área
-                                                                                                                      Antropica
+                                                                                                                      Antrópica
 PONTEDERIACEAE
 Eichhornia azurea (Sw.) Kunth           aguapé, orelha-de-veado, bico-de-    0,1-0,5          P             P   AUT/    Restinga
                                         -pato                                                                     HIDR
@@ -4779,7 +4762,7 @@ Eugenia involucrata DC.                cereja-do-rio-grande, cereja, cerejeira  
 
 
 *   Eugenia modesta DC.                                                           1,5-4        NP              D    ZOO Floresta Ombrófila Densa/ Floresta
-                                                                                                                        Estacional Semidecidua Cerrado
+                                                                                                                        Estacional Semidecidua/ Cerrado
 Eugenia monosperma Vell.                                                          3-12         NP              D        Floresta Ombrófila Densa
 Eugenia myrcianthes Nied.                 pêssego-do-mato, cereja-do-rio-grande   5-10          P              D    ZOO Floresta Ombrófila Densa/ Floresta
                                                                                                                         Altomontana/ Floresta Estacional
@@ -5735,8 +5718,8 @@ SIPARUNACEAE
 Siparuna brasiliensis (Spreng.) A.DC.      limoeiro-bravo, negra-mina              1-5          NP              D   ZOO Floresta Ombrófila Densa/ Floresta
                                                                                                                         Estacional Semidecidua
 SOLANACEAE
-Acnistus arborescens (L.) Schltdl.         fruta-do-sabiá, marianeira              1-5            P             P   ZOO Floresta Ombrófila Densa/ Áreas
-                                                                                                                        Antropicas
+Acnistus arborescens (L.) Schltdl.         fruta-do-sabiá, marianeira              1-5            P             P   ZOO Floresta Ombrófila Densa/ Área
+                                                                                                                        Antrópica
 Aureliana fasciculata (Vell.) Sendtn.      jurubebinha-de-pelo                       6          NP              D   ZOO Floresta Ombrófila Densa/ Floresta
                                                                                                                         Estacional Semidecidua
 Cestrum axillare Vell.                     coerana, coerana-branca                   5          NP              D   ZOO Floresta Ombrófila Densa/ Floresta
@@ -6784,7 +6767,7 @@ Macrocarpaea rubra Malme                                                        
 LAMIACEAE
 Hyptis lagenaria A.St.-Hil. ex Benth.                                                0,5-1,5       NP              D    AUT Campo de Altitude
 Salvia splendens Sellow ex Roem. & Schult.                                            0,5-2        NP              D    AUT Floresta Ombrófila Densa/ Área
-                                                                                                                            Antropica
+                                                                                                                            Antrópica
 #                                                       S U B A R B U S T I VA S •
 
 
@@ -11224,7 +11207,7 @@ Waltheria communis A.St.-Hil.               douradinha-do-capo                  
 
 Wissadula hernandioides (L.Hér.) Garcke                                    0,6-2         NP              D    AUT Floresta Ombrófila Densa/ Floresta
                                                                                                                   Estacional Semidecidua/ Área
-                                                                                                                    Antropica
+                                                                                                                    Antrópica
 MELASTOMATACEAE
 * Cambessedesia regnelliana Cogn.                                         0,2-0,5        NP              D    AUT   Cerrado
 * Cambessedesia wedellii Naudin                                             0,5          NP              D    AUT   Campo Alagado
@@ -11345,7 +11328,7 @@ AMARYLLIDACEAE
 APOCYNACEAE
 * Asclepias aequicornu E.Fourn.                                            0,2           NP              D    AUT Cerrado
 ARACEAE
-* Asterostigma lombardii E.G.Gonç.                                         0,5           NP              D   ZOO Floresta EstacionalDecidua/ Floresta
+* Asterostigma lombardii E.G.Gonç.                                         0,5           NP              D   ZOO Floresta Estacional Decidua/ Floresta
                                                                                                                  Ombrófila Densa
 *    Taccarum peregrinum (Schott) Engl.                                   0,3-0,6        NP              D   ZOO Floresta Estacional Semidecidua/
                                                                                                                  Floresta Estacional Decidua
@@ -11642,7 +11625,7 @@ Paspalum malacophyllum Trin.                                                 0,6
 Paspalum mandiocanum Trin.                                                    0,18-         NP              D    AUT Floresta Estacional Semidecidua/ Mata
                                                                               0,85                                   Ciliar/ Floresta Estacional Decidua/
                                                                                                                      Área Antrópica
-Paspalum paniculatum L.                capim-marmelada, capim-milhã-branca, 0,42-1,4           P            D    AUT Mata Ciliar/ Cerrado/ Área Antrópica
+Paspalum paniculatum L.                capim-marmelada, capim-milhã-branca  0,42-1,4           P            D    AUT Mata Ciliar/ Cerrado/ Área Antrópica
 Paspalum pectinatum Nees ex Trin.                                            0,3-1             P            D    AUT Cerrado
 Paspalum pilosum Lam.                                                       0,3-0,95           P            D    AUT Cerrado/ Área Antrópica
 * Paspalum plenum Chase                                                        1               P            P    AUT Cerrado/ Área Antrópica
@@ -12226,7 +12209,7 @@ Schultesia gracilis Mart.                 rosinha                            0,2
 HALORAGACEAE
 Laurembergia tetrandra (Schott) Kanitz                                       0,05-0,3       NP                 D   AUT Lago/ Cerrado/ Brejo
 Myriophyllum aquaticum (Vell.) Verdc.     pinheirinho-d’água                  0,05-          P                 D   AUT/ Floresta Estacional Semidecidua/
-                                                                               0,15                                HIDR Mata Ciliar/ Mata Paludosa/ Rio-Cachoeira
+                                                                               0,15                                HIDR Mata Ciliar/ Mata Paludosa/ Rio-Cachoeira/
                                                                                                                         Lago/ Brejo/ Área Antrópica
 HYDROCHARITACEAE
 Egeria najas Planch.                                                         0,10-0,5       NP                 D   AUT/ Lago/ Cerrado
@@ -12319,7 +12302,7 @@ Eichhornia crassipes (Mart.) Solms            aguapé                           
                                                                                                                                Lago/ Área Antrópica
 *    Heteranthera reniformis Ruiz & Pav.                                           0,05-          P                  P    AUT/ Mata Paludosa/ Rio-Cachoeira/
                                                                                    0,15                                   HIDR Lago/ Brejo/ Área Antrópica
-*    Heteranthera zosterifolia Mart.                                               0,04-          NP                 D    AUT/ Mapa Paludosa
+*    Heteranthera zosterifolia Mart.                                               0,04-          NP                 D    AUT/ Mata Paludosa
                                                                                    0,07                                   HIDR
 Pontederia cordata L.                         rainha-do-lago, dama-do-lago         0,2-1          P                  P    AUT/ Cerrado/ Lago
                                                                                                                           HIDR
@@ -14558,7 +14541,7 @@ Miconia hyemalis A.St.-Hil. & Naudin    jacatirão-de-inverno                1,5
 Miconia jucunda (DC.) Triana                                                1,5-4         NP              D    ZOO   Floresta Estacional Semidecidua/
                                                                                                                      Cerrado
 Miconia paucidens DC.                   lixinha                              1-3          NP              D    ZOO   Mata Paludosa/ Cerrado
-Miconia pseudonervosa Cogn.                                                   3           NP              D    ZOO   Floresta Estacional Semidecidua Mata
+Miconia pseudonervosa Cogn.                                                   3           NP              D    ZOO   Floresta Estacional Semidecidua/ Mata
                                                                                                                      Ciliar/ Mata Paludosa/ Cerrado
 *   Microlepis oleifolia (DC.) Triana                                        1-2          NP              D    AUT   Mata Ciliar/ Mata Paludosa
 Ossaea confertiflora (DC.) Triana                                           1-2,5         NP              D    ZOO   Mata Ciliar
@@ -15156,19 +15139,19 @@ Thelypteris opposita (Vahl) Ching                                               
 
 ALISMATACEAE
 Echinodorus grandiflorus (Cham. & Schltr.) chapéu-de-couro                         0,5-1            P             P   AUT/ Floresta Estacional Semidecidua/ Mata
-Micheli                                                                                                               HIDR Ciliar/ Mata Paludosa/ Cerrado/ Lagoa/
+Micheli                                                                                                               HIDR Ciliar/ Mata Paludosa/ Cerrado/ Lago/
                                                                                                                            Brejo/ Área Antrópica
-Sagittaria rhombifolia Cham.                                                        0,5             P             P   AUT/ Lagoa/ Brejo
+Sagittaria rhombifolia Cham.                                                        0,5             P             P   AUT/ Lago/ Brejo
                                                                                                                       HIDR
 BEGONIACEAE
 Begonia cucullata Willd.                                                           0,2-1         NP              D    ANE Floresta Estacional Semidecidua/ Mata
                                                                                                                           Ciliar/ Cerrado/ Brejo/ Área Antrópica
 ERIOCAULACEAE
-Syngonanthus caulescens (Poir.) Ruhland                                           0,2-0,4        NP              D    ANE Cerrado/ Lagoa/ Brejo
+Syngonanthus caulescens (Poir.) Ruhland                                           0,2-0,4        NP              D    ANE Cerrado/ Lago/ Brejo
 HALORAGACEAE
 Myriophyllum aquaticum (Vell.) Verdc.     pinheirinho-d’água                       0,05-            P            D    AUT/ Floresta Estacional Semidecidua/ Mata
                                                                                    0,15                               HIDR Ciliar/ Mata Paludosa/ Rio-Cachoeira/
-                                                                                                                           Lagoa/ Brejo/ Área Antrópica
+                                                                                                                           Lago/ Brejo/ Área Antrópica
 LINDERNIACEAE
 Torenia thouarsii (Cham. & Schltdl.) Kuntze                                         0,1-0,4 NP                   D    AUT Cerrado/ Brejo/ Área Antrópica
 MAYACACEAE
@@ -15180,7 +15163,7 @@ PLANTAGINACEAE
 Bacopa salzmannii (Benth.) Wettst. ex Edwall                                        0,1-0,3  P                    P   AUT Cerrado/ Brejo/Área Antrópica
 Scoparia dulcis L.                           vassoura-de-botão                      0 ,1-0,6 P                    P   AUT Cerrado/ Brejo/ Área Antrópica
 POACEAE
-Paspalum repens P.J.Bergius                                                            1-2   NP                  P    AUT Cerrado/ Lagoa/ Brejo/Área Antrópica
+Paspalum repens P.J.Bergius                                                            1-2   NP                  P    AUT Cerrado/ Lago/ Brejo/Área Antrópica
 Sacciolepis vilvoides (Trin.) Chase                                                 0,3-1,5  P                   P    ANE Cerrado/ Brejo
 Steinchisma laxum (Sw.) Zuloaga                                                    0,15-1,15 P                   D    AUT Cerrado/ Brejo
 POLYGONACEAE
@@ -15189,10 +15172,10 @@ Polygonum punctatum Elliott                                                     
 PONTEDERIACEAE
 Eichhornia azurea (Sw.) Kunth                aguapé, orelha-de-veado, bico-de-pato 0,1-0,5   P                    P   AUT/ Floresta Estacional Semidecidua/ Mata
                                                                                                                       HIDR Ciliar/ Cerrado/ Rio-Cachoeira/
-                                                                                                                           Lagoa
+                                                                                                                           Lago
 Heteranthera reniformis Ruiz & Pav.                                                0,05-            P             P   AUT/ Mata Paludosa/ Rio-Cachoeira/
                                                                                    0,15                               HIDR Área Antrópica
-Pontederia cordata L.                     rainha-dos-lago, dama-dos-lago           0,2-1            P             P   AUT/ Cerrado/ Lagoa
+Pontederia cordata L.                     rainha-dos-lago, dama-dos-lago           0,2-1            P             P   AUT/ Cerrado/ Lago
                                                                                                                       HIDR
 XYRIDACEAE
 Xyris jupicai Rich.                                                               0,3-0,9           P             P   AUT Brejo

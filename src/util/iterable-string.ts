@@ -9,6 +9,10 @@ export class IterableString {
     private str: string
   ) { }
 
+  get debugInfo(): string {
+    return String(this).substring(0, 100);
+  }
+
   get currenPosition(): number {
     return this.cursor;
   }
@@ -17,11 +21,11 @@ export class IterableString {
    * Return the string in it current cursor position
    */
   toString(): string {
-    return this.str.substr(this.cursor);
+    return this.str.substring(this.cursor);
   }
 
   valueOf(): string {
-    return this.str.substr(this.cursor);
+    return this.str.substring(this.cursor);
   }
 
   /**

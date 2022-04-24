@@ -7,7 +7,13 @@ import { EspecieMetaData } from './especies-2019-metadata/especie.meta-data';
 import { FamiliaMetaData } from './especies-2019-metadata/familia.meta-data';
 import { RegiaoMetaData } from './especies-2019-metadata/regiao.meta-data';
 
+/**
+ * 2. Responsável por converter os resultados da coleta do documento em uma estrutura de objetos organizados
+ */
 export class Especies2019Conveter {
+
+  // se houve um traço separando duas palavras, elas devem ser agrupadas e o traço deve ser removido
+  private readonly REMOVER_PALAVRA_EM_QUEBRA_DE_LINHA = /\-\s+/;
 
   convertResultsetToDomain(resultset: RegiaoMetaData[] | null): DomainWrapper | null {
     if (!resultset) {
@@ -15,6 +21,9 @@ export class Especies2019Conveter {
     }
 
     let especieTmp = this.createEspecie();
+    let currentBiomas = '';
+    let currentNomesPopulares = '';
+
     const especies: PlantaEspecie[] = [];
     const familias: VegetacaoFamilia[] = [];
     const wrapper: DomainWrapper = {
@@ -28,10 +37,16 @@ export class Especies2019Conveter {
         plantaTipo.familias.forEach(familia => {
           this.pushFamiliaIfNotExists(familias, familia);
           familia.especies.forEach(especieResultset => {
-            especieTmp = this.resultsetToEspecie(especieTmp, especieResultset);
+            //  biomas podem ser parados por espaço, se houver um - sinalizando que deva-se agrupar a palavra, ela será agrupada e o espaço removido
+            currentBiomas += especieResultset.bioma ? ` ${especieResultset.bioma}` : '';
+            currentNomesPopulares += especieResultset.nomePopular || '';
+
+            especieTmp = this.resultsetToEspecie(especieTmp, especieResultset, currentNomesPopulares, currentBiomas);
 
             if (especieResultset.type === 'tail' || especieResultset.type === 'full') {
               especies.push(especieTmp);
+
+              //
               if (especieTmp.bioma.length) {
                 this.pushBiomaIfNotExists(biomasMap, especieTmp.bioma);
 
@@ -40,8 +55,11 @@ export class Especies2019Conveter {
                   wrapper.biomaIndexed[b.nome].push(especieTmp);
                 });
               }
+              //
 
               especieTmp = this.createEspecie();
+              currentBiomas = '';
+              currentNomesPopulares = '';
             }
           });
         });
@@ -83,40 +101,39 @@ export class Especies2019Conveter {
     };
   }
 
-  private resultsetToEspecie(plantaEspecie: PlantaEspecie, resultset: EspecieMetaData): PlantaEspecie {
+  private resultsetToEspecie(
+    plantaEspecie: PlantaEspecie, resultset: EspecieMetaData, currentNomesPopulares: string, currentBiomas: string
+  ): PlantaEspecie {
     const nomeMetadata = this.getMetadataFromNomeCientifico(resultset);
     plantaEspecie.nome = `${plantaEspecie.nome} ${nomeMetadata.nomeCientifico}`.trim();
     plantaEspecie = { ...plantaEspecie, ...nomeMetadata.metadata };
-    plantaEspecie.nomePopular = plantaEspecie.nomePopular.concat(this.splitNomePopular(resultset.nomePopular));
+    plantaEspecie.nomePopular = this.splitNomePopular(currentNomesPopulares);
     plantaEspecie.classeSucessional = plantaEspecie.classeSucessional.concat(
       this.convertClassesSucessionais(resultset.classeSucessional)
     );
-    plantaEspecie.bioma = this.convertBiomas(plantaEspecie.bioma, resultset.bioma);
+    plantaEspecie.bioma = this.convertBiomas(currentBiomas);
 
     return plantaEspecie;
   }
 
-  private convertBiomas(biomas: Bioma[], biomaResultset: string | undefined): Bioma[] {
-    if (biomaResultset) {
-      let rebuilBioma = biomas.map(b => b.nome).join('/');
-
-      //  se houve um traço no final da linha, então é continuação da palavra, se não os biomas são separados
-      const verificaPalavraEmLinhaQuebrada = /\-$/;
-      if (verificaPalavraEmLinhaQuebrada.test(rebuilBioma)) {
-        rebuilBioma = rebuilBioma.replace(/\-$/, '') + biomaResultset;
-      } else {
-        rebuilBioma = `${rebuilBioma}/${biomaResultset}`;
-      }
-
-      //  remove os espaços que separam os biomas junto da '/' para não ter que aplica trim após o split
-      rebuilBioma = rebuilBioma.replace(/\s*(\/|,)\s*/g, '/');
-
-      biomas.splice(0, biomas.length);
-      rebuilBioma
-        .split('/')
-        .filter(b => b)
-        .forEach(nome => biomas.push({ nome }));
+  private convertBiomas(biomaResultset: string): Bioma[] {
+    if (!biomaResultset) {
+      return [];
     }
+
+    // se houve um traço separando duas palavras, elas devem ser agrupadas e o traço deve ser removido
+    biomaResultset = biomaResultset.replace(this.REMOVER_PALAVRA_EM_QUEBRA_DE_LINHA, '');
+
+    //  remove os espaços que separam os biomas junto da '/' para não ter que aplica trim após o split
+    const trimNasBarras = /\s*(\/|,)\s*/g;
+    biomaResultset = biomaResultset.replace(trimNasBarras, '/');
+
+    const biomas: Bioma[] = [];
+    biomaResultset
+      .split('/')
+      .map(b => b.trim())
+      .filter(b => b)
+      .forEach(nome => biomas.push({ nome }));
 
     return biomas;
   }
@@ -170,7 +187,15 @@ export class Especies2019Conveter {
     return { nomeCientifico, metadata };
   }
 
-  private splitNomePopular(nomePopular?: string): string[] {
-    return nomePopular ? nomePopular.replace(/\s*/g, '').split(',') : [];
+  private splitNomePopular(nomePopular: string): string[] {
+    if (!nomePopular) {
+      return [];
+    }
+
+    nomePopular = nomePopular.replace(this.REMOVER_PALAVRA_EM_QUEBRA_DE_LINHA, '');
+    return nomePopular
+      .replace(/\s*/g, '')
+      .split(',')
+      .filter(n => n);
   }
 }
